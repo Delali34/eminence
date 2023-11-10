@@ -46,8 +46,17 @@ function Page() {
     <div className="bg5 ">
       <Navbar2 />
       <Mobilebar />
-      <section className="flex lg:flex-row flex-col gap-10 justify-between items-center px-5 font-mont  container mx-auto lg:px-10 lg:py-20">
-        <div className="bg2 mt-10 lg:w-[50%]">
+      <section className="flex lg:flex-row flex-col gap-10 justify-between items-center px-5 font-mont  container mx-auto lg:px-10 lg:py-20 mb-10">
+        <div className="lg:w-[50%]">
+          <h1 className="text-white text-center text-[32px] lg:text-6xl font-bold font-mont lg:mt-10 mt-5 text-shadow-black">
+            Support a pathway out of poverty
+          </h1>
+          <p className="text-white text-center lg:text-2xl lg:mb-10  text-[16px] font-mont lg:mt-10 mt-5">
+            We appreciate every contribution donated towards achieving our
+            goals.
+          </p>
+        </div>
+        <div className="bg2 lg:mt-10 mt-5 lg:w-[50%]">
           {/* Donation Options */}
           <div className="bg-primary  text-black py-8">
             <div className="container mx-auto text-center">
@@ -60,7 +69,7 @@ function Page() {
                   type="text"
                   required
                   id="firstname"
-                  className="w-full bg-black text-primary border-2 border-gold rounded-lg p-3 text-lg focus:outline-none focus:border-opacity-50"
+                  className="w-full bg-white text-black border-2 border-gold rounded-lg p-3 lg:text-lg text-sm focus:outline-none focus:border-opacity-50"
                   placeholder="Full Name"
                   value={firstName}
                   onChange={(e) => setFirstName(e.target.value)}
@@ -76,7 +85,7 @@ function Page() {
                   type="email"
                   required
                   id="email"
-                  className="w-full bg-black text-white  border-2 border-gold rounded-lg p-3 text-md focus:outline-none focus:border-opacity-50"
+                  className="w-full bg-white text-black  border-2 border-gold rounded-lg p-3 lg:text-lg text-sm focus:outline-none focus:border-opacity-50"
                   placeholder="Your Email"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
@@ -84,32 +93,32 @@ function Page() {
               </div>
               <div>
                 {" "}
-                <h3 className="text-2xl font-bold mb-4">
+                <h3 className="lg:text-2xl text-lg font-bold mb-4">
                   Choose an amount to donate
                 </h3>
                 <div className="flex p-4 flex-wrap justify-center gap-4">
                   <button
                     onClick={() => handleDonationClick("100")}
-                    className="bg-black text-primary hover:bg-opacity-80 py-3 px-6 rounded-lg text-md text-white font-semibold transition duration-300"
+                    className="bg-white text-black text-primary hover:bg-opacity-80 py-3 px-6 rounded-lg lg:text-lg text-sm  font-semibold transition duration-300"
                   >
                     100
                   </button>
                   <button
                     type="submit"
                     onClick={() => handleDonationClick("500")}
-                    className="bg-black text-primary hover:bg-opacity-80 py-3 px-6 rounded-lg text-md text-white font-semibold transition duration-300"
+                    className="bg-white text-black text-primary hover:bg-opacity-80 py-3 px-6 rounded-lg lg:text-lg text-sm  font-semibold transition duration-300"
                   >
                     500
                   </button>
                   <button
                     onClick={() => handleDonationClick("1000")}
-                    className="bg-black text-primary hover:bg-opacity-80 py-3 px-6 rounded-lg text-md text-white font-semibold transition duration-300"
+                    className="bg-white text-black text-primary hover:bg-opacity-80 py-3 px-6 rounded-lg lg:text-lg text-sm  font-semibold transition duration-300"
                   >
                     1000
                   </button>
                   <button
                     onClick={() => handleDonationClick("2000")}
-                    className="bg-black text-primary hover:bg-opacity-80 py-3 px-6 rounded-lg text-md text-white font-semibold transition duration-300"
+                    className="bg-white text-black text-primary hover:bg-opacity-80 py-3 px-6 rounded-lg lg:text-lg text-sm  font-semibold transition duration-300"
                   >
                     2000
                   </button>
@@ -117,7 +126,7 @@ function Page() {
               </div>
 
               {/* Custom Donation Amount */}
-              <div className="mt-4 m-10">
+              <div className="lg:text-lg text-sm mt-4 m-10">
                 <label
                   htmlFor="custom-amount"
                   className="block text-md font-semibold"
@@ -127,7 +136,7 @@ function Page() {
                 <input
                   type="number"
                   id="custom-amount"
-                  className="w-full bg-black text-primary text-white border-2 border-gold rounded-lg p-3 text-lg focus:outline-none focus:border-opacity-50"
+                  className="w-full bg-white text-black border-2 border-gold rounded-lg p-3 lg:text-lg text-sm mt-2 focus:outline-none focus:border-opacity-50"
                   placeholder="Enter custom amount"
                   value={donationAmount}
                   onChange={(e) => setDonationAmount(e.target.value)}
@@ -146,15 +155,6 @@ function Page() {
               </div>
             </div>
           </div>
-        </div>
-        <div className="lg:w-[50%]">
-          <h1 className="text-white text-center text-4xl lg:text-6xl font-bold font-mont mt-10 text-shadow-black">
-            Support a pathway out of poverty
-          </h1>
-          <p className="text-white text-center lg:text-2xl mb-10 text-[16px] font-mont mt-10">
-            We appreciate every contribution donated towards achieving our
-            goals.
-          </p>
         </div>
       </section>
       {showSuccessMessage && (
