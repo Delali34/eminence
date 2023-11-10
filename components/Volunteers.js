@@ -74,7 +74,7 @@ function Page() {
       .then((response) => {
         console.log("Email sent successfully!", response);
         // Display success message
-        const message = `Email sent successfully! Thank you 😍`;
+        const message = `Email sent successfully! We will get back to you soon 😍`;
         setSuccessMessage(message);
         setShowSuccessMessage(true);
       })
@@ -198,7 +198,7 @@ function Page() {
                   onChange={(e) => setCustomSkill(e.target.value)}
                 />
                 <div className="flex justify-center">
-                  <div className="bg-white w-[130px] mt-2 lg:text-2xl text-[12px] font-semibold rounded-xl hover:bg-black cursor-pointer hover:text-white p-3">
+                  <div className="bg-white w-[130px] mt-2 lg:text-[16px] text-[12px] font-semibold rounded-xl hover:bg-black cursor-pointer hover:text-white p-3">
                     <button onClick={() => handleDonationClick(customSkill)}>
                       Add Skill
                     </button>
@@ -273,7 +273,7 @@ function Page() {
                   onChange={(e) => setCustomInterest(e.target.value)}
                 />
                 <div className="flex justify-center">
-                  <div className="bg-white w-[130px] mt-2 font-semibold rounded-xl lg:text-xl text-[12px] hover:bg-black cursor-pointer hover:text-white p-3">
+                  <div className="bg-white w-[130px] mt-2 font-semibold rounded-xl lg:text-[16px] text-[12px] hover:bg-black cursor-pointer hover:text-white p-3">
                     <button onClick={() => handleInterestClick(customInterest)}>
                       Add Interest
                     </button>

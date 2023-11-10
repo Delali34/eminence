@@ -58,9 +58,11 @@ function Sidebar({ isOpen, closeSidebar }) {
             Your financial contribution can make a real difference. Every money
             you donate goes directly towards our projects{" "}
           </p>
-          <div className="flex items-center gap-2 mt-4">
-            <h1 className="font-bold text-xl">Get Started </h1>
-            <RiShareForwardFill />
+          <div className=" mt-4">
+            <Link className="flex items-center gap-2" href="/Donate">
+              <h1 className="font-bold text-xl">Get Started </h1>
+              <RiShareForwardFill />
+            </Link>
           </div>
           <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-black " />
         </div>
@@ -73,9 +75,11 @@ function Sidebar({ isOpen, closeSidebar }) {
             Join our team of dedicated Volunteers and actively participate in
             our projects and events. Your time and skills are invaluable
           </p>
-          <div className="flex items-center gap-2 mt-4">
-            <h1 className="font-bold text-xl">Get Started </h1>
-            <RiShareForwardFill />
+          <div className=" mt-4">
+            <Link className="flex items-center gap-2" href="/Volunteer">
+              <h1 className="font-bold text-xl">Get Started </h1>
+              <RiShareForwardFill />
+            </Link>
           </div>
         </div>
       </div>

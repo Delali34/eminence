@@ -25,7 +25,9 @@ function Navbar() {
   return (
     <div className="max-w-6xl sticky-navbar bg-[#fffdf1] mx-auto font-maintext flex items-center justify-between py-4 px-10 lg:hidden ">
       <div>
-        <Image width={50} height={50} src="/EMINENCE.jpg" />
+        <Link href="/">
+          <Image width={50} height={50} src="/EMINENCE.jpg" />
+        </Link>
       </div>
       <button onClick={() => setIsOpen(true)} className="text-[#670070]">
         <RxHamburgerMenu className="text-3xl font-extrabold" />
