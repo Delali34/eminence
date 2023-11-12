@@ -21,7 +21,7 @@ function navbar() {
           <Link href="/Donate">
             <h1 className="hover:text-[#680070] duration-300">Donate</h1>
           </Link>
-          <Link href="/">
+          <Link href="/Contact">
             <h1 className="hover:text-[#680070] duration-300">Contact</h1>
           </Link>
         </div>
