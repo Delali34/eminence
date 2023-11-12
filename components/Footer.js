@@ -2,6 +2,7 @@
 import React from "react";
 import { BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
+import Link from "next/link";
 
 const Footer = () => {
   return (
@@ -49,7 +50,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="/AboutUs" className="hover:underline">
                 About us
               </a>
             </li>
@@ -64,7 +65,7 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a href="#" className="hover:underline">
+              <a href="/Contact" className="hover:underline">
                 Contact
               </a>
             </li>
@@ -95,9 +96,11 @@ const Footer = () => {
             <h4 className="text-xl text-black font-bold mb-4">
               Have questions or want to get involved?
             </h4>
-            <button className="bg-[#FF521A] hover:bg-black text-white py-2 px-4 rounded">
-              Contact us
-            </button>
+            <Link href="/Contact">
+              <button className="bg-[#FF521A] hover:bg-black text-white py-2 px-4 rounded">
+                Contact us
+              </button>
+            </Link>
           </div>
         </div>
       </div>
