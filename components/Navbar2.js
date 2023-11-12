@@ -18,8 +18,8 @@ function navbar() {
           <Link href="/AboutUs">
             <h1 className="hover:text-[#680070] duration-300">About Us</h1>
           </Link>
-          <Link href="/">
-            <h1 className="hover:text-[#680070] duration-300">Campaigns</h1>
+          <Link href="/Donate">
+            <h1 className="hover:text-[#680070] duration-300">Donate</h1>
           </Link>
           <Link href="/">
             <h1 className="hover:text-[#680070] duration-300">Contact</h1>

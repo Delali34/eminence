@@ -16,9 +16,9 @@ function MenuLinks() {
             About Us
           </h1>
         </Link>
-        <Link href="/">
+        <Link href="/Donate">
           <h1 className="text-black bg-white rounded-md p-2 border-[#531253] border-[1px]  duration-300 text-center">
-            Campaigns
+            Donate
           </h1>
         </Link>
         <Link href="/">
