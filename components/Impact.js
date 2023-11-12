@@ -44,7 +44,7 @@ const Stories = () => {
       return () => intervals.forEach((interval) => clearInterval(interval));
     }
   }, [inView]);
-  const images = ["/school2.jpg", "/play.jpg", "/water.jpg"];
+  const images = ["/school2.jpg", "/Play.jpg", "/water.jpg"];
 
   const nextImage = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
