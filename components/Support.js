@@ -37,7 +37,7 @@ function Support() {
             <div className=" flex lg:flex-row flex-col justify-between py-10 items-center gap-14">
               <div className="lg:w-[50%] w-full">
                 <Image
-                  src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                  src="/leadership.jpg"
                   width={500}
                   height={700}
                   alt=""
@@ -81,7 +81,7 @@ function Support() {
               </div>
               <div className="w-[50%]">
                 <Image
-                  src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                  src="/school2.jpg"
                   width={500}
                   height={700}
                   alt=""
@@ -94,7 +94,7 @@ function Support() {
             <div className=" flex lg:flex-row flex-col justify-between py-10 items-center gap-14">
               <div className="lg:w-[50%] w-full">
                 <Image
-                  src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                  src="/gender.jpg"
                   width={500}
                   height={700}
                   alt=""
@@ -140,7 +140,7 @@ function Support() {
               </div>
               <div className="w-[50%]">
                 <Image
-                  src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                  src="/play.jpg"
                   width={500}
                   height={700}
                   alt=""
@@ -199,7 +199,7 @@ function Support() {
               </div>
               <div className="w-[50%]">
                 <Image
-                  src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                  src="/human.jpg"
                   width={500}
                   height={700}
                   alt=""
@@ -214,7 +214,7 @@ function Support() {
             <div className=" flex lg:flex-row flex-col justify-between py-10 items-center gap-14">
               <div className="lg:w-[50%] w-full">
                 <Image
-                  src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                  src="/part.jpg"
                   width={500}
                   height={700}
                   alt=""
@@ -259,7 +259,7 @@ function Support() {
               </div>
               <div className="w-[50%]">
                 <Image
-                  src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                  src="/water.jpg"
                   width={500}
                   height={700}
                   alt=""

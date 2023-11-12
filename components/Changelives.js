@@ -88,7 +88,7 @@ function Changelives() {
           <div className="-mt-5">
             <FadeInSection>
               <Image
-                src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                src="/change.jpg"
                 width={500}
                 height={700}
                 alt=""

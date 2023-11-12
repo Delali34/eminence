@@ -45,9 +45,10 @@ const Stories = () => {
     }
   }, [inView]);
   const images = [
+    "/school1.jpg",
+    "/play.jpg",
+    "/water.jpg",
     "/annie-spratt-2rMn97DPTdU-unsplash.jpg",
-    "/annie-spratt-cVEOh_JJmEE-unsplash.jpg",
-    "/bill-wegener-7MD4DR9jbP0-unsplash.jpg",
   ];
 
   const nextImage = () => {
