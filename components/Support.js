@@ -140,7 +140,7 @@ function Support() {
               </div>
               <div className="w-[50%]">
                 <Image
-                  src="/play.jpg"
+                  src="/Play.jpg"
                   width={500}
                   height={700}
                   alt=""
