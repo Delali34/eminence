@@ -5,7 +5,7 @@ import { FaFileVideo } from "react-icons/fa";
 
 function Hero() {
   const images = [
-    "/dela.jpg",
+    "/river.jpg",
     "/bill-wegener-7MD4DR9jbP0-unsplash.jpg",
     "/annie-spratt-2rMn97DPTdU-unsplash.jpg",
   ];
