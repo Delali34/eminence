@@ -133,7 +133,7 @@ function Support() {
             <div className=" flex  lg:flex-row flex-col  justify-center py-10 items-center gap-14">
               <div className="lg:w-[50%] w-full flex justify-center">
                 <Image
-                  src="/play.jpg"
+                  src="/Play.jpg"
                   width={500}
                   height={700}
                   alt=""
