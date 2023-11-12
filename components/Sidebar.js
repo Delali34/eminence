@@ -52,11 +52,11 @@ function Sidebar({ isOpen, closeSidebar }) {
       </button>
       <MenuLinks />
       <div className=" p-5 flex flex-col justify-center">
-        <div className="mt-10">
+        <div className="mt-4">
           <h1 className="text-xl font-bold">Donate Now</h1>
           <p className="mt-3 font-medium bg-white p-4 rounded-lg border-[#531253] border-[1px]">
             Your financial contribution can make a real difference. Every money
-            you donate goes directly towards our projects{" "}
+            you donate goes directly towards our projects.
           </p>
           <div className=" mt-4">
             <Link
@@ -70,7 +70,7 @@ function Sidebar({ isOpen, closeSidebar }) {
           <hr className="h-px my-8 bg-gray-200 border-0 dark:bg-black " />
         </div>
       </div>
-      <div className="p-5">
+      <div className="p-5 -mt-5">
         <MdVolunteerActivism className="text-6xl text-[#660070]" />
         <div className="mt-5">
           <h1 className="text-xl font-bold">Become A Volunteer</h1>
