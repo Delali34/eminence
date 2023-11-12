@@ -110,7 +110,7 @@ function Changelives() {
                 </div>
                 <div className="lg:w-[50%] w-full">
                   <Image
-                    src="/annie-spratt-cVEOh_JJmEE-unsplash.jpg"
+                    src="/water.jpg"
                     width={100}
                     height={100}
                     alt=""
