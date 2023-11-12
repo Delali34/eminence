@@ -24,7 +24,7 @@ function column1() {
             </p>
             <div className=" mt-4">
               <Link
-                className="flex items-center gap-2 hover:text-white"
+                className="flex animate-bounce items-center gap-2 hover:text-white"
                 href="/Donate"
               >
                 <h1 className="font-bold text-xl">Get Started</h1>
@@ -46,7 +46,7 @@ function column1() {
 
             <div className=" mt-4">
               <Link
-                className="flex items-center gap-2 hover:text-white"
+                className="flex animate-bounce items-center gap-2 hover:text-white"
                 href="/Volunteer"
               >
                 <h1 className="font-bold text-xl">Get Started</h1>

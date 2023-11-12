@@ -59,7 +59,10 @@ function Sidebar({ isOpen, closeSidebar }) {
             you donate goes directly towards our projects{" "}
           </p>
           <div className=" mt-4">
-            <Link className="flex items-center gap-2" href="/Donate">
+            <Link
+              className="flex animate-bounce items-center gap-2"
+              href="/Donate"
+            >
               <h1 className="font-bold text-xl">Get Started </h1>
               <RiShareForwardFill />
             </Link>
@@ -76,7 +79,10 @@ function Sidebar({ isOpen, closeSidebar }) {
             our projects and events. Your time and skills are invaluable
           </p>
           <div className=" mt-4">
-            <Link className="flex items-center gap-2" href="/Volunteer">
+            <Link
+              className="flex animate-bounce items-center gap-2"
+              href="/Volunteer"
+            >
               <h1 className="font-bold text-xl">Get Started </h1>
               <RiShareForwardFill />
             </Link>
