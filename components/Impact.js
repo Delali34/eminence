@@ -44,12 +44,7 @@ const Stories = () => {
       return () => intervals.forEach((interval) => clearInterval(interval));
     }
   }, [inView]);
-  const images = [
-    "/school1.jpg",
-    "/play.jpg",
-    "/water.jpg",
-    "/annie-spratt-2rMn97DPTdU-unsplash.jpg",
-  ];
+  const images = ["/school2.jpg", "/play.jpg", "/water.jpg"];
 
   const nextImage = () => {
     setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
