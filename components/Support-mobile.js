@@ -57,7 +57,7 @@ function Support() {
                   with the skills and insights needed to excel in today's
                   dynamic business landscape.
                 </p>
-                <Link href="">
+                <Link href="/Programs/#Leadership">
                   <div className="flex justify-center">
                     <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
                       <h1 className="text-center text-white">Read More</h1>
@@ -87,7 +87,7 @@ function Support() {
                   designed to ignite curiosity, inspire creativity, and foster
                   lifelong learning.
                 </p>
-                <Link href="">
+                <Link href="/Programs/#Education">
                   <div className="flex justify-center">
                     <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
                       <h1 className="text-center text-white">Read More</h1>
@@ -118,7 +118,7 @@ function Support() {
                   respect for all individuals, regardless of their gender,
                   background, or identity.
                 </p>
-                <Link href="">
+                <Link href="/Programs/#Gender">
                   <div className="flex justify-center">
                     <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
                       <h1 className="text-center text-white">Read More</h1>
@@ -149,7 +149,7 @@ function Support() {
                   At EMINENCE LEAD INTERNATIONAL, community development is about
                   fostering a sense of belonging and collective responsibility.
                 </p>
-                <Link href="">
+                <Link href="/Programs/#Community">
                   <div className="flex justify-center">
                     <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
                       <h1 className="text-center text-white">Read More</h1>
@@ -181,7 +181,7 @@ function Support() {
                   representing the collective effort to eliminate the widespread
                   and debilitating condition of living in destitution and lack
                 </p>
-                <Link href="">
+                <Link href="/Programs/#Poverty">
                   <div className="flex justify-center">
                     <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
                       <h1 className="text-center text-white">Read More</h1>
@@ -212,7 +212,7 @@ function Support() {
                   empower individuals and communities to stand up for their
                   rights and the rights of others
                 </p>
-                <Link href="">
+                <Link href="/Programs/#Human">
                   <div className="flex justify-center">
                     <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
                       <h1 className="text-center text-white">Read More</h1>
@@ -244,7 +244,7 @@ function Support() {
                   processes that guide and oversee the management and
                   decision-making within an organization.
                 </p>
-                <Link href="">
+                <Link href="/Programs/#Governance">
                   <div className="flex justify-center">
                     <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
                       <h1 className="text-center text-white">Read More</h1>
@@ -276,7 +276,7 @@ function Support() {
                   positive impact on our planet by prioritizing environmental
                   protection as one of our key focus areas
                 </p>
-                <Link href="">
+                <Link href="/Programs/#Environment">
                   <div className="flex justify-center">
                     <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
                       <h1 className="text-center text-white">Read More</h1>
