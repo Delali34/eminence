@@ -33,7 +33,10 @@ function Programs() {
           </div>
         </div>
         <div>
-          <div className="relative  h-full  bg-[#06FF31] border-2 border-black ">
+          <div
+            className="relative  h-full  bg-[#06FF31] border-2 border-black "
+            id="Education"
+          >
             <div className="relative p-10 px-5  bg2   right-2 bottom-2 border-2 border-black h-full">
               <div className="flex space-x-6 items-center">
                 <div className="w-1/4 z-10 border-black border-2">

@@ -3,7 +3,7 @@ import React from "react";
 function Leadership() {
   return (
     <div>
-      <div>
+      <div id="Governance">
         <div className="relative  h-full  bg-[#f5d134] border-2 border-black mt-10">
           <div className="relative p-10 px-5  bg2   right-2 bottom-2 border-2 border-black h-full">
             <div className="flex space-x-6 items-center">
