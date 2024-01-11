@@ -106,7 +106,7 @@ const Footer = () => {
       </div>
       <hr className="mt-8" />
       <div className="mt-8 text-center">
-        © 2023 EminenceLead International. All rights reserved.
+        © 2024 EminenceLead International. All rights reserved.
       </div>
     </div>
   );
