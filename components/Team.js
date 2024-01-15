@@ -48,11 +48,11 @@ function Teams() {
                 >
                   <Image layout="fill" src={board.image} className="" alt="" />
                   <div className="overlay-text flex justify-center items-center w-full text-white hover:underline cursor-pointer absolute bottom-4 right-0 left-0">
-                    <div className="bg2 border-black border rounded-[40px] w-[250px] mx-auto p-5">
-                      <h1 className="font-extrabold font-mont  text-sm text-center text-black">
+                    <div className="bg2 border-black border rounded-[40px] w-[250px] mx-auto p-2">
+                      <h1 className="font-extrabold font-mont  text-[17px] text-center text-black">
                         {board.name}
                       </h1>
-                      <h1 className="font-mont text-center font-semibold text-black text-[12px]">
+                      <h1 className="font-mont text-center font-semibold text-black text-[14px]">
                         {board.position}
                       </h1>
                     </div>
