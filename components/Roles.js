@@ -49,6 +49,15 @@ export const Team = [
     //   "Letitia is the author of the Sima series. Letitia enables and empowers you to live your best life and translate your dreams to reality. Engage her.",
   },
   {
+    name: " Ralph Agyei Agyapong",
+    image: "/images/Ralph Photo.jpg",
+    position: " Program Officer",
+    details:
+      "Ralph Agyei Agyapong, a graduate holding a BSc. in Physics (Biomedical) from Kwame Nkrumah University of Science and Technology, is a dedicated Program Officer. His expertise spans Sexual and Reproductive Health and Rights (SRHR), youth engagement, and women empowerment advocacy. Currently, he serves as a Youth Advisor on the Youth Advisory Board for Marie Stopes International Reproductive Choices in Ghana, providing valuable insights on youth-centric information, education, and communication. Ralph is actively engaged in the coordination and implementation of projects and activities centered on Youth Sexual and Reproductive Health and Rights (SRHR), Human Right Advocacy, Women Empowerment and Girl Child Education. His unwavering commitment shines through as he works tirelessly to cultivate an environment that empowers and educates young individuals on matters related to reproductive health. His involvement as a Co-Consultant in adapting the UNICEF Youth Advocacy Guide for Ghana underscores Ralph's commitment to ensuring that advocacy strategies effectively connect with local youth advocates. ",
+    details2:
+      "Additionally, Ralph actively holds leadership roles, acting as a representative for youth voices on both national and international platforms. Ralph Agyei Agyapong places a premium on values such as integrity, compassion, and inclusivity. His career is guided by the belief that meaningful contributions to an organization extend beyond individual achievements, emphasizing collaboration, and a commitment to diversity and inclusion. Ralph values the opportunity to contribute to initiatives that make a positive impact on the community.",
+  },
+  {
     name: " Samuel Boateng",
     image: "/images/samuel.jpeg",
     position: " Writer & Digital Marketing Manager",
