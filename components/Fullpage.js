@@ -8,6 +8,7 @@ import Changelives from "./Changelives";
 import Support2 from "./Support-mobile";
 import { GrLinkTop } from "react-icons/gr";
 import Partner from "../components/Partner";
+import Testimony from "@/components/Testimony";
 import Footer from "./Footer";
 
 function Fullpage() {
@@ -38,6 +39,7 @@ function Fullpage() {
       <Impact />
       <Support />
       <Support2 />
+      <Testimony />
       <Partner />
       {showScrollTop && (
         <button

@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const BecomePartner = () => {
   return (
-    <div className="bg2 font-mont">
+    <div className="bg font-mont lg:pt-20">
       {" "}
       <div className="max-w-[1280px] mx-auto p-6  flex lg:flex-row flex-col justify-center gap-10 items-center px-5 lg:px-10">
         <div className="flex flex-col m-10">
@@ -17,15 +17,15 @@ const BecomePartner = () => {
               width={400}
               height={400}
             />
-            <h2 className="text-2xl font-semibold text-gray-800 mt-4">
+            <h2 className="text-2xl font-semibold text-white mt-4">
               Become a Partner
             </h2>
-            <p className="text-gray-600 mt-2">
+            <p className="text-white mt-2">
               Join our partnership program and grow together.
             </p>
             <Link href="/Partner">
               {" "}
-              <div className="bg p-2 w-[130px] text-lg font-medium text-center text-white mt-3">
+              <div className="bg2 p-2 w-[130px] text-lg font-medium text-center text-black mt-3">
                 Join Us
               </div>
             </Link>
@@ -40,15 +40,15 @@ const BecomePartner = () => {
               width={400}
               height={400}
             />
-            <h2 className="text-2xl font-semibold text-gray-800 mt-4">
+            <h2 className="text-2xl font-semibold text-white mt-4">
               Become an Investor
             </h2>
-            <p className="text-gray-600 mt-2">
+            <p className=" mt-2 text-white">
               Join our investment program and grow together.
             </p>
             <Link href="/Investor">
               {" "}
-              <div className="bg p-2 w-[130px] text-lg font-medium text-center text-white mt-3">
+              <div className="bg2 p-2 w-[130px] text-lg font-medium text-center text-black mt-3">
                 Join Us
               </div>
             </Link>
