@@ -8,8 +8,8 @@ const BecomePartner = () => {
   return (
     <div className="bg font-mont lg:pt-20">
       {" "}
-      <div className="max-w-[1280px] mx-auto p-6  flex lg:flex-row flex-col justify-center gap-10 items-center px-5 lg:px-10">
-        <div className="flex flex-col m-10">
+      <div className="max-w-[1280px] mx-auto p-6  flex lg:flex-row flex-col justify-center gap-10 items-center  lg:px-10">
+        <div className="flex flex-col ">
           <div className="">
             <Image
               src={partnerImage}
@@ -32,7 +32,7 @@ const BecomePartner = () => {
           </div>
         </div>
         {/* invest */}
-        <div className="flex flex-col m-10">
+        <div className="flex flex-col ">
           <div className="">
             <Image
               src="/invest.jpg"
