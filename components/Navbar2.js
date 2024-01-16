@@ -11,7 +11,7 @@ function navbar() {
           <Image width={70} height={70} src="/EMINENCE.jpg" />
         </Link>
 
-        <div className="text-black   flex items-center space-x-10 text-xl font-semibold">
+        <div className="text-black   flex items-center space-x-8 text-[18px] font-semibold">
           <Link href="/">
             <h1 className="hover:text-[#680070] duration-300">Home</h1>
           </Link>
@@ -23,6 +23,9 @@ function navbar() {
           </Link>
           <Link href="/Contact">
             <h1 className="hover:text-[#680070] duration-300">Contact</h1>
+          </Link>
+          <Link href="/Gallery">
+            <h1 className="hover:text-[#680070] duration-300">Gallery</h1>
           </Link>
         </div>
         <Link href="/Donate">
