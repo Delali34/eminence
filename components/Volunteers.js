@@ -372,7 +372,6 @@ function Page() {
       {showSuccessMessage && (
         <div className="slide-in-bottom-right">{successMessage}</div>
       )}
-      <Footer />
     </div>
   );
 }

@@ -7,6 +7,7 @@ import Support from "./Support";
 import Changelives from "./Changelives";
 import Support2 from "./Support-mobile";
 import { GrLinkTop } from "react-icons/gr";
+import Partner from "../components/Partner";
 import Footer from "./Footer";
 
 function Fullpage() {
@@ -37,8 +38,7 @@ function Fullpage() {
       <Impact />
       <Support />
       <Support2 />
-      <Changelives />
-      <Footer />
+      <Partner />
       {showScrollTop && (
         <button
           className="fixed md:bottom-0 -bottom-1  md:right-3 right-5 m-5 p-3 font-font bg-[#FF521A] rounded-full shadow-md text-[#FFFDF1] hover:bg-[#FFFDF1] hover:text-white transition transform duration-200 ease-in-out z-[200]"

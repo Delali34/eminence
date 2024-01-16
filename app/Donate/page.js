@@ -46,7 +46,7 @@ function Page() {
     <div className="bg5 ">
       <Navbar2 />
       <Mobilebar />
-      <section className="flex lg:flex-row flex-col gap-10 justify-between items-center px-5 font-mont  container mx-auto lg:px-10 lg:py-20 mb-10">
+      <section className="flex lg:flex-row flex-col gap-10 justify-between items-center px-5 font-mont  container mx-auto lg:px-10 lg:py-20 ">
         <div className="lg:w-[50%]">
           <h1 className="text-white text-center text-[32px] lg:text-6xl font-bold font-mont lg:mt-10 mt-5 text-shadow-black">
             Support a pathway out of poverty
@@ -160,8 +160,6 @@ function Page() {
       {showSuccessMessage && (
         <div className="slide-in-bottom-right">{successMessage}</div>
       )}
-
-      <Footer />
     </div>
   );
 }
