@@ -20,7 +20,9 @@ export default function App() {
   return (
     <div className="bg2 py-10 pb-10 px-5">
       <div className="h-[70vh] max-w-[1280px] mx-auto font-mont lg:mb-20 mb-10 ">
-        <h1 className="text-5xl text-center font-bold lg:py-5">Testimonies</h1>
+        <h1 className="md:text-5xl text-3xl text-center font-bold lg:py-5">
+          Testimonies
+        </h1>
         <style jsx>{`
           .swiper-button-next,
           .swiper-button-prev {
@@ -51,23 +53,13 @@ export default function App() {
           <SwiperSlide>
             <div className="flex items-center justify-center h-full ">
               <div className="max-w-[700px] mx-auto px-5 text-[14px] md:text-[18px] bg p-4 text-white border-4 border-orange-600 rounded-xl">
-                ……., Honestly, the program has been impactful especially for
-                those of us in the final year, we have learnt a lot about
-                presentation, public speaking, leadership and governance ,goal
-                setting and entrepreneurship. I believe this knowledge will take
-                us far in our daily lives as well as professional works,
-                personally there were a lot of things I was ignorant about but
-                the program has gave me more insight. As the SRC President of
-                this noble institution I will say big thank to Eminence Lead
-                International for inspiring and empowering us to go beyond the
-                expectation, I humbly appeal to the management of the
-                organization to continue supporting students and the education
-                system in Ghana both Pre-University, Universities and Training
-                Colleges to groom the next leaders and workforces for the
-                country. On behalf of Presbyterian Midwifery and Nursing
-                Training College , we say thank to the leadership of Eminence
-                Lead International, the program team and funding donors for a
-                great work done.
+                The program has greatly benefited final-year students, enhancing
+                their skills in presentation, leadership, and entrepreneurship.
+                The SRC President commends Eminence Lead International for their
+                inspiring role and urges continued support for Ghana's
+                educational system to develop future leaders. Appreciation is
+                also extended from the Presbyterian Midwifery and Nursing
+                Training College for the significant contributions made.
                 <div className="mt-2">
                   <h3 className="font-bold">
                     Bonsu Ransford – SRC President – Presbyterian Midwifery
