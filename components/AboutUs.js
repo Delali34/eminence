@@ -180,12 +180,12 @@ function AboutUs() {
 
                   {/* Text Section */}
                   <div className="w-3/4 space-y-4 z-10">
-                    <h1 className="text-3xl font-bold font-header">
+                    <h1 className="md:text-3xl text-xl font-bold font-header">
                       Our Strategic Goal
                     </h1>
                   </div>
                 </div>
-                <div className="font-maintext text-2xl mt-5 pt-5 bg-white p-4 rounded-lg border-[#c6fc49] border-[1px]">
+                <div className="font-maintext text-[16px] md:text-2xl mt-5 pt-5 bg-white p-4 rounded-lg border-[#c6fc49] border-[1px]">
                   <p>
                     To impact 5,000,000 (five million) people in the next 10
                     (ten) years across all our focus areas of operation as an
@@ -200,12 +200,12 @@ function AboutUs() {
           <FadeInSection>
             <div className="relative mt-10  h-full bg-[#c6fc49] border-2 border-black ">
               <div className="relative p-10 px-5  bg2   right-2 bottom-2 border-2 border-black h-full">
-                <h1 className="font-maintext py-5 text-2xl font-semibold">
+                <h1 className="font-maintext py-5 text-sm md:text-2xl font-semibold">
                   The organization’s programs, projects and focus areas
                   contribute to the following United Nation Sustainable
                   Development Goals
                 </h1>
-                <div className="grid lg:grid-cols-8 grid-cols-4 space-x-3 lg:space-x-6 items-center">
+                <div className="grid lg:grid-cols-8 grid-cols-4 space-x-6 items-center">
                   {SDGimages.map((image, index) => {
                     return (
                       <div key={index}>
