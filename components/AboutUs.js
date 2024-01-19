@@ -199,13 +199,13 @@ function AboutUs() {
         <section>
           <FadeInSection>
             <div className="relative mt-10  h-full bg-[#c6fc49] border-2 border-black ">
-              <div className="relative p-10 px-5  bg2   right-2 bottom-2 border-2 border-black h-full">
-                <h1 className="font-maintext py-5 text-sm md:text-2xl font-semibold">
+              <div className="relative md:p-10 px-5 py-5 md:py-10  bg2   right-2 bottom-2 border-2 border-black h-full">
+                <h1 className="font-maintext pb-4 md:py-5 text-sm md:text-2xl font-semibold">
                   The organization’s programs, projects and focus areas
                   contribute to the following United Nation Sustainable
                   Development Goals
                 </h1>
-                <div className="grid lg:grid-cols-8 grid-cols-4 space-x-6 items-center">
+                <div className="grid lg:grid-cols-8 grid-cols-4 gap-5 items-center">
                   {SDGimages.map((image, index) => {
                     return (
                       <div key={index}>
@@ -213,6 +213,7 @@ function AboutUs() {
                           src={image.image1}
                           width={400}
                           height={400}
+                          className="w-[100px] h-[100px]"
                           alt="sdg"
                         />
                       </div>
