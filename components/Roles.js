@@ -120,7 +120,7 @@ export const Team = [
   },
   {
     name: " Moses Aryee",
-    image: "/images/moses.jpeg",
+    image: "/images/moses.png",
     position: " Program Officer",
     details:
       "A committed hardworking individual who partner with others to achieve individual and organizational goals. Moses is technically skilled and capable in the field of urban planning, environmental management, project management, financial management, community development and sustainable development. A dynamic professional with over 10 years working experience in environmental auditing at Ghana’s Environmental Protection Agency. Entrepreneurial & leadership experience gained from implementing projects patronized by international stakeholders such as the GIZ, an efficient time manager with strong planning, organizing and monitoring capabilities and highly confident and persuasive team builder, able to motivate and encourage others to achieve set targets. ",
@@ -150,7 +150,7 @@ export const Team = [
   },
   {
     name: " Nana Ackon-Mensah ",
-    image: "/images/nana.jpeg",
+    image: "/images/nana.png",
     position: " Community Engagement Officer",
     details:
       "Nana Araba Ackon-Mensah has been a strong public engagement expert for many years. She is a strong community development advocate, always making sure that people in the rural communities are treated better and making sure that the basic needs are provided. Nana has a powerful communication skills to lead young people, leaders and corporate bodies for community development. ",
@@ -160,7 +160,7 @@ export const Team = [
   },
   {
     name: " Emmanuel Gyan",
-    image: "/images/emmanuel.jpeg",
+    image: "/images/emmanuel.png",
     position: " Program Officer",
     details:
       "Emmanuel Gyan is an accomplished Earth Scientist and an Environmentalist with years of experience. Emmanuel has the ability to take unhealthy portfolios and transform them into healthy and thriving ones, produce productive and long-lasting results for high-level clients. He has a working experience from major companies, non-profit organizations, and hospitals. Emmanuel works well with senior corporate executives, provide consultations for international corporations and effective at persuading and influencing high-ranking individuals for work done.",
@@ -168,16 +168,7 @@ export const Team = [
       "His interest lies in program management and facilitation, program and project consulting, policy reform, human right advocacy and empowerment. He holds a degree in BSc Earth Sciences from the University of Ghana. Emmanuel has developed a passionate interest in the environment on focused like sustainable development, self-government, and political economy. He is an experienced hard working individual who always challenge people for greatness and better living and engage influential decision-makers and leaders on international public policy.",
     details3: "",
   },
-  {
-    name: " Boniface Asante",
-    image: "/images/boniface.jpeg",
-    position: " Program Officer",
-    details:
-      "Boniface Asante is a highly effective leader and insurance management professional with eleven (11) plus years of progressive experience leading cross functional teams, leveraging fresh perspectives and breakthrough ideas to solve problems, improve processes and drive high revenues in the insurance industry of Ghana. He serves an external resource person for Ghana Insurance College. Over the years he has helped several insurance companies in Ghana to achieve their organizational goals with several awards, he is an expert in client management, sales and marketing, business development management, project management data analysis and risk management expert. ",
-    details2:
-      "He holds the following qualifications ACIIG, ACII-DIP, MBA, BSc, and HND. His interest  lies  in  reading,  researching,  project  management,  performance  and  data analysis, and leadership mentoring and youth empowerment. Boniface is an experienced project officer, he contributes a lot to the organization’s status quo. He believes that we can still do something different to effect change in our communities.",
-    details3: "",
-  },
+
   {
     name: " Christiana Yeboah",
     image: "/images/christiana.jpeg",

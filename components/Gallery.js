@@ -46,7 +46,7 @@ const Gallery = () => {
           </button>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 place-items-center">
+        <div className="flex-wrap grid md:grid-cols-2 grid-cols-1 place-items-center gap-4">
           {activeCategory === "images" &&
             data.images.map((image, index) => (
               <div key={index} className=" rounded overflow-hidden shadow-lg">

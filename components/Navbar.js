@@ -5,9 +5,6 @@ function navbar() {
   return (
     <div className=" max-w-6xl mx-auto lg:flex hidden font-maintext items-center justify-between pt-10 px-10  ">
       <div className="text-white   flex items-center space-x-10 text-xl font-semibold">
-        <Link href="/">
-          <h1 className="hover:text-[#FFE353] duration-300">Home</h1>
-        </Link>
         <Link href="/AboutUs">
           <h1 className="hover:text-[#FFE353] duration-300">About Us</h1>
         </Link>

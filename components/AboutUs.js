@@ -1,6 +1,35 @@
 "use client";
 import React from "react";
 import { useInView } from "react-intersection-observer";
+import Image from "next/image";
+
+const SDGimages = [
+  {
+    image1: "/sdg1.png",
+  },
+  {
+    image1: "/sdg4.png",
+  },
+  {
+    image1: "/sdg5.png",
+  },
+  {
+    image1: "/sdg8.png",
+  },
+  {
+    image1: "/sdg10.png",
+  },
+  {
+    image1: "/sdg11.png",
+  },
+  {
+    image1: "/sdg13.png",
+  },
+  {
+    image1: "/sdg16.png",
+  },
+];
+
 function FadeInSection(props) {
   const [ref, inView] = useInView({
     threshold: 0.1,
@@ -64,7 +93,7 @@ function AboutUs() {
                 <div className="flex space-x-6 items-center">
                   <div className="w-1/4 z-10 border-black border-2">
                     <img
-                      src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                      src="/mission.jpg"
                       alt="Coding Challenge"
                       className="w-full h-full"
                     />
@@ -102,7 +131,7 @@ function AboutUs() {
                 <div className="flex space-x-6 items-center">
                   <div className="w-1/4 z-10 border-black border-2">
                     <img
-                      src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                      src="/vision.jpg"
                       alt="Coding Challenge"
                       className="w-full h-full"
                     />
@@ -138,12 +167,70 @@ function AboutUs() {
       <div className="max-w-7xl p-5 font-maintext mx-auto pt-10 grid grid-cols-1 lg:space-x-4">
         <section>
           <FadeInSection>
-            <div className="relative  h-full bg-[#0BA067] border-2 border-black ">
+            <div className="relative  h-full bg-[#c6fc49] border-2 border-black ">
               <div className="relative p-10 px-5  bg2   right-2 bottom-2 border-2 border-black h-full">
                 <div className="flex space-x-6 items-center">
                   <div className="w-1/4 z-10 border-black border-2">
                     <img
-                      src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                      src="/goals.jpg"
+                      alt="Coding Challenge"
+                      className="w-full h-full"
+                    />
+                  </div>
+
+                  {/* Text Section */}
+                  <div className="w-3/4 space-y-4 z-10">
+                    <h1 className="text-3xl font-bold font-header">
+                      Our Strategic Goal
+                    </h1>
+                  </div>
+                </div>
+                <div className="font-maintext text-2xl mt-5 pt-5 bg-white p-4 rounded-lg border-[#c6fc49] border-[1px]">
+                  <p>
+                    To impact 5,000,000 (five million) people in the next 10
+                    (ten) years across all our focus areas of operation as an
+                    organization.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </FadeInSection>
+        </section>
+        <section>
+          <FadeInSection>
+            <div className="relative mt-10  h-full bg-[#c6fc49] border-2 border-black ">
+              <div className="relative p-10 px-5  bg2   right-2 bottom-2 border-2 border-black h-full">
+                <h1 className="font-maintext py-5 text-2xl font-semibold">
+                  The organization’s programs, projects and focus areas
+                  contribute to the following United Nation Sustainable
+                  Development Goals
+                </h1>
+                <div className="grid lg:grid-cols-8 grid-cols-4 space-x-3 lg:space-x-6 items-center">
+                  {SDGimages.map((image, index) => {
+                    return (
+                      <div key={index}>
+                        <Image
+                          src={image.image1}
+                          width={400}
+                          height={400}
+                          alt="sdg"
+                        />
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            </div>
+          </FadeInSection>
+        </section>
+        <section>
+          <FadeInSection>
+            <div className="relative mt-10  h-full bg-[#0BA067] border-2 border-black ">
+              <div className="relative p-10 px-5  bg2   right-2 bottom-2 border-2 border-black h-full">
+                <div className="flex space-x-6 items-center">
+                  <div className="w-1/4 z-10 border-black border-2">
+                    <img
+                      src="/objectives.jpg"
                       alt="Coding Challenge"
                       className="w-full h-full"
                     />
@@ -251,7 +338,7 @@ function AboutUs() {
                 <div className="flex gap-6 items-center">
                   <div className="w-1/4 z-10 border-black border-2">
                     <img
-                      src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                      src="/values.jpg"
                       alt="Coding Challenge"
                       className="w-full h-full"
                     />
@@ -269,10 +356,12 @@ function AboutUs() {
                     <span className="text-2xl font-extrabold text-[#034AA6]">
                       Empowerment{"  "}
                     </span>
-                    Design and implement comprehensive leadership development
-                    programs to cultivate and enhance the skills, qualities, and
-                    potential of individuals, fostering effective and visionary
-                    leaders within the organization.
+                    Empowerment is highly relevant as a core value for our
+                    organisation. Empowerment refers to the process of enabling
+                    individuals or communities to gain control over their own
+                    lives, make informed decisions, and take actions that lead
+                    to positive change. Empowerment aligns with the principles
+                    of sustainable development
                   </p>
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#034AA6] border-[1px]">
@@ -281,9 +370,13 @@ function AboutUs() {
                       Accountability
                     </span>
                     {"  "}
-                    Develop and implement comprehensive educational programs
-                    that foster effective learning, promote intellectual growth,
-                    and empower individuals to achieve their full potential.
+                    Accountability is a highly relevant and crucial value for
+                    any non-governmental organization (NGO). It plays a
+                    significant role in ensuring the effectiveness,
+                    transparency, and legitimacy of an NGO's operations and
+                    impact. Accountability is fundamental for building and
+                    maintaining trust with donors, beneficiaries, partners, and
+                    the general public
                   </p>
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#034AA6] border-[1px]">
@@ -292,9 +385,14 @@ function AboutUs() {
                       Professionalism
                     </span>
                     {"  "}
-                    Promote gender equality and social inclusion through
-                    comprehensive and targeted initiatives, fostering a diverse
-                    and equitable society for all.
+                    Professionalism is highly relevant as a value for our
+                    organisation. Professionalism instils trust and credibility
+                    in the NGO's stakeholders, including donors, beneficiaries,
+                    partners, and the general public. A professional image
+                    demonstrates that the organization is serious about its work
+                    and committed to achieving its goals. Professional practices
+                    can lead to better planning, execution, and resource
+                    allocation.
                   </p>
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#034AA6] border-[1px]">
@@ -302,10 +400,14 @@ function AboutUs() {
                     <span className="text-2xl font-extrabold text-[#034AA6]">
                       Inclusivity{"  "}
                     </span>{" "}
-                    Empower and uplift communities through sustainable
-                    initiatives, collaborative engagement, and targeted
-                    resources for holistic social, economic, and cultural
-                    development.
+                    Inclusivity is highly relevant as a core value for our
+                    organization. In our organization we often work towards
+                    addressing various social, economic, and environmental
+                    challenges, and their success is closely tied to their
+                    ability to be inclusive in their approach. Inclusivity
+                    ensures that all these stakeholders, regardless of their
+                    backgrounds, identities, or abilities, are actively engaged
+                    and represented in the organization's activities.
                   </p>
                 </div>
               </div>
@@ -319,7 +421,7 @@ function AboutUs() {
                 <div className="flex space-x-6 items-center">
                   <div className="w-1/4 z-10 border-black border-2">
                     <img
-                      src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                      src="/why.jpg"
                       alt="Coding Challenge"
                       className="w-full h-full"
                     />
