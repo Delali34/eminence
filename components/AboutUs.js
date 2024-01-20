@@ -205,7 +205,7 @@ function AboutUs() {
                   contribute to the following United Nation Sustainable
                   Development Goals
                 </h1>
-                <div className="grid lg:grid-cols-8 grid-cols-4 gap-5 items-center">
+                <div className="grid lg:grid-cols-8 grid-cols-4 md:gap-5 gap-2 items-center">
                   {SDGimages.map((image, index) => {
                     return (
                       <div key={index}>
@@ -213,7 +213,7 @@ function AboutUs() {
                           src={image.image1}
                           width={400}
                           height={400}
-                          className="w-[100px] md:h-[100px] h-[90px]"
+                          className="w-[100px] h-[100px]"
                           alt="sdg"
                         />
                       </div>
