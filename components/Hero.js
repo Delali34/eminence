@@ -31,12 +31,12 @@ function Hero() {
     <div className="max-w-6xl mx-auto lg:px-10 px-4 lg:pb-10 lg:mt-10">
       <div>
         <h1 className="lg:text-[130px] md:text-[105px] text-[50px] pt-10 lg:leading-[140px] text-center lg:text-left  font-maintext font-extrabold text-white">
-          <span className="lg:tracking-wider tracking-wide">Changing</span>{" "}
-          <br />
-          <span className="lg:tracking-wider tracking-wide">Lives for the</span>
+          <span className="lg:tracking-wider tracking-wide">Creating Hope</span>
+
+          <span className="lg:tracking-wider tracking-wide"> and Igniting</span>
           <br />
           <div className="flex items-center justify-center lg:justify-between">
-            <span className="tracking-wider ">Better </span>
+            <span className="tracking-wider ">Greatness </span>
           </div>
         </h1>
       </div>
