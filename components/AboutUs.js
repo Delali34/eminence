@@ -211,8 +211,8 @@ function AboutUs() {
                       <div key={index}>
                         <Image
                           src={image.image1}
-                          width={400}
-                          height={400}
+                          width={700}
+                          height={700}
                           className="w-[100px] h-[100px]"
                           alt="sdg"
                         />
