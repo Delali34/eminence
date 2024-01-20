@@ -3,6 +3,7 @@ import React, { useState, useEffect } from "react";
 import { getGalleryItems } from "@/services/index";
 import Navbar2 from "@/components/Navbar2";
 import Mobilebar from "@/components/Mobilebar";
+import Image from "next/image";
 
 const Gallery = () => {
   const [data, setData] = useState({ images: [], videos: [] });
@@ -50,8 +51,10 @@ const Gallery = () => {
           {activeCategory === "images" &&
             data.images.map((image, index) => (
               <div key={index} className=" rounded overflow-hidden shadow-lg">
-                <img
+                <Image
                   className="w-full"
+                  width={1000}
+                  height={1000}
                   src={image.url}
                   alt={`Gallery Image ${index}`}
                 />

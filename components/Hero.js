@@ -8,6 +8,13 @@ function Hero() {
     "/river.jpg",
     "/bill-wegener-7MD4DR9jbP0-unsplash.jpg",
     "/annie-spratt-2rMn97DPTdU-unsplash.jpg",
+    "/education.jpg",
+    "/community.jpg",
+    "/rights.jpg",
+    "/gender.jpg",
+    "/human.jpg",
+    "/part.jpg",
+    "/environment.jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);

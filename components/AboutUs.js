@@ -213,7 +213,7 @@ function AboutUs() {
                           src={image.image1}
                           width={400}
                           height={400}
-                          className="w-[100px] h-[100px]"
+                          className="w-[100px] md:h-[100px] h-[90px]"
                           alt="sdg"
                         />
                       </div>
