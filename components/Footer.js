@@ -11,7 +11,7 @@ const Footer = () => {
         {/* First Column */}
         <div>
           <h3 className="text-xl font-bold mb-4">EminenceLead International</h3>
-          <p>Making a Difference, One Act of Kindness at a Time</p>
+          <p>Creating Hope and Igniting Greatness</p>
           <div className="flex space-x-4 mt-4">
             <a
               href="#"
