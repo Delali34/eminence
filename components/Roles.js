@@ -39,7 +39,7 @@ export const Team = [
   },
   {
     name: " Abianka Fedelis",
-    image: "/images/fedelis.jpeg",
+    image: "/images/fede.png",
     position: " Program Officer",
     details:
       "Abianka Akankpalikum Fidelis holds a Bachelor’s Degree in Forest Resource Technology (Land Reclamation and Rehabilitation).He presents the modern way of managing, sustaining programs and projects both short and long term. Fidelis is an expert in areas such as environmental protection education, community development, poverty alleviation initiatives, climate change education and campaign. He is passionate goal driven personality who always want to contribute his best in serving the community and country, and loves to be creative and learn new things. ",
@@ -50,7 +50,7 @@ export const Team = [
   },
   {
     name: " Ralph Agyei Agyapong",
-    image: "/images/Ralph Photo.jpg",
+    image: "/images/ralph.png",
     position: " Program Officer",
     details:
       "Ralph Agyei Agyapong, a graduate holding a BSc. in Physics (Biomedical) from Kwame Nkrumah University of Science and Technology, is a dedicated Program Officer. His expertise spans Sexual and Reproductive Health and Rights (SRHR), youth engagement, and women empowerment advocacy. Currently, he serves as a Youth Advisor on the Youth Advisory Board for Marie Stopes International Reproductive Choices in Ghana, providing valuable insights on youth-centric information, education, and communication. Ralph is actively engaged in the coordination and implementation of projects and activities centered on Youth Sexual and Reproductive Health and Rights (SRHR), Human Right Advocacy, Women Empowerment and Girl Child Education. His unwavering commitment shines through as he works tirelessly to cultivate an environment that empowers and educates young individuals on matters related to reproductive health. His involvement as a Co-Consultant in adapting the UNICEF Youth Advocacy Guide for Ghana underscores Ralph's commitment to ensuring that advocacy strategies effectively connect with local youth advocates. ",
@@ -130,7 +130,7 @@ export const Team = [
   },
   {
     name: " Boniface Asante",
-    image: "/images/boniface.jpeg",
+    image: "/images/boni.png",
     position: " Program Officer",
     details:
       "Boniface Asante is a highly effective leader and insurance management professional with eleven (11) plus years of progressive experience leading cross functional teams, leveraging fresh perspectives and breakthrough ideas to solve problems, improve processes and drive high revenues in the insurance industry of Ghana. He serves an external resource person for Ghana Insurance College. Over the years he has helped several insurance companies in Ghana to achieve their organizational goals with several awards, he is an expert in client management, sales and marketing, business development management, project management data analysis and risk management expert. ",
@@ -140,7 +140,7 @@ export const Team = [
   },
   {
     name: " Shadrack Barffour",
-    image: "/images/shadrack.jpeg",
+    image: "/images/shadrack.png",
     position: " Project Officer",
     details:
       "Shadrack Adu-Barffour is a self-motivated and ambitious environmental professional with skills and knowledge in Data Analysis, Field work, and Management. Has a strong desire to be actively involved in the research and formulation of policies mainly in the field of Environment and Resources Management, Climate Change, Poverty Education and Community Development. He possesses strong analytical and problem-solving skills, problem identification expertise and project management. Able to work efficiently without supervision and under challenging environments. ",
@@ -171,7 +171,7 @@ export const Team = [
 
   {
     name: " Christiana Yeboah",
-    image: "/images/christiana.jpeg",
+    image: "/images/christian.jpeg",
     position: " Program Coordinator",
     details:
       "Christiana Yeboah, a highly- responsible and self- motivated individual with a fervor for making a positive impact and strives to embody the values of integrity, accountability, professionalism, continuous learning, and community engagement. Christiana holds a degree in Bachelor of Arts (Psychology and Archaeology) from the University of Ghana. She is armed with experience from non-profit organizations, companies and Environmental Agency of Ghana. Her professional journey has taught her lesson on community development, environment protection, humanitarian works, developmental interventions, empowerment programs, policy reforms and advocacies. ",
@@ -198,5 +198,12 @@ export const Team = [
     details2:
       "Betty is not only good with numbers and data, but also with people. She has an excellent communication skills, which allow her to work well with different stakeholders, keep herself updated with the latest financial regulations and best practices, which enables her to provide sound financial advice. Betty strives for excellence and continuous improvement in her work and eager to learn new skills and take on new challenges. She is a confident professional accountant that adds great value to our team and contribute to the success of the organization. Betty is always looking forward to a dynamic and result-oriented environment to explore and impact people for a better living.",
     details3: "",
+  },
+  {
+    name: " Ernest Delali ",
+    image: "/images/dela.png",
+    position: " Frontend developer | Graphic designer",
+    details:
+      "Anyomitse Ernest Delali is an experienced professional with a passion for crafting engaging and visually appealing user experiences. Armed with 3 years of expertise in frontend development and graphic design, Ernest brings creativity and technical proficiency to every project. He holds Certificate in Software Development, showcasing dedication to continuous learning, committed to contributing innovative solutions and fostering user-centric design. He is aspiring to leverage his skills to push the boundaries of digital experiences and create impactful solutions for the future. Ernest is also good in facilitation of programs and ability to empower young people for greatness and better living.",
   },
 ];

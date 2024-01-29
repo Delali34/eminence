@@ -9,8 +9,8 @@ const Stories = () => {
   const [counts, setCounts] = useState([0, 0, 0]);
   const [hasAnimated, setHasAnimated] = useState(false);
 
-  const targets = [2000, 24, 50];
-  const increments = [50, 1, 1];
+  const targets = [34620, 9300, 2010];
+  const increments = [500, 300, 50];
   const durations = [25, 80, 40];
 
   const [ref, inView] = useInView({
@@ -95,23 +95,32 @@ const Stories = () => {
               {counts[0]}
               <span className="txet-3xl">+</span>
             </h2>
+            <h1 className="text-center font-bold text-xl py-2">
+              Educational Advancement
+            </h1>
             <p className="text-center font-maintext">
-              We are proud to announce that our organization has positively
-              impacted over 2000 lives.
+              Includes the empowerment and impact achieved through educational
+              programs across various levels and disciplines.
             </p>
           </div>
           <div>
-            <h2 className="text-5xl font-bold text-center">{counts[1]}</h2>
+            <h2 className="text-5xl font-bold text-center">{counts[1]}+</h2>
+            <h1 className="text-center font-bold text-xl py-2">
+              Community and Social Development
+            </h1>
             <p className="text-center font-maintext">
-              Our charity organization has made a meaningful impact in over 24
-              countries.
+              Highlights the impact on community development, women's enterprise
+              support, and youth leadership.
             </p>
           </div>
           <div className="pb-5">
             <h2 className="text-5xl font-bold text-center">{counts[2]}+</h2>
+            <h1 className="text-center font-bold text-xl py-2">
+              Economic Empowerment{" "}
+            </h1>
             <p className="text-center font-maintext">
-              Our charity organization thrives on the remarkable dedication of
-              over 50 volunteers.
+              Focuses on the enhancement of economic opportunities and corporate
+              support.
             </p>
           </div>
         </div>

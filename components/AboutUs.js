@@ -172,6 +172,39 @@ function AboutUs() {
                 <div className="flex space-x-6 items-center">
                   <div className="w-1/4 z-10 border-black border-2">
                     <img
+                      src="/goal.jpg"
+                      alt="Coding Challenge"
+                      className="w-full h-full"
+                    />
+                  </div>
+
+                  {/* Text Section */}
+                  <div className="w-3/4 space-y-4 z-10">
+                    <h1 className="md:text-3xl text-xl font-bold font-header">
+                      Our Goal
+                    </h1>
+                  </div>
+                </div>
+                <div className="font-maintext text-[16px] md:text-2xl mt-5 pt-5 bg-white p-4 rounded-lg border-[#c6fc49] border-[1px]">
+                  <p>
+                    Promote Economic Empowerment and Gender Equality through
+                    Entrepreneurship This goal focuses on creating opportunities
+                    for women to achieve economic independence, fostering gender
+                    equality, and contributing to sustainable development
+                    through entrepreneurship and economic empowerment.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </FadeInSection>
+        </section>
+        <section>
+          <FadeInSection>
+            <div className="relative mt-10  h-full bg-[#ffab2e] border-2 border-black ">
+              <div className="relative p-10 px-5  bg2   right-2 bottom-2 border-2 border-black h-full">
+                <div className="flex space-x-6 items-center">
+                  <div className="w-1/4 z-10 border-black border-2">
+                    <img
                       src="/goals.jpg"
                       alt="Coding Challenge"
                       className="w-full h-full"
@@ -185,7 +218,7 @@ function AboutUs() {
                     </h1>
                   </div>
                 </div>
-                <div className="font-maintext text-[16px] md:text-2xl mt-5 pt-5 bg-white p-4 rounded-lg border-[#c6fc49] border-[1px]">
+                <div className="font-maintext text-[16px] md:text-2xl mt-5 pt-5 bg-white p-4 rounded-lg border-[#ffab2e] border-[1px]">
                   <p>
                     To impact 5,000,000 (five million) people in the next 10
                     (ten) years across all our focus areas of operation as an

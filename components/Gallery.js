@@ -52,7 +52,7 @@ const Gallery = () => {
             data.images.map((image, index) => (
               <div key={index} className=" rounded overflow-hidden shadow-lg">
                 <Image
-                  className="w-full"
+                  className=" md:h-[800px] md:w-[800px] h-[500px] w-[500px] object-cover"
                   width={1000}
                   height={1000}
                   src={image.url}
