@@ -11,7 +11,7 @@ function column1() {
         {" "}
         <div className=" text-xl ">
           <Link href="/">
-            <h1 className="">EminenceLead</h1>
+            <h1 className="">Eminence Lead</h1>
           </Link>
         </div>
         <div className="mt-20">

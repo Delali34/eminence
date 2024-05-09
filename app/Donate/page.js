@@ -34,7 +34,7 @@ function Page() {
     reference: new Date().getTime().toString(),
     email,
     amount: Number(donationAmount) * 100,
-    publicKey: "pk_test_4110b6a6fcd155f06480e33877aed47f6bece80a",
+    publicKey: process.env.NEXT_PUBLIC_PAYSTACK_API_KEY,
     currency: "GHS",
   };
 
@@ -134,7 +134,7 @@ function Page() {
                   Or enter an amount here:
                 </label>
                 <input
-                  type="number"
+                  type=""
                   id="custom-amount"
                   className="w-full bg-white text-black border-2 border-gold rounded-lg p-3 lg:text-lg text-sm mt-2 focus:outline-none focus:border-opacity-50"
                   placeholder="Enter custom amount"
