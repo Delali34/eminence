@@ -34,7 +34,7 @@ function Page() {
     reference: new Date().getTime().toString(),
     email,
     amount: Number(donationAmount) * 100,
-    publicKey: process.env.NEXT_PUBLIC_PAYSTACK_API_KEY,
+    publicKey: process.env.NEXT_PUBLIC_PAYSTACK_KEY,
     currency: "GHS",
   };
 
