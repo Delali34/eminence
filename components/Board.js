@@ -1,41 +1,41 @@
-export const Team = [
+export const Board = [
   {
-    name: "Daniel Offe ",
-    image: "/images/daniel.jpeg",
-    position: "Executive Director",
+    name: "Kennedy Wiafe Effah ESQ ",
+    image: "/kenedy.jpeg",
+    position: "Board Chiarperson",
     details:
-      "Daniel’s experience in Accounting &amp; Finance, Business Advisory, Entrepreneurship, Project Management, Life Coaching, Counseling and Consulting, Education and Leadership dates back 16 years ago, as one of the pioneering managers of Reckon Business Consulting Ltd, Intel Construction &amp; Engineering Limited, Lead International, Community Rescue Organization, Royal Bethel International and Planners Audit Firm of which was in senior and strategic management roles . He is a logical intuitive, and an insatiably curious seeker of knowledge. He is one of life’s runaway experiments who go around challenging people for success and better living. His experience spans years of finance management, entrepreneurship, Business Advisory, Project Management, Education, Life Coach, Mentor, Finance Advisory, Counselling, Corporate Consulting, Facilitation, Training, Leadership and Developmental works. He consultsfor development projects, private sector, civil society, community based organization, non-profit, International development organization, schools and churches on business strategies, leadership, programme and project management, team building, finance performance, entrepreneurship, personal and corporate performance. He has impacted over 200,000 people in Ghana and beyond, and over 10,000 employees across diverse businesses. He loves to share, mentor, and empower people to achieve greatness for a better living. Daniel’s expertise is in; Programme design, development and implementation, with a multiplicity of implementing partners, proven experience in conducting annual, mid-term, project completion reviews and monitoring and evaluation, Proven technical skills in the development of both business, organizational and communications strategies and knowledge management systems, Team building and development, Highly skilled in needs assessment, strategic planning, establishing priorities and delegating tasks, motivating teams to reach for their best, and following through to ensure success, Program and project planning, empowerment advocate, Leadership Trainer and Entrepreneurship Coaching, demonstrated skills in the planning, organization and facilitation of programs.",
-    points:
-      "More than 5 years experience in training development and delivery and motivation, A dynamic mentor, coach, trainer, and facilitator; skilled in employing clarity, innovation, and humour to deliver effective presentations to diverse audiences at all organizational levels, Strong financial management, accountability and risk mitigation planning expert. Daniel is a certified Business Advisor and counselor, he holds Doctor of Divinity (DDiv), MSc in Business Administration, MSC. In Accounting and Finance, BSC. Business Administration, BSC. Accounting and Finance , other Professional Certificates include Certificate in Project Management, Certificate in Financial Control Management, Certificate in Finance Performance, Certificate in Finance and Accounting, Certificate in Creativity and Problem Solving Skills, Certificate in Business Coaching, Certificate Entrepreneurship Coaching, Certificate in Facilitation, Certificate in Leadership and Team Development, Certificate in Strategic Management , Certificate in Marketing and Communications, Certificate in Risk Management and Certificate in Sustainable Business from the following institutions University of Professional Studies Accra - Ghana, Kingdom Excellent Leadership Institute- South Africa, Metropolitan School of Business Management- United Kingdom, International Business Management Institute Berlin-Germany, Chartered Institute of Management Accountants – United Kingdom.",
+      "Mr. Kennedy Wiafe Effah Esq. is a banker and a lawyer in private practice with work experience spanning over 16 years. He trained in accounting from the University of Ghana Business School, Legon in Accra where he graduated with a BSc. Admin (Accounting) with Honours in May 2003. He obtained his Bachelor of Laws (LL.B) degree with Honours from the Ghana Institute of Management & Public Administration (GIMPA) in May, 2015 and was called to Ghana Bar in October, 2017 after his professional legal training from the Ghana School of Law, Accra.  Kennedy is a Senior Associate Lawyer with Nsiah Akuetteh & Co., an experienced firm of legal practitioners and consultants as well as notary public. He handles a practice portfolio in immovable properties, banking, labour and family matters for both corporate and individual clients. Kennedy also serves on the Board of Directors of the La Community Bank Plc and is also the Legal Advisor to the Kwahu Presbytery of the Presbyterian Church of Ghana (PCG).",
+    details2:
+      "From December, 2016 to October, 2017, Kennedy worked with Macwest Ltd, a major corporate distributor for GHACEM Ltd, as Head of Finance responsible for budgeting and strategic planning, funds management, management accounts and payroll. Kennedy started his career in the banking and finance industry in March, 2006 with the Women’s World Banking Savings & Loan Ltd before joining Intercontinental Bank Ghana Ltd in January, 2008 and Access Bank Ghana Ltd in April, 2012 in various capacities including corporate and retail banking, consumer banking, public sector banking, credit administration, internal control, compliance and due diligence in Accra, Tema and Kumasi. For voluntary services, Kennedy served as a Presbyter of the Presbyterian Church of Ghana (PCG), Christ Congregation in Darkuman, Accra from September, 2012 to February, 2021. He enjoys playing volleyball or soccer and watching movies as hobbies.",
   },
   {
-    name: "Hawa Armah",
-    image: "/images/Hawa.jpeg",
-    position: "Executive Director",
+    name: "Mr. Daniel Nana Oppong",
+    image: "/daniel.jpeg",
+    position: "Board Member",
     details:
-      "Hawa has served 10 years in the management team as the General Manager of EVALUK INSTITUTE. She brings to EMINENCE LEAD INTERNATIONAL more than 10 years’ experience in women empowerment, humanitarian work, poverty advocate, education facilitator, entrepreneurship coach, and 8 years of which was in senior and strategic management roles. She has expertise in Programme design, development and implementation, with a multiplicity of implementing partners, Communication planning, Entrepreneurship coach, women empowerment, poverty advocate and education facilitator, Demonstrated skills in the planning and execution of branding and collateral material production. She designed and implement program and development strategies for entrepreneurs, organizations, Small Medium Enterprises, Artisans, individuals and schools. She analyses programs and empowerment communications research to influence development of strategies to ensure high equity, developed and managed a project of between 2 - 4 million dollars depending on the business objectives for any particular year.",
+      "As an enthusiastic individual, built considerable business qualities and skills in customer service, rich experience in facilitation of training sessions and teaching as a marketing and sales manager at Vodafone Ghana. He has constantly led various ad hoc teams to perform specific tasks such as updating product knowledge documents, organising outing sessions for the team members and many more. As an outstanding performer, mentor with specific skills and valuable business qualities such as ability to take initiative, strong analytical skills, good leadership capabilities, outstanding human relations, team player, and ability to work under pressure with high degree of discretion and confidentiality and result oriented. Mr. Daniel Nana Oppong has a working experience from many industries in Ghana serving in senior most positions. At Pan-African Saving and Loans Company Limited (The Microfinance Subsidiary of Ecobank Transnational Incorporated) as senior officer Monitoring and Recoveries, Vodafone Call Centre Ghana as a Senior Client Complaint Analyst, Hotel Catering and Tourism Training Institute Ghana as an Assistant Training Instructor in travel and tour department, South Central Railway, U.K. as a Customer Care Officer and at Top Industries Limited as an Assistant Marketing Manager.  ",
     details2:
-      "Hawas’s professional experiences have honed her passion for organizational development and strategic planning and insight generation and aspire to do more work on translating vision into action for people and organizations. She is hard working, results-oriented and committed to excellence in everything she does. Her passion, determination and desire for excellence are uncompromising. She holds BSc. In Marketing, BSc. In Marketing, other professional Certificates include Organizational Development Learner, Certificate in Alternative Dispute Resolution Learner, Certificate in Project Management, Certificate in Mentoring and Coaching, Certified Trainer, Certificate in Strategic Management, Certificate in Sustainable Development, Certificate in Human Capital Development and Certified Entrepreneurship Coach.",
+      "He has Eighteen (14) years’ experience in Marketing & Sales , six(6) years’ experience in Customer Care and Management, five(5) years’ experience in Tourism Management and Eight(9) years’ experience in the financial sector. Mr. Daniel Nana Oppong is an experienced trainer, management expert, mentor, business conference facilitator, and consultant in the field of Marketing and Sales, Banking and Finance, Tourism and Entrepreneurship. Mrs. Daniel Nana Oppong holds MSc. in Tourism from University of Cape Coast, Bsc. in Public Administration from Ghana Institute of Management and Public Administration, GIMPA and Certificates in Accounting and finance, marketing, training, Customer Relationship Management and hospitality.",
     details3:
-      "Hawa loves to impact, challenge young people for greatness. She has impacted over 120,000 young people in Ghana and beyond, and over 5,000 Small and Medium Enterprises and young entrepreneurs in Ghana and beyond.",
+      "Mr. Daniel Nana Oppong likes travelling within Ghana and outside the country, Playing Football, making friends & Reading Financial & Business Journals. Mr. Daniel Nana Oppong is a respectful and responsible man married with three (3) children.",
   },
   {
-    name: " Victoria Appiah",
-    image: "/images/vic.jpeg",
-    position: " Administrative Officer",
+    name: " Hon. Abass Malik",
+    image: "/Abass.jpeg",
+    position: "Board Member",
     details:
-      "Victoria Appiah-Asiamah, the Administrative Officer at Eminence Lead International. Her journey as Human Resource/Administrative Officer has been marked by a commitment to excellence and a passion for collaborative work. Victoria holds Bachelor’s Degree in Social Work from Kwame Nkrumah University of Science and Technology. She is an experienced administrative officer who always ensures that her team members, managers and management do their work as plan and also ensure that the organization’s operations are in line with its goals, mission and vision. ",
+      "Hon.Abass Malik is a Politician, Educationist, Entrepreneur and Disaster Management and Control Expert. He has fifteen (15) years’ experience in school management as an educationist and head of school from basic to secondary level of education in both private and public schools. He has contributed to the education system of Ghana especially at where he worked as an educationist and head of school. Some of his contributions include student performances in academics, life skills development and psychology.  He has contributed massively in the education system of Ghana including teacher transformation initiatives, school infrastructures and access to education especially for the deprived communities cross Ghana.  Hon. Abass Malik is the Director of Operations at the National Disaster Management Organization (NADMO) at the Ga West Municipal Assembly. He is responsible for disaster prevention and mitigation, community education on disaster prevention, poverty alleviation and conflict resolution. He has seventeen (17) electoral areas under his watch as a Director of Operations at the Ga West Municipality.",
     details2:
-      "Victoria’s strengths lie in effective communication, precise report writing, program and project reporting, public engagement, team management, facilitation and adept event management. She is proficient in handling clerical tasks, communication and project management, utilizing tools like Service Now Software. Victoria firmly believes in the power of collaboration and teamwork, striving to bring out the best and her colleagues. She loves reading books to improve her problem solving skills and also for effective work delivering.",
+      "He has helped to reduce disaster, poverty, conflict and increased community development for the past ten (10) years in seventeen (17) electoral areas at the Ga West Municipality. As a non-partisan politician, he focuses on education, youth development, leadership and governance, entrepreneurship and community development. In the past ten (10) he has worked tirelessly to reduce educational challenges, community challenges, health, and poverty in the communities. He has contributed to the welfare of the people in the various communities, Hon. is a kind of person from a different planet, he understands humanity and he has the passion to inspire and put smiles on the faces of his people. As an entrepreneurship facilitator, youth empowerment activist, he always organizes community programs about education, skill training, community development and poverty mitigation planning to empower the youth and the entire community for a better living.  Hon. Abbas Malik is an alumina of the University of Cape Coast, he holds BSC in Education, M.Edu, Diploma in Education and other professional qualifications for facilitation, mentorship, management and administration. Hon. Malik loves politics as non-partisan, public engagement, football and driving mostly in a serene environment. He is married with three (3) amazing children.",
   },
   {
-    name: " Belinda Agabeh",
-    image: "/images/belinda.jpeg",
-    position: " Program Officer",
+    name: "Dr. Daniel Andrews Kumi-Ntreh",
+    image: "/ntreh.jpeg",
+    position: "Board Member",
     details:
-      "Belinda Agabeh, a dedicated professional with a Bachelor's degree in Biological Sciences, specializing in Nutrition from the University of Ghana, previously served as a Research Assistant at the Ghana Atomic Energy Commission. With a solid academic foundation, Belinda's expertise spans advocacy, microbiology, enzymology, empowerment, health, training and organic chemistry. In her role, she actively contributed to projects addressing environmental enteric dysfunction and stable isotope abundance. ",
+      "Dr. Daniel Andrew Kumi-Ntreh is a counselor, lecturer, conference speaker, teacher, preacher and trainer. His passion is to become Gods instrument for affecting his generation in all areas of life. He is the Secretary General of the Apostolic Ministerial International Network. An organization that trains, counsels, ordain, and equip men and women who have the call of God on their lives. Dr. Daniel Andrews Kumi-Ntreh is a Registrar and a lecturer at the Kingdom Excellence Leadership Institute, South Africa and founder of Royal Christian Centre. He is an experienced lecturer in leadership, theology, entrepreneurship, counseling, Christian life, governance and Development. He has nineteen (19) years’ experience as a leadership lecturer, a theologist, consultant, preacher, conference speaker and a trainer. ",
     details2:
-      "Belinda's commitment to bridging academia and practical application is evident in her work. With a diverse skill set, including computational proficiency and excellent research abilities, project management, empowerment, health, Advocacy and training, Belinda is an experienced Project Officer. Her track record of effective teamwork, communication, and project management positions her as an asset for driving successful initiatives. Belinda is eager to leverage her skills and passion for social impact at Eminence Lead International, contributing to meaningful projects that align with the organization's mission. As a Project Officer, she is poised to deliver tangible results and make a positive impact on the communities served by the organization.",
+      "He holds Doctor of Theology (DTh), Bachelor of Theology (BTh), Diploma in theology, Diploma in Technician, Bachelor of Counseling (BCoun) from Bible Leaque USA, Marantha University, Peace Bible College and Emite Electronic Institute. He is also a trained teacher, conference facilitator, counselor, and development consultant.  He loves to share knowledge and empower people for greatness. He is a responsible married man with four (4) lovely children.",
   },
   {
     name: " Abianka Fedelis",
@@ -157,57 +157,5 @@ export const Team = [
     details2:
       ". Her interests lie in community engagement, gender equality, developmental projects and quality education for the people in the rural communities. She is an experienced project lead, educator, leadership facilitator and public speaking expert. Nana holds HND in Early Childhood, Diploma in Montessori and Bachelor’s Degree in Education from the University of Cape Coast, Ghana. Nana Araba has a great passion for change and development.",
     details3: "",
-  },
-  {
-    name: " Emmanuel Gyan",
-    image: "/images/emmanuel.png",
-    position: " Program Officer",
-    details:
-      "Emmanuel Gyan is an accomplished Earth Scientist and an Environmentalist with years of experience. Emmanuel has the ability to take unhealthy portfolios and transform them into healthy and thriving ones, produce productive and long-lasting results for high-level clients. He has a working experience from major companies, non-profit organizations, and hospitals. Emmanuel works well with senior corporate executives, provide consultations for international corporations and effective at persuading and influencing high-ranking individuals for work done.",
-    details2:
-      "His interest lies in program management and facilitation, program and project consulting, policy reform, human right advocacy and empowerment. He holds a degree in BSc Earth Sciences from the University of Ghana. Emmanuel has developed a passionate interest in the environment on focused like sustainable development, self-government, and political economy. He is an experienced hard working individual who always challenge people for greatness and better living and engage influential decision-makers and leaders on international public policy.",
-    details3: "",
-  },
-
-  {
-    name: " Christiana Yeboah",
-    image: "/images/christian.jpeg",
-    position: " Program Coordinator",
-    details:
-      "Christiana Yeboah, a highly- responsible and self- motivated individual with a fervor for making a positive impact and strives to embody the values of integrity, accountability, professionalism, continuous learning, and community engagement. Christiana holds a degree in Bachelor of Arts (Psychology and Archaeology) from the University of Ghana. She is armed with experience from non-profit organizations, companies and Environmental Agency of Ghana. Her professional journey has taught her lesson on community development, environment protection, humanitarian works, developmental interventions, empowerment programs, policy reforms and advocacies. ",
-    details2:
-      "As an avid reader, she embraces the opportunity to explore new horizons and explore creativity that others have to offer and maintaining a well-rounded and balanced life. Christiana has been actively involved in community projects and awareness programs including community education on environmental issues, quality education, leadership, human right advocacy and community hearing programs. Christiana is an instrument for change, greatness and economic empowerment.",
-    details3: "",
-  },
-  {
-    name: " Loretta Asare",
-    image: "/images/lorretta.jpeg",
-    position: " Program Coordinator",
-    details:
-      "Loretta Asare, is a purpose driven individual with an exceptional ability to drive long-term visions through effective persuasion and influence. Christiana holds bachelor degree in Education (B.Ed.) from the University of Cape Coast Ghana. Loretta has gathered a lot experiences working with non-profit organizations, senior high schools, companies and humanitarian foundations in Ghana. Her professional journey has taught lesson on community development, humanitarian works, women empowerment, developmental interventions, women and children protection, good governance and quality education campaign. ",
-    details2:
-      "As an avid reader, she embraces the opportunity to explore new horizons and explore creativity that others have to offer and maintaining a well-rounded and balanced life. Loretta has been actively involved in donor funded projects and awareness programs on education, environmental issues, gender quality, leadership, human right advocacy and community hearing programs. Loretta is an instrument for change and always inspire people to go for greatness.",
-    details3: "",
-  },
-  {
-    name: " Betty Assan ",
-    image: "/images/betty.jpeg",
-    position: " Accountant",
-    details:
-      "Betty Assan holds a BSc in Accounting from the University of Professional Studies, Accra and  Institute  of  Chartered  Accountant  (ICA)  Ghana  professional  examination.  A passionate and diligent accountant with experience in various financial matters. She has developed strong skills in finance planning, budgeting, project financing and management, strong organizational financing, analyzing financial data and ensuring compliance with industry regulations. She has implemented effective financial controls, which have improved the efficiency and accuracy of financial processes, proficient in producing reliable and timely financial reports. ",
-    details2:
-      "Betty is not only good with numbers and data, but also with people. She has an excellent communication skills, which allow her to work well with different stakeholders, keep herself updated with the latest financial regulations and best practices, which enables her to provide sound financial advice. Betty strives for excellence and continuous improvement in her work and eager to learn new skills and take on new challenges. She is a confident professional accountant that adds great value to our team and contribute to the success of the organization. Betty is always looking forward to a dynamic and result-oriented environment to explore and impact people for a better living.",
-    details3: "",
-  },
-  {
-    name: " Comfort Afriyie Barwuah ",
-    image: "/afriyie.jpeg",
-    position: " Accountant",
-    details:
-      "A digital research officer, specialize in utilizing online resources and digital tools to support research endeavors. Her responsibilities include conducting comprehensive literature reviews, gathering data from online databases, and analyzing digital information sources. She assists in the design and implementation of digital research methodologies, manage research databases, and contribute to the preparation of reports and presentations.",
-    details2:
-      "Comfort stays updated on digital research trends and technologies to enhance the efficiency and effectiveness of our research processes for organization’s programs and projects",
-    details3:
-      "Comfort is experienced communication expert , public relations, researching, facilitation and language translation. She holds degree in communication studies and diploma linguistics. She loves singing , reading and making crafts . ",
   },
 ];

@@ -17,6 +17,9 @@ function navbar() {
         <Link href="/Gallery">
           <h1 className="hover:text-[#FFE353] duration-300">Gallery</h1>
         </Link>
+        <Link href="/blog">
+          <h1 className="hover:text-[#FFE353] duration-300">Blog</h1>
+        </Link>
       </div>
       <Link href="/Donate">
         <div className="hover:bg-[#680070] hover:text-white duration-300 p-3 bg-white w-[100px] rounded-[5px]">

@@ -8,7 +8,7 @@ function navbar() {
       {" "}
       <div className=" max-w-[1800px]  mx-auto lg:flex hidden font-maintext items-center justify-between py-5 px-10  ">
         <Link href="/">
-          <Image width={70} height={70} src="/EMINENCE.jpg" />
+          <Image width={50} height={50} src="/EMINENCE.jpg" />
         </Link>
 
         <div className="text-black   flex items-center space-x-8 text-[18px] font-semibold">
@@ -26,6 +26,9 @@ function navbar() {
           </Link>
           <Link href="/Gallery">
             <h1 className="hover:text-[#680070] duration-300">Gallery</h1>
+          </Link>
+          <Link href="/blog">
+            <h1 className="hover:text-[#680070] duration-300">Blog</h1>
           </Link>
         </div>
         <Link href="/Donate">

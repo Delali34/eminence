@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Team } from "./Roles";
+import { Board } from "./Board";
 import { AiFillCloseCircle } from "react-icons/ai";
 import Link from "next/link";
 import Image from "next/image";
@@ -115,6 +116,35 @@ function Teams() {
             </div>
           </div>
         )}
+        <div className="flex justify-center ">
+          <h1 className="lg:text-4xl border-white border-2 font-mont font-semibold mt-10 text-white md:text-3xl text-2xl text-center md:text-start p-4 rounded-[60px] ">
+            Board Of Directors
+          </h1>
+        </div>
+        <div className="grid lg:grid-cols-3 gap-5 place-items-center md:grid-cols-2 grid-cols-1">
+          {Board.map((board, index) => {
+            return (
+              <div key={index} className="p-10">
+                <div
+                  className="relative h-[350px] w-[300px] "
+                  onClick={() => changecontent(board)}
+                >
+                  <Image layout="fill" src={board.image} className="" alt="" />
+                  <div className="overlay-text flex justify-center items-center w-full text-white hover:underline cursor-pointer absolute bottom-4 right-0 left-0">
+                    <div className="bg2 border-black border rounded-[40px] w-[250px] mx-auto p-2">
+                      <h1 className="font-extrabold font-mont  text-[17px] text-center text-black">
+                        {board.name}
+                      </h1>
+                      <h1 className="font-mont text-center font-semibold text-black text-[14px]">
+                        {board.position}
+                      </h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </div>
   );
