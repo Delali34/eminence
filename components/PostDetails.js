@@ -95,7 +95,7 @@ const PostDetail = ({ post }) => {
           </div>
         </div>
         <div className="">
-          <h3 className="lg:text-[20px] font-bold text-[14px] mt-[40px] lg:mt-[0px]font-semibold mb-4">
+          <h3 className="lg:text-[20px] font-bold text-[14px] mt-[10px] lg:mt-[0px]font-semibold mb-4">
             You might also like:
           </h3>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full  gap-5">

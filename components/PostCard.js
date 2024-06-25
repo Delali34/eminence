@@ -26,8 +26,8 @@ const PostCard = ({ post }) => {
           </div>
 
           <Link href="/">
-            <div className="text-primary mt-5 px-5">
-              <h2 className="lg:text-[18px] font-medium">
+            <div className="text-primary w-[165px]  mt-5 px-5">
+              <h2 className="lg:text-[15px] text-[12px] bg-yellow-300  p-1 font-medium">
                 {post.categories[0]?.name || "Category"}
               </h2>
             </div>
