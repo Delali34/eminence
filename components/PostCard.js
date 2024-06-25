@@ -27,14 +27,14 @@ const PostCard = ({ post }) => {
 
           <Link href="/">
             <div className="text-primary mt-5 px-5">
-              <h2 className="lg:text-xl font-semibold">
+              <h2 className="lg:text-[18px] font-medium">
                 {post.categories[0]?.name || "Category"}
               </h2>
             </div>
           </Link>
           <Link href={`/post/${post.slug}`}>
             <div className="   text-black py-3 px-5">
-              <h2 className="md:text-[16px] text-[14px] hover:underline ">
+              <h2 className="md:text-[20px] text-[17px] font-header hover:underline ">
                 {post.title}
               </h2>
             </div>
