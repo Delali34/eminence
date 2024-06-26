@@ -1,14 +1,60 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
 const Campaign = () => {
+  const scrollContainerRef = useRef(null);
+  const intervalIdRef = useRef(null);
+
+  useEffect(() => {
+    const scrollContainer = scrollContainerRef.current;
+    let scrollAmount = 0;
+    const scrollStep = 2;
+    const delay = 20;
+
+    const autoScroll = () => {
+      if (scrollContainer) {
+        scrollContainer.scrollLeft += scrollStep;
+        scrollAmount += scrollStep;
+
+        if (scrollAmount >= scrollContainer.scrollWidth / 1.5) {
+          scrollContainer.scrollLeft = 0;
+          scrollAmount = 0;
+        }
+      }
+    };
+
+    const startAutoScroll = () => {
+      intervalIdRef.current = setInterval(autoScroll, delay);
+    };
+
+    const stopAutoScroll = () => {
+      if (intervalIdRef.current) {
+        clearInterval(intervalIdRef.current);
+      }
+    };
+
+    scrollContainer.addEventListener("mouseenter", stopAutoScroll);
+    scrollContainer.addEventListener("mouseleave", startAutoScroll);
+
+    startAutoScroll();
+
+    return () => {
+      stopAutoScroll();
+      scrollContainer.removeEventListener("mouseenter", stopAutoScroll);
+      scrollContainer.removeEventListener("mouseleave", startAutoScroll);
+    };
+  }, []);
+
   return (
     <section className="max-w-[1800px] mx-auto mb-5">
-      <div className="px-5 snap-x  py-10 flex w-full overflow-hidden overflow-x-scroll  space-x-10">
+      <div
+        ref={scrollContainerRef}
+        className="px-5 py-10 flex w-full overflow-x-scroll space-x-10"
+      >
         <div className="">
           <Link href="/">
-            <div className="border snap-center p-5 h-[400px] w-[350px]">
+            <div className="border p-5 h-[400px] w-[350px]">
               <Image
                 src="/women.jpg"
                 alt="change"
@@ -18,7 +64,7 @@ const Campaign = () => {
               />
               <div className="py-3">
                 <h4 className="text-[20px] font-header font-semibold mb-2">
-                  THE RIGHT OF LESS PREVILLEGE WOMEN AND CHILDREN EMPOWERMENT
+                  THE RIGHT OF LESS PRIVILEGED WOMEN AND CHILDREN EMPOWERMENT
                   PROGRAM
                 </h4>
                 <p className="text-[12px] bg-yellow-300 w-[175px] text-center p-1 rounded-sm">
@@ -30,7 +76,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border snap-center p-5 h-[400px]  w-[350px]">
+            <div className="border p-5 h-[400px]  w-[350px]">
               <Image
                 src="/youth.jpg"
                 alt="change"
@@ -51,7 +97,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border snap-center p-5 h-[400px] w-[350px]">
+            <div className="border p-5 h-[400px] w-[350px]">
               <Image
                 src="/girl.jpg"
                 alt="change"
@@ -73,7 +119,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border snap-center p-5 h-[400px] w-[350px]">
+            <div className="border p-5 h-[400px] w-[350px]">
               <Image
                 src="/educ.jpg"
                 alt="change"
@@ -94,7 +140,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border snap-center p-5 h-[400px] w-[350px]">
+            <div className="border p-5 h-[400px] w-[350px]">
               <Image
                 src="/voc.jpg"
                 alt="change"
@@ -116,7 +162,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border snap-center p-5 h-[400px] w-[350px]">
+            <div className="border p-5 h-[400px] w-[350px]">
               <Image
                 src="/food.jpg"
                 alt="change"
