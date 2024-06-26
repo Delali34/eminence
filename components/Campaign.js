@@ -50,11 +50,11 @@ const Campaign = () => {
     <section className="max-w-[1800px] mx-auto mb-5">
       <div
         ref={scrollContainerRef}
-        className="px-5 py-10 flex w-full overflow-x-scroll space-x-10"
+        className="px-5 py-10 lg:flex gap-5 lg:gap-0 grid sm:overflow-hidden md:overflow-auto  place-items-center grid-cols-1  sm:grid-cols-2 lg:grid-flow-row w-full lg:overflow-x-scroll space-x-10"
       >
-        <div className="">
+        <div className="ml-10 lg:ml-0">
           <Link href="/">
-            <div className="border p-5 h-[400px] w-[350px]">
+            <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/women.jpg"
                 alt="change"
@@ -63,7 +63,7 @@ const Campaign = () => {
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="text-[20px] font-header font-semibold mb-2">
+                <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
                   THE RIGHT OF LESS PRIVILEGED WOMEN AND CHILDREN EMPOWERMENT
                   PROGRAM
                 </h4>
@@ -76,7 +76,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border p-5 h-[400px]  w-[350px]">
+            <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/youth.jpg"
                 alt="change"
@@ -85,7 +85,7 @@ const Campaign = () => {
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="text-[20px] font-header font-semibold mb-2">
+                <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
                   YOUTH IN COMMUNITY DEVELOPMENT EMPOWERMENT PROGRAM
                 </h4>
                 <p className="text-[12px] bg-orange-300 w-[175px] text-center p-1 rounded-sm">
@@ -97,7 +97,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border p-5 h-[400px] w-[350px]">
+            <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/girl.jpg"
                 alt="change"
@@ -106,7 +106,7 @@ const Campaign = () => {
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="text-[20px] font-header font-semibold mb-2">
+                <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
                   EMPOWERING UNDERSERVED COMMUNITY WOMEN AND YOUNG GIRLS TO
                   UNLOCK FULL POTENTIAL
                 </h4>
@@ -119,7 +119,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border p-5 h-[400px] w-[350px]">
+            <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/educ.jpg"
                 alt="change"
@@ -128,7 +128,7 @@ const Campaign = () => {
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="text-[20px] font-header font-semibold mb-2">
+                <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
                   IGNITING THE NEXT GENERATION THROUGH QUALITY EDUCATION
                 </h4>
                 <p className="text-[12px] bg-blue-300 w-[175px] text-center p-1 rounded-sm">
@@ -140,7 +140,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border p-5 h-[400px] w-[350px]">
+            <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/voc.jpg"
                 alt="change"
@@ -149,7 +149,7 @@ const Campaign = () => {
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="text-[18px] font-header font-semibold mb-2">
+                <h4 className="md:text-[18px] sm:text-[16px] font-header font-semibold mb-2">
                   END THE POVERTY SYNDROME THROUGH VOCATIONAL SKILLS AND
                   ENTREPRENUERSHIP EMPOWERMENT
                 </h4>
@@ -162,7 +162,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border p-5 h-[400px] w-[350px]">
+            <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/food.jpg"
                 alt="change"
@@ -171,7 +171,7 @@ const Campaign = () => {
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="text-[20px] font-header font-semibold mb-2">
+                <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
                   AGRIGROW - ENDING HUNGER AND FOOD SCARCITY- BOOSTING
                   AGRICULTURE
                 </h4>
