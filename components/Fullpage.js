@@ -41,6 +41,7 @@ function Fullpage() {
       <Impact />
       <Scrolltext />
       <Campaign />
+      <Scrolltext />
       <Support />
       <Support2 />
       <Testimony />

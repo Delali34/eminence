@@ -4,16 +4,16 @@ import Image from "next/image";
 
 const Campaign = () => {
   return (
-    <section className="max-w-[1800px] mx-auto mb-10">
-      <div className="px-5 snap-x  py-14 flex w-full overflow-hidden overflow-x-scroll  space-x-10">
+    <section className="max-w-[1800px] mx-auto mb-5">
+      <div className="px-5 snap-x  py-10 flex w-full overflow-hidden overflow-x-scroll  space-x-10">
         <div className="">
           <Link href="/">
             <div className="border snap-center p-5 h-[400px] w-[350px]">
               <Image
-                src="/change.jpg"
+                src="/women.jpg"
                 alt="change"
-                width={1000}
-                height={1000}
+                width={500}
+                height={500}
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
@@ -32,18 +32,17 @@ const Campaign = () => {
           <Link href="/">
             <div className="border snap-center p-5 h-[400px]  w-[350px]">
               <Image
-                src="/change.jpg"
+                src="/youth.jpg"
                 alt="change"
-                width={1000}
-                height={1000}
+                width={500}
+                height={500}
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
                 <h4 className="text-[20px] font-header font-semibold mb-2">
-                  THE RIGHT OF LESS PREVILLEGE WOMEN AND CHILDREN EMPOWERMENT
-                  PROGRAM
+                  YOUTH IN COMMUNITY DEVELOPMENT EMPOWERMENT PROGRAM
                 </h4>
-                <p className="text-[12px] bg-yellow-300 w-[175px] text-center p-1 rounded-sm">
+                <p className="text-[12px] bg-orange-300 w-[175px] text-center p-1 rounded-sm">
                   Click to Read more
                 </p>
               </div>
@@ -54,18 +53,18 @@ const Campaign = () => {
           <Link href="/">
             <div className="border snap-center p-5 h-[400px] w-[350px]">
               <Image
-                src="/change.jpg"
+                src="/girl.jpg"
                 alt="change"
-                width={1000}
-                height={1000}
+                width={500}
+                height={500}
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
                 <h4 className="text-[20px] font-header font-semibold mb-2">
-                  THE RIGHT OF LESS PREVILLEGE WOMEN AND CHILDREN EMPOWERMENT
-                  PROGRAM
+                  EMPOWERING UNDERSERVED COMMUNITY WOMEN AND YOUNG GIRLS TO
+                  UNLOCK FULL POTENTIAL
                 </h4>
-                <p className="text-[12px] bg-yellow-300 w-[175px] text-center p-1 rounded-sm">
+                <p className="text-[12px] bg-green-300 w-[175px] text-center p-1 rounded-sm">
                   Click to Read more
                 </p>
               </div>
@@ -76,18 +75,17 @@ const Campaign = () => {
           <Link href="/">
             <div className="border snap-center p-5 h-[400px] w-[350px]">
               <Image
-                src="/change.jpg"
+                src="/educ.jpg"
                 alt="change"
-                width={1000}
-                height={1000}
+                width={500}
+                height={500}
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
                 <h4 className="text-[20px] font-header font-semibold mb-2">
-                  THE RIGHT OF LESS PREVILLEGE WOMEN AND CHILDREN EMPOWERMENT
-                  PROGRAM
+                  IGNITING THE NEXT GENERATION THROUGH QUALITY EDUCATION
                 </h4>
-                <p className="text-[12px] bg-yellow-300 w-[175px] text-center p-1 rounded-sm">
+                <p className="text-[12px] bg-blue-300 w-[175px] text-center p-1 rounded-sm">
                   Click to Read more
                 </p>
               </div>
@@ -98,18 +96,18 @@ const Campaign = () => {
           <Link href="/">
             <div className="border snap-center p-5 h-[400px] w-[350px]">
               <Image
-                src="/change.jpg"
+                src="/voc.jpg"
                 alt="change"
-                width={1000}
-                height={1000}
+                width={500}
+                height={500}
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="text-[20px] font-header font-semibold mb-2">
-                  THE RIGHT OF LESS PREVILLEGE WOMEN AND CHILDREN EMPOWERMENT
-                  PROGRAM
+                <h4 className="text-[18px] font-header font-semibold mb-2">
+                  END THE POVERTY SYNDROME THROUGH VOCATIONAL SKILLS AND
+                  ENTREPRENUERSHIP EMPOWERMENT
                 </h4>
-                <p className="text-[12px] bg-yellow-300 w-[175px] text-center p-1 rounded-sm">
+                <p className="text-[12px] bg-red-300 w-[175px] text-center p-1 rounded-sm">
                   Click to Read more
                 </p>
               </div>
@@ -120,18 +118,18 @@ const Campaign = () => {
           <Link href="/">
             <div className="border snap-center p-5 h-[400px] w-[350px]">
               <Image
-                src="/change.jpg"
+                src="/food.jpg"
                 alt="change"
-                width={1000}
-                height={1000}
+                width={500}
+                height={500}
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
                 <h4 className="text-[20px] font-header font-semibold mb-2">
-                  THE RIGHT OF LESS PREVILLEGE WOMEN AND CHILDREN EMPOWERMENT
-                  PROGRAM
+                  AGRIGROW - ENDING HUNGER AND FOOD SCARCITY- BOOSTING
+                  AGRICULTURE
                 </h4>
-                <p className="text-[12px] bg-yellow-300 w-[175px] text-center p-1 rounded-sm">
+                <p className="text-[12px] bg-purple-300 w-[175px] text-center p-1 rounded-sm">
                   Click to Read more
                 </p>
               </div>
