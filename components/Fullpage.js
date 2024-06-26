@@ -10,6 +10,7 @@ import { GrLinkTop } from "react-icons/gr";
 import Partner from "../components/Partner";
 import Testimony from "@/components/Testimony";
 import Footer from "./Footer";
+import Scrolltext from "./Scrolltext";
 
 function Fullpage() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -37,6 +38,7 @@ function Fullpage() {
         <Column2 />
       </div>
       <Impact />
+      <Scrolltext />
       <Support />
       <Support2 />
       <Testimony />

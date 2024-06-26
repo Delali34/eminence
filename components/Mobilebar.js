@@ -26,7 +26,7 @@ function Navbar() {
     <div className="max-w-6xl sticky-navbar bg-[#fffdf1] mx-auto font-maintext flex items-center justify-between py-4 px-10 lg:hidden ">
       <div>
         <Link href="/">
-          <Image width={50} height={50} src="/EMINENCE.jpg" />
+          <Image width={50} height={50} src="/EMINECE LOGO22.png" />
         </Link>
       </div>
       <button onClick={() => setIsOpen(true)} className="text-[#670070]">

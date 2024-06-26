@@ -143,3 +143,28 @@ hr {
 .paragraph {
   padding-top: 20px; /* Adjust as needed */
 }
+.text-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  background: black;
+  overflow: hidden;
+}
+.text-wrapper2 {
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+  text-stroke-color: white;
+  white-space: nowrap;
+  padding: 0 6rem;
+  letter-spacing: 1px;
+  animation: move-rt1 6000ms linear infinite;
+}
+
+@keyframes move-rt1 {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

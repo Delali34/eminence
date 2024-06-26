@@ -15,7 +15,7 @@ function column1() {
           </Link>
         </div>
         <div className="mt-20">
-          <Image width={70} height={70} src="/EMINENCE.jpg" />
+          <Image width={70} height={70} src="/EMINECE LOGO22.png" />
           <div className="mt-10">
             <h1 className="text-xl font-bold">Donate Now</h1>
             <p className="mt-3 font-medium">

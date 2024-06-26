@@ -8,7 +8,7 @@ function navbar() {
       {" "}
       <div className=" max-w-[1800px]  mx-auto lg:flex hidden font-maintext items-center justify-between py-5 px-10  ">
         <Link href="/">
-          <Image width={50} height={50} src="/EMINENCE.jpg" />
+          <Image width={50} height={50} src="/EMINECE LOGO22.png" />
         </Link>
 
         <div className="text-black   flex items-center space-x-8 text-[18px] font-semibold">
