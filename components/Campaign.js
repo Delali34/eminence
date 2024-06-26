@@ -53,7 +53,7 @@ const Campaign = () => {
         className="px-5 py-10 lg:flex gap-5 lg:gap-0 grid sm:overflow-hidden md:overflow-auto  place-items-center grid-cols-1  sm:grid-cols-2 lg:grid-flow-row w-full lg:overflow-x-scroll lg:space-x-10"
       >
         <div className="">
-          <Link href="/">
+          <Link href="/Campaign/Less-privileged-women">
             <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/women.jpg"
@@ -75,7 +75,7 @@ const Campaign = () => {
           </Link>
         </div>
         <div className="">
-          <Link href="/">
+          <Link href="/Campaign/Youth-in-community">
             <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/youth.jpg"
@@ -96,7 +96,7 @@ const Campaign = () => {
           </Link>
         </div>
         <div className="">
-          <Link href="/">
+          <Link href="/Campaign/Empowering-underserved-community">
             <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/girl.jpg"
@@ -118,7 +118,7 @@ const Campaign = () => {
           </Link>
         </div>
         <div className="">
-          <Link href="/">
+          <Link href="/Campaign/Quality-education">
             <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/educ.jpg"
@@ -139,7 +139,7 @@ const Campaign = () => {
           </Link>
         </div>
         <div className="">
-          <Link href="/">
+          <Link href="/Campaign/End-poverty">
             <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/voc.jpg"
@@ -161,7 +161,7 @@ const Campaign = () => {
           </Link>
         </div>
         <div className="">
-          <Link href="/">
+          <Link href="/Campaign/Agrigrow">
             <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
                 src="/food.jpg"
