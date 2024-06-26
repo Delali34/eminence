@@ -1,7 +1,8 @@
-// components/Footer.js
 import React from "react";
 import { BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from "react-icons/bs";
 import { AiFillInstagram } from "react-icons/ai";
+import { FaTiktok } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
 import Link from "next/link";
 
 const Footer = () => {
@@ -15,30 +16,48 @@ const Footer = () => {
           </h3>
           <p>Creating Hope and Igniting Greatness</p>
           <div className="flex space-x-4 mt-4">
-            <a
-              href="#"
+            <Link
+              href="https://www.facebook.com/profile.php?id=61559657304198&mibextid=ZbWKwL"
+              target="_blank"
               className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
             >
               <BsFacebook />
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="https://www.instagram.com/eminencelead?igsh=MW93MjduY3ZtNjExYw=="
+              target="_blank"
               className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
             >
               <BsInstagram />
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="https://x.com/eminencelead?t=Ko6lOyL5QUgSFaDyRrYfjw&s=08"
+              target="_blank"
               className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
             >
               <BsTwitter />
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/eminence-lead-international-498418307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank"
               className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
             >
               <BsLinkedin />
-            </a>
+            </Link>
+            <Link
+              href="https://youtube.com/@eminencelead?si=pSktC99gOISujArN"
+              target="_blank"
+              className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
+            >
+              <FaYoutube />
+            </Link>
+            <Link
+              href="https://www.tiktok.com/@eminence.lead.int?is_from_webapp=1&sender_device=pc"
+              target="_blank"
+              className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
+            >
+              <FaTiktok />
+            </Link>
           </div>
         </div>
 

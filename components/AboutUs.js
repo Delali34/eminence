@@ -481,20 +481,54 @@ function AboutUs() {
                 </div>
                 <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#06FF31] border-[1px]">
                   <p>
-                    EMINENCE LEAD INTERNATIONAL is a registered NGO in Ghana,
-                    established in August 2023 with a mission to ignite
-                    transformative change in Africa and beyond. Their focus is
-                    on economic empowerment and gender equality, enabling
-                    people, especially women, to become leaders through
-                    entrepreneurship. They provide education, training,
-                    mentorship, and access to resources, fostering an
-                    environment where dreams turn into sustainable businesses.
-                    Their work extends beyond education, advocating for
-                    gender-responsive policies and addressing systemic barriers.
-                    Their goal is to create a future where every individual can
-                    thrive, regardless of gender, and to combat Africa's
-                    developmental challenges caused by poor leadership and
-                    underutilized potential.
+                    EMINENCE LEAD INTERNATIONAL is a duly registered and
+                    licensed non-profit organization in Ghana and was
+                    established to create hope and ignite greatness in Africa
+                    and beyond, enabling and empowering people to live
+                    purposeful, limitless, powerful and fulfilled lives. We aim
+                    to lead all leadership and engagement programs that
+                    strategically ignite the next generation of the African
+                    Continent leaders in business, education, public service,
+                    religious organization, health service, community and
+                    chieftaincy. We exist as a passionate and purpose-driven
+                    non-profit organization with a singular mission: to ignite
+                    transformative change by championing economic empowerment
+                    and gender equality. Our journey is one of holistic
+                    empowerment. We recognize that economic empowerment is a
+                    cornerstone of societal progress, and to achieve it, we must
+                    ensure that no gender is left behind. By focusing on
+                    entrepreneurship, we enable individuals, particularly women,
+                    to step into roles of leadership, innovation, and economic
+                    agency. Our organization is not just an institution; it's an
+                    ecosystem of support. We provide not only education and
+                    training but also mentorship, counselling, mediation,
+                    networking, and access to resources. This ecosystem nurtures
+                    budding entrepreneurs, fostering an environment where dreams
+                    flourish into sustainable enterprises. Our focus on
+                    entrepreneurship isn't just about immediate change; it's
+                    about sustainable impact. The businesses and ventures that
+                    emerge from our programs continue to ripple through
+                    communities, generating employment, innovation, and positive
+                    change for years to come. Our work doesn't stop at education
+                    and training. We advocate for gender-responsive policies
+                    that create an enabling environment for entrepreneurship to
+                    thrive. By addressing systemic barriers, we lay the
+                    groundwork for lasting transformation. We are creating
+                    economic empowerment and gender equality are woven together,
+                    creating a future where every individual's potential is
+                    realized, regardless of their gender. In a world where
+                    potential knows no bounds, we believe that every individual
+                    deserves the opportunity to thrive, regardless of their
+                    gender. Our journey is fuelled by the conviction that true
+                    progress is only achieved when economic empowerment and
+                    gender equality stand hand in hand. Our passion has been
+                    necessitated by the fact that Africa has consistently fall
+                    behind on almost all developments initiatives in spite of
+                    its huge and rich natural resources. Many studies and
+                    reliable evidence show that poor and unresponsive leadership
+                    and unconcern are the cause of this epidemic of affairs. We
+                    want to see an Africa that works. We want to see an African
+                    people making use of their potentials.
                   </p>
                 </div>
               </div>
