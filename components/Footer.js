@@ -17,7 +17,7 @@ const Footer = () => {
           <p>Creating Hope and Igniting Greatness</p>
           <div className="flex space-x-4 mt-4">
             <Link
-              href="https://www.facebook.com/profile.php?id=61559657304198&mibextid=ZbWKwL"
+              href="https://www.facebook.com/profile.php?id=61559729709338"
               target="_blank"
               className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
             >
