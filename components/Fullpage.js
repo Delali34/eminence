@@ -11,6 +11,7 @@ import Partner from "../components/Partner";
 import Testimony from "@/components/Testimony";
 import Footer from "./Footer";
 import Scrolltext from "./Scrolltext";
+import Campaign from "./Campaign";
 
 function Fullpage() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -39,6 +40,7 @@ function Fullpage() {
       </div>
       <Impact />
       <Scrolltext />
+      <Campaign />
       <Support />
       <Support2 />
       <Testimony />
