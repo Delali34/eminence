@@ -5,10 +5,10 @@ import Image from "next/image";
 const Campaign = () => {
   return (
     <section className="max-w-[1800px] mx-auto mb-10">
-      <div className="px-20 py-14 flex w-full overflow-hidden overflow-x-scroll  space-x-10">
+      <div className="px-5 snap-x  py-14 flex w-full overflow-hidden overflow-x-scroll  space-x-10">
         <div className="">
           <Link href="/">
-            <div className="border p-5 h-[400px] w-[350px]">
+            <div className="border snap-center p-5 h-[400px] w-[350px]">
               <Image
                 src="/change.jpg"
                 alt="change"
@@ -30,7 +30,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border p-5 h-[400px]  w-[350px]">
+            <div className="border snap-center p-5 h-[400px]  w-[350px]">
               <Image
                 src="/change.jpg"
                 alt="change"
@@ -52,7 +52,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border p-5 h-[400px] w-[350px]">
+            <div className="border snap-center p-5 h-[400px] w-[350px]">
               <Image
                 src="/change.jpg"
                 alt="change"
@@ -74,7 +74,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border p-5 h-[400px] w-[350px]">
+            <div className="border snap-center p-5 h-[400px] w-[350px]">
               <Image
                 src="/change.jpg"
                 alt="change"
@@ -96,7 +96,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border p-5 h-[400px] w-[350px]">
+            <div className="border snap-center p-5 h-[400px] w-[350px]">
               <Image
                 src="/change.jpg"
                 alt="change"
@@ -118,7 +118,7 @@ const Campaign = () => {
         </div>
         <div className="">
           <Link href="/">
-            <div className="border p-5 h-[400px] w-[350px]">
+            <div className="border snap-center p-5 h-[400px] w-[350px]">
               <Image
                 src="/change.jpg"
                 alt="change"
