@@ -50,9 +50,9 @@ const Campaign = () => {
     <section className="max-w-[1800px] mx-auto mb-5">
       <div
         ref={scrollContainerRef}
-        className="px-5 py-10 lg:flex gap-5 lg:gap-0 grid sm:overflow-hidden md:overflow-auto  place-items-center grid-cols-1  sm:grid-cols-2 lg:grid-flow-row w-full lg:overflow-x-scroll space-x-10"
+        className="px-5 py-10 lg:flex gap-5 lg:gap-0 grid sm:overflow-hidden md:overflow-auto  place-items-center grid-cols-1  sm:grid-cols-2 lg:grid-flow-row w-full lg:overflow-x-scroll lg:space-x-10"
       >
-        <div className="ml-10 lg:ml-0">
+        <div className="">
           <Link href="/">
             <div className="border p-5 h-[400px] sm:w-[300px] md:w-[350px]">
               <Image
