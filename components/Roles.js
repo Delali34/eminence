@@ -201,7 +201,7 @@ export const Team = [
   },
   {
     name: " Comfort Afriyie Barwuah ",
-    image: "/afriyie.jpeg",
+    image: "/Afriyie.jpg",
     position: " Accountant",
     details:
       "A digital research officer, specialize in utilizing online resources and digital tools to support research endeavors. Her responsibilities include conducting comprehensive literature reviews, gathering data from online databases, and analyzing digital information sources. She assists in the design and implementation of digital research methodologies, manage research databases, and contribute to the preparation of reports and presentations.",

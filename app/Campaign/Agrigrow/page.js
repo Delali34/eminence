@@ -1,11 +1,13 @@
 import React from "react";
 import Image from "next/image";
 import Navbar from "@/components/Navbar2";
+import Mobilebar from "@/components/Mobilebar";
 
 const CampaignPage = () => {
   return (
     <div className="bg2">
       <Navbar />
+      <Mobilebar />
       <section className="max-w-7xl mx-auto pb-5">
         <div className="relative h-[400px] w-full">
           <Image
@@ -34,8 +36,8 @@ const CampaignPage = () => {
             vital causes.
           </p>
 
-          <div className=" p-5 rounded-md shadow-md">
-            <h2 className="text-2xl font-bold mb-3">
+          <div className=" rounded-md">
+            <h2 className="lg:text-2xl text-xl font-bold mb-3">
               END THE POVERTY SYNDROME THROUGH VOCATIONAL SKILLS AND
               ENTREPRENUERSHIP EMPOWERMENT
             </h2>
