@@ -23,7 +23,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f5d134] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Anti-Corruption Education Programs
+                Anti-Corruption Education Program(ACEP)
               </h1>
               <p className="font-mont">
                 These programs are designed to educate individuals and
@@ -39,7 +39,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f5d134] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Corporate Governance Programs
+                Corporate Governance Program(CGP)
               </h1>
               <p className="font-mont">
                 Corporate governance programs focus on educating businesses and
@@ -54,7 +54,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f5d134] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Corporate Leadership Program
+                Corporate Leadership Program(CLP)
               </h1>
               <p className="font-mont">
                 The Corporate Leadership Program is designed to develop and
@@ -68,7 +68,8 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f5d134] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Stakeholders, Leadership, and Governance Initiative Programs
+                Stakeholders Leaderships and Governance Initiative
+                Program(SLGIP)
               </h1>
               <p className="font-mont">
                 These initiatives aim to strengthen leadership and governance by

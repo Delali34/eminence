@@ -444,6 +444,17 @@ function AboutUs() {
                     and represented in the organization's activities.
                   </p>
                 </div>
+                <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#034AA6] border-[1px]">
+                  <p>
+                    <span className="text-2xl font-extrabold text-[#034AA6]">
+                      Trustworthiness
+                    </span>{" "}
+                    Trust is the foundation of our interactions. By consistently
+                    demonstrating reliability, transparency, and accountability,
+                    we aim to earn and maintain the trust of our partners,
+                    beneficiaries, and the communities we serve.
+                  </p>
+                </div>
               </div>
             </div>
           </FadeInSection>

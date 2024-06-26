@@ -23,7 +23,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#35f56f] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Women's Rights Protection Programs
+                Women&#39;s Rights Protection Program (WRPP)
               </h1>
               <p className="font-mont">
                 These programs are designed to safeguard and promote the rights
@@ -37,7 +37,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#35f56f] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Girls' Rights Protection Initiative Programs
+                Girls&#39; Rights Protection Initiative Program (GRPIP):
               </h1>
               <p className="font-mont">
                 These initiatives focus on ensuring the protection of young
@@ -50,34 +50,19 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#35f56f] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Women Entrepreneurship Empowerment Programs
-              </h1>
-              <p className="font-mont">
-                This program focuses on supporting aspiring and existing women
-                entrepreneurs. It offers training in business skills, financial
-                literacy, access to funding opportunities, networking, and
-                mentorship. Additionally, it assists in navigating legal and
-                regulatory frameworks to formalize businesses. Empowering women
-                in entrepreneurship contributes to economic growth, job
-                creation, and poverty reduction while promoting gender equality
-                in the business world.
-              </p>
-            </div>
-            <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#35f56f] border-[1px]">
-              <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Right to Speak
+                The Right to Speak Program(TRSP)
               </h1>
               <p className="font-mont">
                 This program emphasizes the right of individuals, especially
                 women and marginalized groups, to freely express their opinions
-                and concerns. It promotes a culture where every person's voice
-                is heard and respected, creating platforms for dialogue,
+                and concerns. It promotes a culture where every person&#39;s
+                voice is heard and respected, creating platforms for dialogue,
                 activism, and advocating for freedom of speech and expression.
               </p>
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#35f56f] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Women and Children's Rights Protection Programs
+                Women and Children&#39;s Rights Protection Program(WCRPP)
               </h1>
               <p className="font-mont">
                 These programs are comprehensive in scope, aiming to protect the
@@ -90,7 +75,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#35f56f] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Rights for Vulnerable People
+                The Vulnerable Protection Initiative Program(TVPIP)
               </h1>
               <p className="font-mont">
                 These initiatives are designed to protect the rights of
@@ -101,9 +86,10 @@ function Leadership() {
                 society.
               </p>
             </div>
+
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#35f56f] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Human Rights Abuse Initiative Programs
+                Human Rights Abuse Initiative Program(HRAIP)
               </h1>
               <p className="font-mont">
                 These programs are dedicated to addressing and preventing human

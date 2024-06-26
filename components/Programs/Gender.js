@@ -23,14 +23,14 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f54b35] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Girl Child Education Program
+                Girl Child Education Program(GCEP)
               </h1>
               <p className="font-mont">
-                This initiative is centered around providing quality education
-                to girls, ensuring equal opportunities for learning and growth.
-                It focuses on addressing barriers that prevent girls from
-                attending school, such as cultural norms, financial constraints,
-                and safety concerns. The program aims to enhance access to
+                This initiative is centered on providing quality education to
+                girls, ensuring equal opportunities for learning and growth. It
+                focuses on addressing barriers that prevent girls from attending
+                school, such as cultural norms, financial constraints, and
+                safety concerns. The program aims to enhance access to
                 education, improve the quality of teaching, and create a
                 conducive learning environment for girls. By educating girls, it
                 fosters their empowerment and active participation in society.
@@ -38,7 +38,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f54b35] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Empowering Women in Politics
+                Women Political Advocate Empowerment Program(WPAEP)
               </h1>
               <p className="font-mont">
                 This program seeks to encourage and support women to participate
@@ -53,12 +53,12 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f54b35] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Women Entrepreneurship Empowerment Programs
+                Women Entrepreneurship Empowerment Programs(WEEP)
               </h1>
               <p className="font-mont">
                 This program focuses on supporting aspiring and existing women
                 entrepreneurs. It offers training in business skills, financial
-                literacy, access to funding opportunities, networking, and
+                literacy, and access to funding opportunities, networking, and
                 mentorship. Additionally, it assists in navigating legal and
                 regulatory frameworks to formalize businesses. Empowering women
                 in entrepreneurship contributes to economic growth, job
@@ -68,8 +68,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f54b35] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Women-Owned Enterprise Empowerment Programs (Formalize Their
-                Business)
+                Women-Owned Enterprise Empowerment Programs(WOEEP)
               </h1>
               <p className="font-mont">
                 This initiative emphasizes the formalization of women-owned
@@ -83,7 +82,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f54b35] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Adolescent Girl Empowerment Program
+                Adolescent Girl Empowerment Program(AGEP)
               </h1>
               <p className="font-mont">
                 Tailored for adolescent girls, this program focuses on building
@@ -96,23 +95,90 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f54b35] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Women in Tech Empowerment Programs
+                Women in Community Development and Farming Empowerment
+                Programs(WCDFEP)
+              </h1>
+              <p className="font-mont">
+                These programs support and empower women actively engaged in
+                community development and farming. They provide training on
+                sustainable agricultural practices, financial management, and
+                leadership skills. By empowering women in these vital sectors,
+                the programs aim to enhance their productivity, income, and
+                influence in community development initiatives.
+              </p>
+            </div>
+            <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f54b35] border-[1px]">
+              <h1 className="lg:text-3xl text-xl font-semibold pb-3">
+                Women in Tech Empowerment Program(WTEP)
               </h1>
               <p className="font-mont">
                 This initiative focuses on empowering women to pursue careers
                 and leadership roles in the technology sector. It includes
                 training in technical skills, mentorship, networking
                 opportunities, and support to overcome gender-related challenges
-                in the tech industry. Encouraging women's participation in tech
-                contributes to innovation, diversity, and the overall growth of
-                the tech ecosystem.
-                <br />
-                <br />
-                These gender equality and social inclusion initiatives
-                collectively work towards creating a more equitable society by
-                empowering women and girls, fostering their active participation
-                in various spheres of life, and promoting positive change at
-                both individual and community levels.
+                in the tech industry. Encouraging women&#39;s participation in
+                tech contributes to innovation, diversity, and the overall
+                growth of the tech ecosystem.
+              </p>
+            </div>
+            <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f54b35] border-[1px]">
+              <h1 className="lg:text-3xl text-xl font-semibold pb-3">
+                Ghana Entrepreneurship Bootcamp For Young and Adult
+                Women(GEBYAW)
+              </h1>
+              <p className="font-mont">
+                This is an intensive entrepreneurship bootcamp designed
+                specifically for young and adult women in Ghana. This program
+                aims to provide participants with the essential knowledge,
+                skills, and resources needed to kick start their entrepreneurial
+                journey or take their existing businesses to new heights.
+                Through a series of interactive workshops, mentorship sessions,
+                and networking opportunities, this program empowers women of all
+                ages to pursue their entrepreneurial aspirations and contribute
+                to economic development.
+              </p>
+            </div>
+            <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f54b35] border-[1px]">
+              <h1 className="lg:text-3xl text-xl font-semibold pb-3">
+                Ghana Academy of Women Entrepreneurs (GAWE)
+              </h1>
+              <p className="font-mont">
+                The Ghana Academy of Women Entrepreneurship is a pioneering
+                initiative aimed at empowering women in Ghana to excel in
+                entrepreneurship and business. GAWE seeks to provide
+                comprehensive support through various programs, workshops, and
+                financial assistance to equip women with the necessary skills,
+                knowledge, and resources to thrive in the competitive business
+                landscape.
+              </p>
+            </div>
+            <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f54b35] border-[1px]">
+              <h1 className="lg:text-3xl text-xl font-semibold pb-3">
+                Ghana Young Farmers Empowerment Program(GYFEP)
+              </h1>
+              <p className="font-mont">
+                The Ghana Farmers Empowerment Program is a dynamic initiative
+                designed to empower farmers in Ghana, prioritizing
+                gender-inclusive participation. This program aims to equip
+                farmers with vital skills, knowledge, and resources to elevate
+                their agricultural practices, enhance productivity, and drive
+                economic empowerment.
+              </p>
+            </div>
+            <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#f54b35] border-[1px]">
+              <h1 className="lg:text-3xl text-xl font-semibold pb-3">
+                Ghana Agri-business Empowerment Program(GABEP):
+              </h1>
+              <p className="font-mont">
+                Ghana Agribusiness Empowerment Program is a pioneering
+                initiative aimed at revolutionizing the agricultural sector by
+                equipping farmers with the knowledge, skills, and resources
+                necessary to thrive in today&#39;s competitive market. Through a
+                series of workshops, training, mentorship programs, and
+                networking opportunities, participants will gain invaluable
+                insights and practical strategies to optimize their farming
+                practices, increase productivity, and achieve sustainable
+                success.
               </p>
             </div>
           </div>

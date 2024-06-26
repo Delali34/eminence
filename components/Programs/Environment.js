@@ -23,7 +23,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#8533f0] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Climate Change Education Programs
+                Climate Change Education Program(CCEP)
               </h1>
               <p className="font-mont">
                 These programs are designed to educate individuals, communities,
@@ -37,7 +37,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#8533f0] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Environmental Waste Management Program
+                The Environmental and Waste Management Program(EWMP)
               </h1>
               <p className="font-mont">
                 This program focuses on waste reduction, recycling, and proper
@@ -51,7 +51,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#8533f0] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Women in Afforestation Empowerment Program
+                Women in Afforestation Empowerment Program(WAEP)
               </h1>
               <p className="font-mont">
                 This initiative aims to empower women by involving them in
@@ -65,7 +65,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#8533f0] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Youth in Afforestation Empowerment Program
+                Ghana Youth in Afforestation Empowerment Program(GYAEP)
               </h1>
               <p className="font-mont">
                 This program engages youth in afforestation projects and
@@ -79,7 +79,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#8533f0] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                End-Climate Change Initiative Program
+                Ghana End-Climate Change Initiative Program(GECCIP)
               </h1>
               <p className="font-mont">
                 This initiative focuses on advocacy, policy development, and
@@ -93,7 +93,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#8533f0] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Youth in Environment Protection Program
+                Ghana Youth in Environment Protection Campaign Program(GYEPCP)
               </h1>
               <p className="font-mont">
                 This program empowers youth to take a leading role in

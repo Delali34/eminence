@@ -10,7 +10,9 @@ const Footer = () => {
       <div className="container mx-auto grid md:grid-cols-3 gap-8">
         {/* First Column */}
         <div>
-          <h3 className="text-xl font-bold mb-4">EminenceLead International</h3>
+          <h3 className="text-xl font-bold mb-4">
+            Eminence Lead International
+          </h3>
           <p>Creating Hope and Igniting Greatness</p>
           <div className="flex space-x-4 mt-4">
             <a
@@ -106,7 +108,7 @@ const Footer = () => {
       </div>
       <hr className="mt-8" />
       <div className="mt-8 text-center">
-        © 2024 EminenceLead International. All rights reserved.
+        © 2024 Eminence Lead International. All rights reserved.
       </div>
     </div>
   );

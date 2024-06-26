@@ -55,20 +55,20 @@ function Programs() {
               </div>
               <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#06FF31] border-[1px]">
                 <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                  Ignite for Success (SPARK)
+                  Spark The Future (STF)
                 </h1>
                 <p className="font-mont">
-                  This is a comprehensive 3-day mentorship program designed for
-                  students at various levels of education - from basic schools
-                  to senior high schools and tertiary institutions. The aim is
-                  to ignite a passion for learning, instill confidence, and
-                  provide tools and strategies to help students succeed
-                  academically and in life.
+                  This is a comprehensive mentorship and empowerment program
+                  designed for students at various levels of education - from
+                  basic schools to senior high schools and tertiary
+                  institutions. The aim is to ignite a passion for learning,
+                  instill confidence, and provide tools and strategies to help
+                  students succeed academically and in life.
                 </p>
               </div>
               <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#06FF31] border-[1px]">
                 <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                  Teacher Transformational Program
+                  Teacher Empowerment Program (TEP)
                 </h1>
                 <p className="font-mont">
                   This 3-day program is focused on equipping teachers with the
@@ -81,11 +81,11 @@ function Programs() {
               </div>
               <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#06FF31] border-[1px]">
                 <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                  School Management and Engagement Programs
+                  School Management Engagement Programs(SMEP)
                 </h1>
                 <p className="font-mont">
-                  This 3-day workshop is targeted at school managers, head of
-                  schools, the minister of education, and other stakeholders in
+                  This program is targeted at school managers, head of schools,
+                  the minister of education, and other stakeholders in
                   education. The program aims to enhance their understanding of
                   effective school management strategies, fostering a
                   collaborative and conducive learning environment. It
@@ -95,30 +95,29 @@ function Programs() {
               </div>
               <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#06FF31] border-[1px]">
                 <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                  Heads of School Mentorship Program
+                  Heads of School Mentorship Program(HSMP)
                 </h1>
                 <p className="font-mont">
-                  Scheduled quarterly across all regions, this 3-day mentorship
-                  program aims to provide guidance and support to heads of
-                  schools. The focus is on leadership development, effective
-                  decision-making, and strategies to enhance overall school
-                  performance. The mentorship program provides a platform for
-                  sharing best practices and addressing challenges faced by
-                  school leaders.
+                  This is a mentorship program aims to provide guidance and
+                  support to heads of schools. The focus is on leadership
+                  development, effective decision-making, and strategies to
+                  enhance overall school performance. The mentorship program
+                  provides a platform for sharing best practices and addressing
+                  challenges faced by school leaders.
                 </p>
               </div>
               <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#06FF31] border-[1px]">
                 <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                  Learning to Learn to Excel
+                  Igniting- For-Success (IFS)
                 </h1>
                 <p className="font-mont">
-                  Tailored for junior high school through senior high school
-                  students, this program spans across several days. It focuses
-                  on helping students develop essential learning skills and soft
-                  skills necessary for academic success and personal growth. The
-                  methodology emphasizes effective learning techniques, time
-                  management, critical thinking, and exam preparation strategies
-                  to reduce final year failure rates.
+                  This program is tailored for junior high school through senior
+                  high school students, this program spans across several days.
+                  It focuses on helping students develop essential learning
+                  skills and soft skills necessary for academic success and
+                  personal growth. The methodology emphasizes effective learning
+                  techniques, time management, critical thinking, and exam
+                  preparation strategies to reduce final year failure rates.
                 </p>
               </div>
               <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#06FF31] border-[1px]">

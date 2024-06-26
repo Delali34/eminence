@@ -23,7 +23,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#ff32f5] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                End-Poverty Initiative Programs
+                Ghana End-Poverty Initiative Program (GEPIP)
               </h1>
               <p className="font-mont">
                 These encompass a comprehensive set of activities and campaigns
@@ -35,7 +35,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#ff32f5] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Hope for the Poor Initiative Program
+                Hope for the Poor Initiative Program(HPIP)
               </h1>
               <p className="font-mont">
                 This program is designed to provide hope and support to
@@ -49,7 +49,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#ff32f5] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Poverty Education Programs
+                Poverty Education and Mitigation Program(PEMP)
               </h1>
               <p className="font-mont">
                 These programs focus on educating individuals and communities

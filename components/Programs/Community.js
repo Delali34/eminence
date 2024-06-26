@@ -38,7 +38,7 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#35f5bb] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                Youth in Community Initiative Development Programs:
+                Youth in Community Initiative Development Program(YCIDP)
               </h1>
               <p className="font-mont">
                 This initiative is designed to engage and empower youth within
