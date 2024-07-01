@@ -35,7 +35,6 @@ const Page = ({ params }) => {
   return (
     <section>
       <Navbar2 />
-      <Mobilebar />
 
       <div className="bg-white h-[100%]">
         <PostDetail post={post} />

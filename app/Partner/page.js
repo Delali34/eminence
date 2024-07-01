@@ -15,7 +15,7 @@ const BecomePartnerForm = () => {
   return (
     <div className=" bg2">
       <Navbar2 />
-      <Mobilebar />
+
       <div></div>
       <div className="container mx-auto px-4 font-mont">
         {isSubmitted ? (

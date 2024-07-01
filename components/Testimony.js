@@ -78,7 +78,7 @@ export default function Testimonials() {
               transition={{ duration: 0.5 }}
               className="text-center"
             >
-              <blockquote className="md:text-sm text-[10px] italic  text-gray-700 mb-8">
+              <blockquote className="md:text-sm text-[10px] italic text-gray-700 mb-8">
                 "{testimonials[currentIndex].text}"
               </blockquote>
               <cite className="block font-semibold text-sm text-gray-900">
@@ -89,7 +89,7 @@ export default function Testimonials() {
               </p>
             </motion.div>
           </AnimatePresence>
-          <div className="absolute top-1/2 transform -translate-y-1/2 left-0">
+          <div className="flex justify-between mt-8">
             <button
               onClick={prevTestimonial}
               className="bg-orange-500 text-white rounded-full p-2 hover:bg-orange-600 transition-colors duration-300"
@@ -109,8 +109,6 @@ export default function Testimonials() {
                 />
               </svg>
             </button>
-          </div>
-          <div className="absolute top-1/2 transform -translate-y-1/2 right-0">
             <button
               onClick={nextTestimonial}
               className="bg-orange-500 text-white rounded-full p-2 hover:bg-orange-600 transition-colors duration-300"

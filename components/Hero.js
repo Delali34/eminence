@@ -7,7 +7,6 @@ import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 function Hero() {
   const images = [
     "/river.jpg",
-
     "/annie-spratt-2rMn97DPTdU-unsplash.jpg",
     "/education.jpg",
     "/community.jpg",
@@ -44,14 +43,14 @@ function Hero() {
   };
 
   return (
-    <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32">
+    <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32 ">
       <motion.div
         initial={{ opacity: 0, y: 20 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
         className="text-center mb-16"
       >
-        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-extrabold text-white leading-tight mb-6">
+        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-extrabold text-purple-900 leading-tight mb-6">
           <motion.span
             className="block"
             variants={textVariants}
@@ -71,7 +70,7 @@ function Hero() {
             and Igniting
           </motion.span>
           <motion.span
-            className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600"
+            className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-400"
             variants={textVariants}
             initial="hidden"
             animate="visible"
@@ -102,37 +101,32 @@ function Hero() {
               alt={`Slide ${currentImageIndex + 1}`}
               layout="fill"
               objectFit="cover"
+              className="filter contrast-125"
             />
           </motion.div>
         </AnimatePresence>
 
-        <motion.button
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
+        <button
           onClick={prevImage}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-75 transition-all"
+          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-purple-800 bg-opacity-50 text-white p-2 rounded-full"
         >
-          <FaChevronLeft size={28} />
-        </motion.button>
-        <motion.button
-          whileHover={{ scale: 1.1 }}
-          whileTap={{ scale: 0.9 }}
+          <FaChevronLeft size={20} />
+        </button>
+        <button
           onClick={nextImage}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-3 rounded-full hover:bg-opacity-75 transition-all"
+          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-purple-800 bg-opacity-50 text-white p-2 rounded-full"
         >
-          <FaChevronRight size={28} />
-        </motion.button>
+          <FaChevronRight size={20} />
+        </button>
       </motion.div>
 
       <div className="flex justify-center mt-6">
         {images.map((_, index) => (
-          <motion.button
+          <button
             key={index}
-            whileHover={{ scale: 1.2 }}
-            whileTap={{ scale: 0.8 }}
             onClick={() => setCurrentImageIndex(index)}
-            className={`w-4 h-4 rounded-full mx-2 ${
-              index === currentImageIndex ? "bg-white" : "bg-gray-400"
+            className={`w-3 h-3 rounded-full mx-2 ${
+              index === currentImageIndex ? "bg-purple-800" : "bg-purple-200"
             }`}
           />
         ))}

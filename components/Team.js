@@ -2,150 +2,142 @@
 import React, { useState } from "react";
 import { Team } from "./Roles";
 import { Board } from "./Board";
-import { AiFillCloseCircle } from "react-icons/ai";
-import Link from "next/link";
+import { motion, AnimatePresence } from "framer-motion";
+import { IoCloseCircle } from "react-icons/io5";
 import Image from "next/image";
 
 function Teams() {
-  const [popupcontent, setpopupcontent] = useState([]);
-  const [popuptoggle, setpopuptoggle] = useState(false);
+  const [selectedPerson, setSelectedPerson] = useState(null);
 
-  const changecontent = (board) => {
-    if (board) {
-      setpopupcontent([board]);
-      document.body.style.overflow = "hidden";
-    } else {
-      setpopupcontent([]);
-      document.body.style.overflow = "auto";
-    }
-    setpopuptoggle(!popuptoggle);
+  const openPopup = (person) => {
+    setSelectedPerson(person);
+    document.body.style.overflow = "hidden";
   };
 
+  const closePopup = () => {
+    setSelectedPerson(null);
+    document.body.style.overflow = "auto";
+  };
+
+  const PersonCard = ({ person }) => (
+    <motion.div
+      className="bg-white rounded-lg shadow-md overflow-hidden transform transition duration-300 hover:shadow-lg"
+      whileHover={{ y: -5 }}
+    >
+      <div className="relative h-80 w-full">
+        <Image
+          layout="fill"
+          objectFit="contain"
+          src={person.image}
+          alt={person.name}
+        />
+      </div>
+      <div className="p-4 bg-white border-t border-gray-200">
+        <h3 className="text-xl font-bold text-gray-800">{person.name}</h3>
+        <p className="text-sm text-purple-600">{person.position}</p>
+      </div>
+      <motion.button
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.95 }}
+        className="w-full py-2 bg-purple-600 text-white font-semibold hover:bg-purple-700 transition duration-300"
+        onClick={() => openPopup(person)}
+      >
+        Learn More
+      </motion.button>
+    </motion.div>
+  );
+
   return (
-    <div className="bg">
-      <style>
-        {`
-        body {
-          overflow: ${popuptoggle ? "hidden" : "auto"};
-        }
-        .pop-up-body {
-          overflow-y: scroll;
-        }
-      `}
-      </style>
-      <div className="max-w-7xl mx-auto pt-20 pb-40 px-10">
-        <div className="flex justify-center ">
-          <h1 className="lg:text-4xl border-white border-2 font-mont font-semibold text-white md:text-3xl text-2xl text-center md:text-start p-4 rounded-[60px] ">
-            Meet the Team
-          </h1>
-        </div>
-        <div className="grid lg:grid-cols-3 gap-5 place-items-center md:grid-cols-2 grid-cols-1">
-          {Team.map((board, index) => {
-            return (
-              <div key={index} className="p-10">
-                <div
-                  className="relative h-[350px] w-[300px] "
-                  onClick={() => changecontent(board)}
-                >
-                  <Image layout="fill" src={board.image} className="" alt="" />
-                  <div className="overlay-text flex justify-center items-center w-full text-white hover:underline cursor-pointer absolute bottom-4 right-0 left-0">
-                    <div className="bg2 border-black border rounded-[40px] w-[250px] mx-auto p-2">
-                      <h1 className="font-extrabold font-mont  text-[17px] text-center text-black">
-                        {board.name}
-                      </h1>
-                      <h1 className="font-mont text-center font-semibold text-black text-[14px]">
-                        {board.position}
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
+    <div className="bg-gray-50 min-h-screen py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.h1
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-4xl font-extrabold text-center text-gray-900 mb-12"
+        >
+          Meet Our Team
+        </motion.h1>
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {Team.map((person, index) => (
+            <PersonCard key={index} person={person} />
+          ))}
         </div>
 
-        {popuptoggle && (
-          <div
-            className="pop-up-container z-[1001] overflow-scroll fixed top-0 bottom-0 right-0 left-0 bg-[rgb(0.0,0.0,0.0,0.6)] "
-            onClick={() => changecontent()}
-          >
-            <div className="pop-up-body md:w-[500px] w-[300px]  fixed top-0 bottom-0 bg2  right-0  h-[100%] ">
-              <div
-                onClick={() => changecontent()}
-                className="pop-header justify-between flex text-center p-2 md:text-4xl text-2xl font-normal cursor-pointer bg2 text-black "
-              >
-                <button>
-                  <AiFillCloseCircle className=" text-black hover:text-black" />
-                </button>
-              </div>
-              <div className="pop-up-content">
-                {popupcontent.map((pop, index) => {
-                  return (
-                    <div key={index} className="pop-up-card md:p-5 p-2">
-                      <div className="md:px-32 md:pt-20 md:pb-10 pt-5 px-10 pb-5">
-                        <Image
-                          width={500}
-                          height={500}
-                          src={pop.image}
-                          alt=""
-                        />
-                      </div>
-
-                      <p className="text-center md:text-3xl text-black text-2xl font-bold">
-                        {pop.name}
-                      </p>
-                      <p className="text-center md:text-2xl text-[17px] text-purple-600 pt-5">
-                        {pop.position}
-                      </p>
-                      <p className="md:text-[18px] text-sm pt-2 px-5 text-black leading-7  pb-5 md:pb-0 ">
-                        {pop.details}
-                      </p>
-                      <p className="md:text-[18px] text-sm  pt-2 px-5 text-black  leading-7  pb-5 md:pb-0 ">
-                        {pop.details2}
-                      </p>
-                      <p className="md:text-[18px] text-sm pt-2 px-5 text-black  leading-7 pb-5 md:pb-0 ">
-                        {pop.details3}
-                      </p>
-                      <p className="md:text-[18px] text-sm pt-2  px-5 text-black  leading-7  pb-40  md:pb-0">
-                        {pop.points}
-                      </p>
-                    </div>
-                  );
-                })}
-              </div>
-            </div>
-          </div>
-        )}
-        <div className="flex justify-center ">
-          <h1 className="lg:text-4xl border-white border-2 font-mont font-semibold mt-10 text-white md:text-3xl text-2xl text-center md:text-start p-4 rounded-[60px] ">
-            Board Of Directors
-          </h1>
-        </div>
-        <div className="grid lg:grid-cols-3 gap-5 place-items-center md:grid-cols-2 grid-cols-1">
-          {Board.map((board, index) => {
-            return (
-              <div key={index} className="p-10">
-                <div
-                  className="relative h-[350px] w-[300px] "
-                  onClick={() => changecontent(board)}
-                >
-                  <Image layout="fill" src={board.image} className="" alt="" />
-                  <div className="overlay-text flex justify-center items-center w-full text-white hover:underline cursor-pointer absolute bottom-4 right-0 left-0">
-                    <div className="bg2 border-black border rounded-[40px] w-[250px] mx-auto p-2">
-                      <h1 className="font-extrabold font-mont  text-[17px] text-center text-black">
-                        {board.name}
-                      </h1>
-                      <h1 className="font-mont text-center font-semibold text-black text-[14px]">
-                        {board.position}
-                      </h1>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            );
-          })}
+        <motion.h1
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="text-4xl font-extrabold text-center text-gray-900 my-12"
+        >
+          Board of Directors
+        </motion.h1>
+        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+          {Board.map((person, index) => (
+            <PersonCard key={index} person={person} />
+          ))}
         </div>
       </div>
+
+      <AnimatePresence>
+        {selectedPerson && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            className="fixed inset-0 bg-black bg-opacity-50 z-50 flex items-center justify-center p-4"
+            onClick={closePopup}
+          >
+            <motion.div
+              initial={{ scale: 0.9, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              exit={{ scale: 0.9, opacity: 0 }}
+              className="bg-white rounded-lg shadow-xl w-full max-w-4xl max-h-[90vh] overflow-y-auto"
+              onClick={(e) => e.stopPropagation()}
+            >
+              <div className="sticky top-0 bg-white p-4 flex justify-between items-center border-b border-gray-200">
+                <h2 className="text-xl sm:text-2xl font-bold text-gray-900 truncate mr-2">
+                  {selectedPerson.name}
+                </h2>
+                <button
+                  onClick={closePopup}
+                  className="text-gray-500 hover:text-purple-600 flex-shrink-0"
+                >
+                  <IoCloseCircle size={24} />
+                </button>
+              </div>
+              <div className="p-6">
+                <div className="mb-6 flex justify-center">
+                  <div className="relative w-48 h-48 md:w-64 md:h-64">
+                    <Image
+                      layout="fill"
+                      objectFit="contain"
+                      src={selectedPerson.image}
+                      alt={selectedPerson.name}
+                      className="rounded-full"
+                    />
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-purple-600 mb-2">
+                  {selectedPerson.position}
+                </h3>
+                <p className="text-gray-700 mb-4">{selectedPerson.details}</p>
+                {selectedPerson.details2 && (
+                  <p className="text-gray-700 mb-4">
+                    {selectedPerson.details2}
+                  </p>
+                )}
+                {selectedPerson.details3 && (
+                  <p className="text-gray-700 mb-4">
+                    {selectedPerson.details3}
+                  </p>
+                )}
+                {selectedPerson.points && (
+                  <p className="text-gray-700">{selectedPerson.points}</p>
+                )}
+              </div>
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </div>
   );
 }

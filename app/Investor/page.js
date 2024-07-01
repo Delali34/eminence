@@ -17,7 +17,7 @@ const BecomeInvestorForm = () => {
   return (
     <div className="bg2 font-mont">
       <Navbar2 />
-      <Mobilebar />
+
       <div className="container mx-auto px-5">
         {isSubmitted ? (
           <div className="max-w-2xl mx-auto my-10 p-4 border border-green-500 rounded">

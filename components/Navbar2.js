@@ -39,7 +39,7 @@ function Navbar() {
     "Programs",
     "Contact",
     "Gallery",
-    "Blog",
+    "blog",
   ];
 
   const menuVariants = {
@@ -126,7 +126,7 @@ function Navbar() {
               onClick={() => setIsOpen(!isOpen)}
               className="text-black focus:outline-none"
             >
-              {isOpen ? <HiX size={24} /> : <HiMenu size={24} />}
+              {isOpen ? <HiX size={32} /> : <HiMenu size={32} />}
             </motion.button>
           </div>
         </div>

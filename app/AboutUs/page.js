@@ -8,7 +8,7 @@ function page() {
   return (
     <div>
       <Navbar />
-      <Mobilebar />
+
       <AboutUs />
       <Teams />
     </div>

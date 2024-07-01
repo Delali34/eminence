@@ -112,10 +112,10 @@ function Support() {
                 />
               </div>
               <div className="lg:w-1/2 lg:px-12">
-                <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-white">
+                <h2 className="text-2xl font-header lg:text-4xl font-bold mb-4 text-white">
                   {area.title}
                 </h2>
-                <p className="text-gray-300 mb-6">{area.description}</p>
+                <p className="text-white mb-6">{area.description}</p>
                 <Link href={area.link}>
                   <motion.button
                     className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
