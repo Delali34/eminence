@@ -7,7 +7,7 @@ const CampaignPage = () => {
   return (
     <div className="bg2">
       <Navbar />
-      <Mobilebar />
+
       <section className="max-w-7xl mx-auto pb-5">
         <div className="relative h-[400px] w-full">
           <Image

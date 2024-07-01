@@ -7,7 +7,7 @@ function page() {
   return (
     <div>
       <Navbar />
-      <Mobilebar />
+
       <Programs />
     </div>
   );

@@ -12,7 +12,6 @@ function page() {
   return (
     <div>
       <Navbar />
-      <Mobilebar />
 
       <div className="bg2">
         <div className="max-w-7xl mx-auto pb-10">
