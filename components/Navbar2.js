@@ -137,10 +137,10 @@ function Navbar() {
           <>
             <motion.div
               initial={{ opacity: 0 }}
-              animate={{ opacity: 0.5 }}
+              animate={{ opacity: 0.75 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.3 }}
-              className="fixed inset-0 bg-black z-40"
+              className="fixed inset-0 bg-gray-900 z-40 backdrop-blur-md"
               onClick={() => setIsOpen(false)}
             />
             <motion.div
