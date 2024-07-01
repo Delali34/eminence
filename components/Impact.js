@@ -45,8 +45,8 @@ const Stories = () => {
   return (
     <div className="bg-white lg:p-10 px-3 pb-3">
       <div className="max-w-7xl mx-auto pt-16">
-        <h1 className="lg:text-5xl text-3xl text-center font-header font-bold mb-20">
-          Watch what we are about
+        <h1 className="lg:text-4xl text-2xl text-center font-header font-bold mb-20">
+          Building a better Tomorrow, Today
         </h1>
         <div className="mb-10">
           <div className="relative w-full lg:pt-[35%] pt-[56.56%]">

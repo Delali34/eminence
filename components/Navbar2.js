@@ -39,7 +39,7 @@ function Navbar() {
     "Programs",
     "Contact",
     "Gallery",
-    "blog",
+    "Blog",
   ];
 
   const menuVariants = {
@@ -134,51 +134,61 @@ function Navbar() {
 
       <AnimatePresence>
         {isOpen && (
-          <motion.div
-            initial="closed"
-            animate="open"
-            exit="closed"
-            variants={menuVariants}
-            ref={menuRef}
-            className="fixed top-0 right-0 bottom-0 w-72 bg3 shadow-2xl p-6 overflow-y-auto lg:hidden"
-          >
-            <div className="flex justify-end mb-8">
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                onClick={() => setIsOpen(false)}
-                className="text-black focus:outline-none"
-              >
-                <HiX size={24} />
-              </motion.button>
-            </div>
-            {menuItems.map((item) => (
-              <motion.div key={item} variants={itemVariants}>
-                <Link
-                  href={item === "Home" ? "/" : `/${item.replace(" ", "")}`}
+          <>
+            <motion.div
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 0.5 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.3 }}
+              className="fixed inset-0 bg-black z-40"
+              onClick={() => setIsOpen(false)}
+            />
+            <motion.div
+              initial="closed"
+              animate="open"
+              exit="closed"
+              variants={menuVariants}
+              ref={menuRef}
+              className="fixed top-0 right-0 bottom-0 w-72 bg3 shadow-2xl p-6 overflow-y-auto lg:hidden z-50"
+            >
+              <div className="flex justify-end mb-8">
+                <motion.button
+                  whileHover={{ scale: 1.1 }}
+                  whileTap={{ scale: 0.9 }}
                   onClick={() => setIsOpen(false)}
+                  className="text-black focus:outline-none"
                 >
-                  <motion.span
-                    className="block py-3 text-lg font-semibold text-black hover:text-[#680070] transition-colors duration-300"
-                    whileHover={{ x: 10 }}
+                  <HiX size={24} />
+                </motion.button>
+              </div>
+              {menuItems.map((item) => (
+                <motion.div key={item} variants={itemVariants}>
+                  <Link
+                    href={item === "Home" ? "/" : `/${item.replace(" ", "")}`}
+                    onClick={() => setIsOpen(false)}
                   >
-                    {item}
-                  </motion.span>
+                    <motion.span
+                      className="block py-3 text-lg font-semibold text-black hover:text-[#680070] transition-colors duration-300"
+                      whileHover={{ x: 10 }}
+                    >
+                      {item}
+                    </motion.span>
+                  </Link>
+                </motion.div>
+              ))}
+              <motion.div variants={itemVariants} className="mt-8">
+                <Link href="/Donate" onClick={() => setIsOpen(false)}>
+                  <motion.button
+                    className="w-full px-6 py-3 rounded-[5px] text-white font-semibold bg-[#680070] hover:bg-[#000] transition-colors duration-300"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    Donate
+                  </motion.button>
                 </Link>
               </motion.div>
-            ))}
-            <motion.div variants={itemVariants} className="mt-8">
-              <Link href="/Donate" onClick={() => setIsOpen(false)}>
-                <motion.button
-                  className="w-full px-6 py-3 rounded-[5px] text-white font-semibold bg-[#680070] hover:bg-[#000] transition-colors duration-300"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  Donate
-                </motion.button>
-              </Link>
             </motion.div>
-          </motion.div>
+          </>
         )}
       </AnimatePresence>
     </nav>
