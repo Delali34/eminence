@@ -72,7 +72,7 @@ function Hero() {
             </span>
           </motion.h1>
           <motion.p
-            className="text-xl sm:text-2xl text-gray-200 max-w-3xl mx-auto"
+            className="text-sm sm:text-xl text-gray-200 max-w-3xl mx-auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1, delay: 1 }}
