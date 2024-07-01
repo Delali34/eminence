@@ -45,11 +45,11 @@ const Stories = () => {
   return (
     <div className="bg-white lg:p-10 px-3 pb-3">
       <div className="max-w-7xl mx-auto pt-16">
-        <h1 className="lg:text-6xl text-4xl text-center font-header font-bold mb-20">
+        <h1 className="lg:text-5xl text-3xl text-center font-header font-bold mb-20">
           Watch what we are about
         </h1>
         <div className="mb-10">
-          <div className="relative w-full pt-[35%]">
+          <div className="relative w-full lg:pt-[35%] pt-[56.56%]">
             <iframe
               src="https://www.youtube.com/embed/N7YpWLmL6JU"
               title="One.org | Unlocking the power of data with Data Commons"
