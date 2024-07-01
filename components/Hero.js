@@ -2,7 +2,6 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import { motion, AnimatePresence } from "framer-motion";
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 function Hero() {
   const images = [
@@ -27,110 +26,100 @@ function Hero() {
     return () => clearInterval(interval);
   }, [images]);
 
-  const nextImage = () => {
-    setCurrentImageIndex((prevIndex) => (prevIndex + 1) % images.length);
-  };
-
-  const prevImage = () => {
-    setCurrentImageIndex(
-      (prevIndex) => (prevIndex - 1 + images.length) % images.length
-    );
-  };
-
-  const textVariants = {
-    hidden: { opacity: 0, y: 20 },
-    visible: { opacity: 1, y: 0 },
-  };
-
   return (
-    <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24 lg:py-32 ">
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.8 }}
-        className="text-center mb-16"
-      >
-        <h1 className="text-5xl sm:text-7xl lg:text-8xl font-extrabold text-purple-900 leading-tight mb-6">
-          <motion.span
-            className="block"
-            variants={textVariants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 0.2, duration: 0.5 }}
-          >
-            Creating Hope
-          </motion.span>
-          <motion.span
-            className="block"
-            variants={textVariants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 0.4, duration: 0.5 }}
-          >
-            and Igniting
-          </motion.span>
-          <motion.span
-            className="block text-transparent bg-clip-text bg-gradient-to-r from-purple-600 to-yellow-400"
-            variants={textVariants}
-            initial="hidden"
-            animate="visible"
-            transition={{ delay: 0.6, duration: 0.5 }}
-          >
-            Greatness
-          </motion.span>
-        </h1>
-      </motion.div>
+    <div className="relative h-screen w-full overflow-hidden">
+      <AnimatePresence initial={false}>
+        <motion.div
+          key={currentImageIndex}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          transition={{ duration: 1 }}
+          className="absolute inset-0"
+        >
+          <Image
+            src={images[currentImageIndex]}
+            alt={`Background ${currentImageIndex + 1}`}
+            layout="fill"
+            objectFit="cover"
+            quality={100}
+          />
+        </motion.div>
+      </AnimatePresence>
 
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.8 }}
-        className="relative h-[300px] sm:h-[400px] lg:h-[600px] overflow-hidden rounded-lg shadow-2xl"
-      >
-        <AnimatePresence initial={false}>
-          <motion.div
-            key={currentImageIndex}
+      <div className="absolute inset-0 bg-black bg-opacity-50" />
+
+      <div className="absolute inset-0 flex items-center justify-center">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          className="text-center px-4"
+        >
+          <motion.h1
+            className="text-4xl sm:text-6xl lg:text-7xl font-extrabold text-white leading-tight mb-6"
+            initial={{ scale: 0.9 }}
+            animate={{ scale: 1 }}
+            transition={{
+              duration: 0.8,
+              yoyo: Infinity,
+              ease: "easeInOut",
+            }}
+          >
+            Creating Hope and Igniting{" "}
+            <span className="text-transparent bg-clip-text animate-gradient-text">
+              Greatness
+            </span>
+          </motion.h1>
+          <motion.p
+            className="text-xl sm:text-2xl text-gray-200 max-w-3xl mx-auto"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ duration: 0.5 }}
-            className="absolute inset-0"
+            transition={{ duration: 1, delay: 1 }}
           >
-            <Image
-              src={images[currentImageIndex]}
-              alt={`Slide ${currentImageIndex + 1}`}
-              layout="fill"
-              objectFit="cover"
-              className="filter contrast-125"
-            />
-          </motion.div>
-        </AnimatePresence>
+            Empowering communities and transforming lives through innovative
+            solutions and compassionate action.
+          </motion.p>
+        </motion.div>
+      </div>
 
-        <button
-          onClick={prevImage}
-          className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-purple-800 bg-opacity-50 text-white p-2 rounded-full"
-        >
-          <FaChevronLeft size={20} />
-        </button>
-        <button
-          onClick={nextImage}
-          className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-purple-800 bg-opacity-50 text-white p-2 rounded-full"
-        >
-          <FaChevronRight size={20} />
-        </button>
-      </motion.div>
-
-      <div className="flex justify-center mt-6">
+      <div className="absolute bottom-8 left-0 right-0 flex justify-center">
         {images.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentImageIndex(index)}
             className={`w-3 h-3 rounded-full mx-2 ${
-              index === currentImageIndex ? "bg-purple-800" : "bg-purple-200"
+              index === currentImageIndex ? "bg-white" : "bg-gray-400"
             }`}
           />
         ))}
       </div>
+
+      <style jsx global>{`
+        @keyframes gradient-text {
+          0% {
+            background-position: 0% 50%;
+          }
+          50% {
+            background-position: 100% 50%;
+          }
+          100% {
+            background-position: 0% 50%;
+          }
+        }
+
+        .animate-gradient-text {
+          background-size: 300% 300%;
+          background-image: linear-gradient(
+            45deg,
+            #ff00cc,
+            #3333ff,
+            #00ff99,
+            #ff9933
+          );
+          animation: gradient-text 6s ease infinite;
+        }
+      `}</style>
     </div>
   );
 }
