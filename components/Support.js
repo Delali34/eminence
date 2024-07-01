@@ -108,7 +108,7 @@ function Support() {
                   width={500}
                   height={400}
                   alt={area.title}
-                  className="rounded-xl shadow-2xl object-cover w-full h-[400px]"
+                  className="rounded-xl shadow-2xl object-cover w-full h-[300px]"
                 />
               </div>
               <div className="lg:w-1/2 lg:px-12">
