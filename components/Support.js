@@ -2,273 +2,133 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-function FadeInSection(props) {
+
+function FadeInSection({ children, delay = 0 }) {
   const [ref, inView] = useInView({
-    threshold: 0.6,
-    triggerOnce: true, // Ensures the animation only happens once
+    threshold: 0.3,
+    triggerOnce: true,
   });
 
   return (
-    <div
+    <motion.div
       ref={ref}
-      className={`transition-transform transform ${
-        inView ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
-      }`}
+      initial={{ opacity: 0, y: 50 }}
+      animate={inView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+      transition={{ duration: 0.8, delay }}
     >
-      {props.children}
-    </div>
+      {children}
+    </motion.div>
   );
 }
 
 function Support() {
+  const focusAreas = [
+    {
+      title: "Leadership development programs",
+      description:
+        "Our Leadership Development Programs are meticulously crafted to nurture the potential of aspiring leaders, equipping them with the skills and insights needed to excel in today's dynamic business landscape.",
+      image: "/leadership.jpg",
+      link: "/Programs/#Leadership",
+    },
+    {
+      title: "Educational programs",
+      description:
+        "Welcome to our comprehensive range of educational programs designed to ignite curiosity, inspire creativity, and foster lifelong learning.",
+      image: "/school2.jpg",
+      link: "/Programs/#Education",
+    },
+    {
+      title: "Gender Equality and social inclusion",
+      description:
+        "Gender equality and social inclusion are fundamental principles that promote fairness, equal opportunities, and respect for all individuals, regardless of their gender, background, or identity.",
+      image: "/gender.jpg",
+      link: "/Programs/#Gender",
+    },
+    {
+      title: "Community Development",
+      description:
+        "At EMINENCE LEAD INTERNATIONAL, community development is about fostering a sense of belonging and collective responsibility.",
+      image: "/Play.jpg",
+      link: "/Programs/#Community",
+    },
+    {
+      title: "Poverty eradication",
+      description:
+        "Poverty eradication stands as a paramount global mission, representing the collective effort to eliminate the widespread and debilitating condition of living in destitution and lack.",
+      image: "/annie-spratt-2rMn97DPTdU-unsplash.jpg",
+      link: "/Programs/#Poverty",
+    },
+    {
+      title: "Human Right Advocacy",
+      description:
+        "Our mission is to raise awareness, advocate for change, and empower individuals and communities to stand up for their rights and the rights of others.",
+      image: "/human.jpg",
+      link: "/Programs/#Human",
+    },
+    {
+      title: "Governance",
+      description:
+        "Governance refers to the framework of rules, practices, and processes that guide and oversee the management and decision-making within an organization.",
+      image: "/part.jpg",
+      link: "/Programs/#Governance",
+    },
+    {
+      title: "Environmental Protection",
+      description:
+        "At EMINENCE LEAD INTERNATIONAL, we are committed to making a positive impact on our planet by prioritizing environmental protection as one of our key focus areas.",
+      image: "/water.jpg",
+      link: "/Programs/#Environment",
+    },
+  ];
+
   return (
-    <div className="bg">
-      <div className="hidden lg:flex">
-        {" "}
-        <div className="max-w-7xl mx-auto px-10">
-          <div>
-            <h1 className="font-bold text-5xl text-center py-10 text-white">
-              Focus Areas
-            </h1>
-          </div>
-          <FadeInSection>
-            {" "}
-            <div className=" flex lg:flex-row flex-col justify-between py-10 items-center gap-14">
-              <div className="lg:w-[50%] w-full">
-                <Image
-                  src="/leadership.jpg"
-                  width={500}
-                  height={700}
-                  alt=""
-                  className="lg:w-[500px] lg:h-[400px] w-[350px] h-[250px] object-cover rounded-xl"
-                />
-              </div>
-              <div className="lg:w-[50%] w-full">
-                <h1 className="text-white text-center lg:text-left lg:text-5xl text-xl md:text-3xl font-header font-extrabold">
-                  Leadership development programs
-                </h1>
-                <p className="text-white font-maintext text-center   lg:text-left  font-medium text-[18px] mt-3">
-                  Our Leadership Development Programs are meticulously crafted
-                  to nurture the potential of aspiring leaders, equipping them
-                  with the skills and insights needed to excel in today's
-                  dynamic business landscape.
-                </p>
-                <Link href="/Programs/#Leadership">
-                  <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
-                    <h1 className="text-center text-white">Read More</h1>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </FadeInSection>
-          <FadeInSection>
-            <div className=" flex lg:flex-row flex-col justify-between py-10 items-center gap-14">
-              <div className="lg:w-[50%] w-full">
-                <h1 className="text-white text-center lg:text-left lg:text-5xl text-3xl font-header font-extrabold">
-                  Educational programs
-                </h1>
-                <p className="text-white font-maintext font-medium text-[18px] mt-3">
-                  Welcome to our comprehensive range of educational programs
-                  designed to ignite curiosity, inspire creativity, and foster
-                  lifelong learning.
-                </p>
-                <Link href="/Programs/#Education">
-                  <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
-                    <h1 className="text-center text-white">Read More</h1>
-                  </div>
-                </Link>
-              </div>
-              <div className="w-[50%]">
-                <Image
-                  src="/school2.jpg"
-                  width={500}
-                  height={700}
-                  alt=""
-                  className="lg:w-[500px] lg:h-[400px] w-[350px] h-[250px] object-cover rounded-xl  "
-                />
-              </div>
-            </div>
-          </FadeInSection>
-          <FadeInSection>
-            <div className=" flex lg:flex-row flex-col justify-between py-10 items-center gap-14">
-              <div className="lg:w-[50%] w-full">
-                <Image
-                  src="/gender.jpg"
-                  width={500}
-                  height={700}
-                  alt=""
-                  className="lg:w-[500px] lg:h-[400px] w-[350px] h-[250px] object-cover rounded-xl  "
-                />
-              </div>
-              <div className="w-[50%]">
-                <h1 className="text-white lg:text-5xl text-3xl font-header font-extrabold">
-                  Gender Equality and social inclusion
-                </h1>
-                <p className="text-white font-maintext font-medium text-[18px] mt-3">
-                  Gender equality and social inclusion are fundamental
-                  principles that promote fairness, equal opportunities, and
-                  respect for all individuals, regardless of their gender,
-                  background, or identity.
-                </p>
-                <Link href="/Programs/#Gender">
-                  <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
-                    <h1 className="text-center text-white">Read More</h1>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </FadeInSection>
+    <div className="bg py-20">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <motion.h1
+          className="text-5xl font-bold text-center mb-16 text-white"
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8 }}
+        >
+          Focus Areas
+        </motion.h1>
 
-          <FadeInSection>
-            {" "}
-            <div className=" flex  lg:flex-row flex-col  justify-between py-10 items-center gap-14">
-              <div className="lg:w-[50%] w-full">
-                <h1 className="text-white lg:text-5xl text-3xl font-header font-extrabold">
-                  {" "}
-                  Community Development
-                </h1>
-                <p className="text-white font-maintext font-medium text-[18px] mt-3">
-                  At EMINENCE LEAD INTERNATIONAL, community development is about
-                  fostering a sense of belonging and collective responsibility.
-                </p>
-                <Link href="/Programs/#Community">
-                  <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
-                    <h1 className="text-center text-white">Read More</h1>
-                  </div>
-                </Link>
-              </div>
-              <div className="w-[50%]">
+        {focusAreas.map((area, index) => (
+          <FadeInSection key={area.title} delay={index * 0.2}>
+            <div
+              className={`flex flex-col ${
+                index % 2 === 0 ? "lg:flex-row" : "lg:flex-row-reverse"
+              } items-center justify-between mb-24`}
+            >
+              <div className="lg:w-1/2 mb-8 lg:mb-0">
                 <Image
-                  src="/Play.jpg"
+                  src={area.image}
                   width={500}
-                  height={700}
-                  alt=""
-                  className="lg:w-[500px] lg:h-[400px] w-[350px] h-[250px] object-cover rounded-xl  "
+                  height={400}
+                  alt={area.title}
+                  className="rounded-xl shadow-2xl object-cover w-full h-[400px]"
                 />
               </div>
-            </div>
-          </FadeInSection>
-
-          <FadeInSection>
-            {" "}
-            <div className=" flex lg:flex-row flex-col justify-between py-10 items-center gap-14">
-              <div className="lg:w-[50%] w-full">
-                <Image
-                  src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
-                  width={500}
-                  height={700}
-                  alt=""
-                  className="lg:w-[500px] lg:h-[400px] w-[350px] h-[250px] object-cover rounded-xl  "
-                />
-              </div>
-              <div className="w-[50%]">
-                <h1 className="text-white lg:text-5xl text-3xl font-header font-extrabold">
-                  Poverty eradication
-                </h1>
-                <p className="text-white font-maintext font-medium text-[18px] mt-3">
-                  Poverty eradication stands as a paramount global mission,
-                  representing the collective effort to eliminate the widespread
-                  and debilitating condition of living in destitution and lack
-                </p>
-                <Link href="/Programs/#Poverty">
-                  <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
-                    <h1 className="text-center text-white">Read More</h1>
-                  </div>
+              <div className="lg:w-1/2 lg:px-12">
+                <h2 className="text-3xl lg:text-4xl font-bold mb-4 text-white">
+                  {area.title}
+                </h2>
+                <p className="text-gray-300 mb-6">{area.description}</p>
+                <Link href={area.link}>
+                  <motion.button
+                    className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
+                    whileHover={{ scale: 1.05 }}
+                    whileTap={{ scale: 0.95 }}
+                  >
+                    Read More
+                  </motion.button>
                 </Link>
               </div>
             </div>
           </FadeInSection>
-
-          <FadeInSection>
-            <div className=" flex lg:flex-row flex-col justify-between py-10 items-center gap-14">
-              <div className="lg:w-[50%] w-fulllg">
-                <h1 className="text-white lg:text-5xl text-3xl font-header font-extrabold">
-                  Human Right Advocacy
-                </h1>
-                <p className="text-white font-maintext font-medium text-[18px] mt-3">
-                  Our mission is to raise awareness, advocate for change, and
-                  empower individuals and communities to stand up for their
-                  rights and the rights of others
-                </p>
-                <Link href="/Programs/#Human">
-                  <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
-                    <h1 className="text-center text-white">Read More</h1>
-                  </div>
-                </Link>
-              </div>
-              <div className="w-[50%]">
-                <Image
-                  src="/human.jpg"
-                  width={500}
-                  height={700}
-                  alt=""
-                  className="lg:w-[500px] lg:h-[400px] w-[350px] h-[250px] object-cover rounded-xl  "
-                />
-              </div>
-            </div>
-          </FadeInSection>
-
-          <FadeInSection>
-            {" "}
-            <div className=" flex lg:flex-row flex-col justify-between py-10 items-center gap-14">
-              <div className="lg:w-[50%] w-full">
-                <Image
-                  src="/part.jpg"
-                  width={500}
-                  height={700}
-                  alt=""
-                  className="lg:w-[500px] lg:h-[400px] w-[350px] h-[250px] object-cover rounded-xl  "
-                />
-              </div>
-              <div className="w-[50%]">
-                <h1 className="text-white lg:text-5xl text-3xl font-header font-extrabold">
-                  Governance
-                </h1>
-                <p className="text-white font-maintext font-medium text-[18px] mt-3">
-                  Governance refers to the framework of rules, practices, and
-                  processes that guide and oversee the management and
-                  decision-making within an organization.
-                </p>
-                <Link href="/Programs/#Governance">
-                  <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
-                    <h1 className="text-center text-white">Read More</h1>
-                  </div>
-                </Link>
-              </div>
-            </div>
-          </FadeInSection>
-
-          <FadeInSection>
-            {" "}
-            <div className=" flex lg:flex-row flex-col justify-between py-10 items-center gap-14">
-              <div className="lg:w-[50%] w-full">
-                <h1 className="text-white lg:text-5xl text-3xl font-header font-extrabold">
-                  Environmental Protection
-                </h1>
-                <p className="text-white font-maintext font-medium text-[18px] mt-3">
-                  At EMINENCE LEAD INTERNATIONAL, we are committed to making a
-                  positive impact on our planet by prioritizing environmental
-                  protection as one of our key focus areas
-                </p>
-                <Link href="/Programs/#Environment">
-                  <div className="flex justify-center items-center w-[120px] bg-[#FF521A] hover:bg-black duration-200 p-3 mt-3">
-                    <h1 className="text-center text-white">Read More</h1>
-                  </div>
-                </Link>
-              </div>
-              <div className="w-[50%]">
-                <Image
-                  src="/water.jpg"
-                  width={500}
-                  height={700}
-                  alt=""
-                  className="lg:w-[500px] lg:h-[400px] w-[350px] h-[250px] object-cover rounded-xl  "
-                />
-              </div>
-            </div>
-          </FadeInSection>
-        </div>
+        ))}
       </div>
     </div>
   );

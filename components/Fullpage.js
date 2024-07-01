@@ -34,8 +34,7 @@ function Fullpage() {
   return (
     <div>
       {" "}
-      <div className="lg:flex ">
-        <Column1 />
+      <div className=" ">
         <Column2 />
       </div>
       <Impact />
@@ -43,7 +42,6 @@ function Fullpage() {
       <Campaign />
       <Scrolltext />
       <Support />
-      <Support2 />
       <Testimony />
       <Partner />
       {showScrollTop && (

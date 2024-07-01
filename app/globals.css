@@ -182,3 +182,23 @@ hr {
 ::-webkit-scrollbar-corner {
   background: #fff3;
 }
+.testimonial-container {
+  max-height: 350px;
+
+  scrollbar-width: thin;
+  scrollbar-color: #f97316 #fed7aa;
+}
+
+.testimonial-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.testimonial-container::-webkit-scrollbar-track {
+  background: #fed7aa;
+}
+
+.testimonial-container::-webkit-scrollbar-thumb {
+  background-color: #f97316;
+  border-radius: 20px;
+  border: 2px solid #fed7aa;
+}
