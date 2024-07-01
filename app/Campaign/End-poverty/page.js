@@ -1,193 +1,162 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Navbar from "@/components/Navbar2";
-import Mobilebar from "@/components/Mobilebar";
+import { motion } from "framer-motion";
+import { FaTools, FaLightbulb, FaHandsHelping } from "react-icons/fa";
 
 const CampaignPage = () => {
+  const fadeInUp = {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  };
+
   return (
-    <div className="bg2">
+    <div className="bg-gray-100 min-h-screen">
       <Navbar />
 
-      <section className="max-w-7xl mx-auto pb-5">
-        <div className="relative h-[400px] w-full">
-          <Image
-            src="/voc.jpg"
-            alt="Empowerment of Women and Children"
-            layout="fill"
-            objectFit="cover"
-          />
-          <div className="h-[400px] absolute top-0 bottom-0 left-0 right-0 inset-0 bg-black/60"></div>
-          <div className="absolute inset-0 flex items-center justify-center">
-            <h1 className="text-xl md:text-3xl lg:text-4xl text-white font-bold text-center">
-              END THE POVERTY SYNDROME THROUGH VOCATIONAL SKILLS AND
-              ENTREPRENUERSHIP EMPOWERMENT
+      <motion.header
+        className="relative h-[60vh] w-full"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
+        <Image
+          src="/voc.jpg"
+          alt="Empowerment through Vocational Skills"
+          layout="fill"
+          objectFit="cover"
+          quality={100}
+        />
+        <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+          <motion.div
+            className="text-center text-white p-8 bg-black/30 rounded-lg backdrop-blur-sm max-w-4xl"
+            initial={{ y: -50, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ delay: 0.5, duration: 0.8 }}
+          >
+            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4">
+              End the Poverty Syndrome
             </h1>
-          </div>
+            <p className="text-xl md:text-2xl font-light">
+              Through Vocational Skills and Entrepreneurship Empowerment
+            </p>
+          </motion.div>
         </div>
+      </motion.header>
 
-        <div className="px-5 py-10 space-y-8">
-          <p className="lg:text-lg lg:leading-8">
-            As we stand at the threshold of a new era, marked by both
-            unprecedented challenges and unparalleled opportunities, Eminence
-            Lead International is proud to embark on a transformative journey
-            from 2025 to 2030. Guided by our unwavering commitment to
-            compassion, justice, and equity, we invite you to join us in shaping
-            a world where every individual has the opportunity to thrive. In the
-            years ahead, Eminence Lead International will continue to champion
-            vital causes with your steadfast support, we will strive to:
+      <main className="max-w-7xl mx-auto px-4 py-16 space-y-16">
+        <motion.section
+          className="text-center"
+          variants={fadeInUp}
+          initial="hidden"
+          animate="visible"
+        >
+          <h2 className="text-3xl font-bold mb-6">Our Vision</h2>
+          <p className="text-lg text-gray-700 max-w-3xl mx-auto">
+            Eminence Lead International is embarking on a transformative journey
+            from 2025 to 2030. Guided by our commitment to compassion, justice,
+            and equity, we invite you to join us in shaping a world where every
+            individual has the opportunity to thrive and break free from
+            poverty.
           </p>
+        </motion.section>
 
-          <div className="rounded-md">
-            <h2 className="text-2xl font-bold mb-3">
-              END THE POVERTY SYNDROME THROUGH VOCATIONAL SKILLS AND
-              ENTREPRENUERSHIP EMPOWERMENT
-            </h2>
-            <p>
-              Poverty, according to global standards, is commonly defined as a
-              condition characterized by a lack of access to basic human needs
-              such as food, shelter, clean water, education, and healthcare. It
-              is not merely a lack of financial resources but also encompasses
-              social, economic, and political exclusion. In Ghana, poverty
-              manifests similarly but with unique contextual factors influenced
-              by historical, social, and economic circumstances. According to
-              data from the World Bank, as of 2021, approximately 23.4% of the
-              population in Ghana lived below the national poverty line. This
-              translates to millions of individuals and families struggling to
-              meet their basic needs on a daily basis. Moreover, Ghana&#39;s
-              poverty profile reflects significant disparities between rural and
-              urban areas, with rural communities experiencing higher rates of
-              poverty due to limited access to resources and
-              opportunities.Poverty rates vary significantly across Ghana&#39;s
-              16 regions, with the Northern, Upper East, and Upper West regions
-              experiencing the highest level.
-            </p>{" "}
-            <br /> <br />
-            <p>
-              The impact of poverty on communities and regions in Ghana, as well
-              as globally, is profound and multifaceted. Economically, poverty
-              hampers productivity and perpetuates cycles of deprivation,
-              hindering sustainable development efforts. Socially, it
-              exacerbates inequality, marginalization, and vulnerability,
-              particularly among women, children, and other marginalized groups.
-              Lack of access to education and healthcare further perpetuates the
-              cycle of poverty, limiting opportunities for upward mobility and
-              societal advancement. One of our focus areas in our organization
-              is community development, in line with this we have launched this
-              ongoing project because we do not want people handicapped. As an
-              organization focused on Poverty Eradication, EMINENCE LEAD
-              INTERNATIONAL recognizes the urgency and complexity of this global
-              challenge. Our mission is to empower individuals, families, and
-              communities in Ghana and beyond to break free from the grips of
-              poverty and achieve sustainable livelihoods. We employ
-              comprehensive strategies that address not only immediate needs but
-              also the underlying root causes of poverty, including lack of
-              access to education, healthcare, employment, and social services.
-            </p>{" "}
-            <br />
-            <br />
-            <p>
-              Our organization has undergone a profound realization: merely
-              discussing poverty mitigation strategies without empowering
-              individuals is insufficient. Thus, from the outset of our
-              endeavour, we are dedicated to not only educating but also
-              equipping and training people with essential vocational skills and
-              entrepreneurial skills. Our vision is clear: we aim to empower
-              individuals, bolster their capabilities, and instil in them the
-              mind-set necessary to break free from the shackles of poverty. At
-              the culmination of our project, we envision a transformation where
-              beneficiaries emerge triumphantly from poverty&#39;s grasp. As an
-              organization deeply committed to sustainable development, we
-              understand that sustainable change necessitates more than mere
-              handouts—it demands the cultivation of self- sufficiency and
-              economic empowerment. By centring our efforts on vocation and
-              Eminence Lead International entrepreneurship as a catalyst for
-              societal transformation, we aspire to create enduring impact and
-              empower individuals to forge brighter destinies for themselves and
-              their communities.
-            </p>{" "}
-            <br />
-            <br />
-            <p>
-              Aligned with the United Nations Sustainable Development Goal One,
-              our initiative stands in unwavering support of eradicating poverty
-              in all its forms, underscoring our dedication to driving
-              meaningful change and building a more prosperous future for
-              generations to come. In addition to our commitment to poverty
-              eradication through entrepreneurship, I am thrilled to announce
-              that our project has already been launched and is actively
-              underway. We have initiated various programs and activities aimed
-              at equipping individuals with entrepreneurial skills, vocational
-              skills, fostering economic empowerment, and facilitating
-              sustainable livelihoods.
-            </p>{" "}
-            <br />
-            <br />
-            <p>
-              However, to scale up our efforts and reach more communities in
-              need, we require additional resources. As such, we are actively
-              seeking funding to mobilize our project and expand its reach. With
-              adequate financial support, we can intensify our training
-              programs, provide necessary resources and mentorship to aspiring
-              entrepreneurs, and establish sustainable initiatives that foster
-              long-term economic growth and resilience. We firmly believe that
-              by investing in entrepreneurship and empowering individuals to
-              become agents of change within their communities, we can create a
-              ripple effect that transcends generations, lifting countless
-              families out of poverty and fostering inclusive prosperity for
-              all. We welcome partnerships, collaborations, and donations from
-              individuals, organizations, and institutions that share our vision
-              and are committed to making a meaningful impact in the fight
-              against poverty. Together, we can transform lives, communities,
-              and ultimately, the world.
-            </p>
+        <motion.section variants={fadeInUp} initial="hidden" animate="visible">
+          <h2 className="text-3xl font-bold mb-8 text-center">
+            Our Focus Areas
+          </h2>
+          <div className="grid md:grid-cols-3 gap-8">
+            <FocusCard
+              icon={<FaTools className="text-4xl text-blue-500" />}
+              title="Vocational Skills"
+              description="Equipping individuals with practical skills for sustainable livelihoods."
+            />
+            <FocusCard
+              icon={<FaLightbulb className="text-4xl text-yellow-500" />}
+              title="Entrepreneurship"
+              description="Fostering a culture of innovation and self-reliance through business skills."
+            />
+            <FocusCard
+              icon={<FaHandsHelping className="text-4xl text-green-500" />}
+              title="Community Support"
+              description="Providing resources and mentorship for long-term success."
+            />
           </div>
+        </motion.section>
 
-          <div className="bg-green-300 p-5 rounded-md shadow-md">
-            <h2 className="text-2xl font-bold mb-3">Our Mission</h2>
-            <p>
-              Our mission is to not only address the symptoms of poverty but
-              also tackle its root causes by fostering a culture of vocational
-              skill, entrepreneurship and self-reliance. Through comprehensive
-              training programs and ongoing support, we seek to empower
-              individuals to Eminence Lead International break free from the
-              cycle of poverty, equip them with the necessary skills and
-              resources to succeed in business, and ultimately, transform their
-              mind-set to one of resilience and ambition.
+        <motion.section
+          className="bg-white p-8 rounded-lg shadow-lg"
+          variants={fadeInUp}
+          initial="hidden"
+          animate="visible"
+        >
+          <h2 className="text-3xl font-bold mb-6">Our Impact Goal</h2>
+          <p className="text-lg text-gray-700 mb-6">
+            We aim to empower individuals and communities across Ghana,
+            particularly in regions with high poverty rates, by providing them
+            with the skills, resources, and mindset needed to break free from
+            the cycle of poverty.
+          </p>
+          <div className="bg-blue-100 p-6 rounded-lg">
+            <h3 className="text-2xl font-semibold mb-4">Target: $10 Million</h3>
+            <p className="text-gray-700">
+              Your support is crucial in reaching our $10 million goal. Every
+              contribution brings us closer to making a real difference in the
+              lives of millions struggling with poverty.
             </p>
+            <button className="mt-6 bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition duration-300">
+              Donate Now
+            </button>
           </div>
+        </motion.section>
 
-          <div className="bg-blue-300 p-5 rounded-md shadow-md">
-            <h2 className="text-2xl font-bold mb-3">Target Beneficiaries</h2>
-            <p>
-              Our efforts will primarily benefit individuals and communities
-              grappling with poverty across various regions of Ghana.
-              Specifically targeting areas such as Accra, Kumasi, Tamale,
-              Sekondi-Takoradi, and other regions with high poverty rates, we
-              aim to uplift the most vulnerable populations and create pathways
-              to prosperity for all.
-            </p>
-          </div>
+        <motion.section
+          className="bg-white p-8 rounded-lg shadow-lg"
+          variants={fadeInUp}
+          initial="hidden"
+          animate="visible"
+        >
+          <h2 className="text-3xl font-bold mb-6">Our Approach</h2>
+          <p className="text-lg text-gray-700 mb-6">
+            Our comprehensive programs address the root causes of poverty
+            through:
+          </p>
+          <ul className="list-disc list-inside space-y-2 text-gray-700">
+            <li>Comprehensive vocational training programs</li>
+            <li>Entrepreneurship workshops and mentorship</li>
+            <li>Access to resources and startup support</li>
+            <li>Ongoing guidance and community building</li>
+            <li>Partnerships with local businesses and institutions</li>
+          </ul>
+        </motion.section>
 
-          <div className="bg-red-300 p-5 rounded-md shadow-md">
-            <h2 className="text-2xl font-bold mb-3">
-              Targeted Amount: $10 Million
-            </h2>
-            <p>
-              We are aiming to reach $10 million for this impactful project, and
-              your support is invaluable. Reaching this goal would be a
-              significant achievement, and we can&#39;t do it without your help.
-              Your contribution, no matter the size, will bring us closer to
-              making a real difference. So, we ask for your involvement, your
-              generosity, and your belief in our mission. Together, we can reach
-              new heights and positively impact the lives of many. We genuinely
-              appreciate your support and look forward to embarking on this
-              journey together.
-            </p>
-          </div>
-        </div>
-      </section>
+        <motion.section
+          className="bg-white p-8 rounded-lg shadow-lg"
+          variants={fadeInUp}
+          initial="hidden"
+          animate="visible"
+        >
+          <h2 className="text-3xl font-bold mb-6">Target Beneficiaries</h2>
+          <p className="text-lg text-gray-700">
+            Our efforts will primarily benefit individuals and communities
+            grappling with poverty across various regions of Ghana, including
+            but not limited to Accra, Kumasi, Tamale, and Sekondi-Takoradi. We
+            aim to uplift the most vulnerable populations and create pathways to
+            prosperity for all.
+          </p>
+        </motion.section>
+      </main>
     </div>
   );
 };
+
+const FocusCard = ({ icon, title, description }) => (
+  <div className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+    <div className="flex justify-center mb-4">{icon}</div>
+    <h3 className="text-xl font-semibold mb-2 text-center">{title}</h3>
+    <p className="text-gray-600 text-center">{description}</p>
+  </div>
+);
 
 export default CampaignPage;
