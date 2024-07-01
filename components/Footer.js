@@ -1,135 +1,160 @@
+"use client";
 import React from "react";
 import { BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from "react-icons/bs";
-import { AiFillInstagram } from "react-icons/ai";
-import { FaTiktok } from "react-icons/fa";
-import { FaYoutube } from "react-icons/fa";
+import { FaYoutube, FaTiktok } from "react-icons/fa";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 const Footer = () => {
+  const socialIcons = [
+    {
+      Icon: BsFacebook,
+      href: "https://www.facebook.com/profile.php?id=61559729709338",
+    },
+    {
+      Icon: BsInstagram,
+      href: "https://www.instagram.com/eminencelead?igsh=MW93MjduY3ZtNjExYw==",
+    },
+    {
+      Icon: BsTwitter,
+      href: "https://x.com/eminencelead?t=Ko6lOyL5QUgSFaDyRrYfjw&s=08",
+    },
+    {
+      Icon: BsLinkedin,
+      href: "https://www.linkedin.com/in/eminence-lead-international-498418307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    },
+    {
+      Icon: FaYoutube,
+      href: "https://youtube.com/@eminencelead?si=pSktC99gOISujArN",
+    },
+    {
+      Icon: FaTiktok,
+      href: "https://www.tiktok.com/@eminence.lead.int?is_from_webapp=1&sender_device=pc",
+    },
+  ];
+
+  const quickLinks = [
+    { name: "Home", href: "#" },
+    { name: "About us", href: "/AboutUs" },
+    { name: "Campaigns", href: "#" },
+    { name: "Blog", href: "#" },
+    { name: "Contact", href: "/Contact" },
+  ];
+
+  const companyLinks = [
+    { name: "Terms & Conditions", href: "#" },
+    { name: "Privacy Policy", href: "#" },
+    { name: "Cookie Preferences", href: "#" },
+  ];
+
   return (
-    <div className="bg font-maintext text-white p-8">
-      <div className="container mx-auto grid md:grid-cols-3 gap-8">
-        {/* First Column */}
-        <div>
-          <h3 className="text-xl font-bold mb-4">
-            Eminence Lead International
-          </h3>
-          <p>Creating Hope and Igniting Greatness</p>
-          <div className="flex space-x-4 mt-4">
-            <Link
-              href="https://www.facebook.com/profile.php?id=61559729709338"
-              target="_blank"
-              className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
-            >
-              <BsFacebook />
-            </Link>
-            <Link
-              href="https://www.instagram.com/eminencelead?igsh=MW93MjduY3ZtNjExYw=="
-              target="_blank"
-              className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
-            >
-              <BsInstagram />
-            </Link>
-            <Link
-              href="https://x.com/eminencelead?t=Ko6lOyL5QUgSFaDyRrYfjw&s=08"
-              target="_blank"
-              className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
-            >
-              <BsTwitter />
-            </Link>
-            <Link
-              href="https://www.linkedin.com/in/eminence-lead-international-498418307?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
-              target="_blank"
-              className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
-            >
-              <BsLinkedin />
-            </Link>
-            <Link
-              href="https://youtube.com/@eminencelead?si=pSktC99gOISujArN"
-              target="_blank"
-              className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
-            >
-              <FaYoutube />
-            </Link>
-            <Link
-              href="https://www.tiktok.com/@eminence.lead.int?is_from_webapp=1&sender_device=pc"
-              target="_blank"
-              className="md:text-4xl text-2xl hover:text-[#FF521A] duration-200"
-            >
-              <FaTiktok />
-            </Link>
-          </div>
-        </div>
+    <footer className="bg-[#6C0971] text-white font-maintext">
+      <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
+            <h3 className="text-2xl font-bold mb-4">
+              Eminence Lead International
+            </h3>
+            <p className="text-purple-200 mb-6">
+              Creating Hope and Igniting Greatness
+            </p>
+            <div className="flex space-x-4">
+              {socialIcons.map(({ Icon, href }, index) => (
+                <motion.a
+                  key={index}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-2xl text-purple-200 hover:text-white transition-colors duration-300"
+                  whileHover={{ scale: 1.2 }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  <Icon />
+                </motion.a>
+              ))}
+            </div>
+          </motion.div>
 
-        {/* Second Column */}
-        <div>
-          <h3 className="text-xl font-bold mb-4">Quick Links</h3>
-          <ul>
-            <li>
-              <a href="#" className="hover:underline">
-                Home
-              </a>
-            </li>
-            <li>
-              <a href="/AboutUs" className="hover:underline">
-                About us
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline">
-                Campaigns
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline">
-                Blog
-              </a>
-            </li>
-            <li>
-              <a href="/Contact" className="hover:underline">
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <h3 className="text-xl font-bold mb-4">Quick Links</h3>
+            <ul className="space-y-2">
+              {quickLinks.map((link, index) => (
+                <motion.li
+                  key={index}
+                  whileHover={{ x: 5 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
+                  <Link
+                    href={link.href}
+                    className="text-purple-200 hover:text-white transition-colors duration-300"
+                  >
+                    {link.name}
+                  </Link>
+                </motion.li>
+              ))}
+            </ul>
+          </motion.div>
 
-        {/* Third Column */}
-        <div>
-          <h3 className="text-xl font-bold mb-4">Company</h3>
-          <ul>
-            <li>
-              <a href="#" className="hover:underline">
-                Terms & Conditions
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline">
-                Privacy Policy
-              </a>
-            </li>
-            <li>
-              <a href="#" className="hover:underline">
-                Cookie Preferences
-              </a>
-            </li>
-          </ul>
-          <div className="mt-4 bg-[#FFFDF1] p-4 rounded">
-            <h4 className="text-xl text-black font-bold mb-4">
-              Have questions or want to get involved?
-            </h4>
-            <Link href="/Contact">
-              <button className="bg-[#FF521A] hover:bg-black text-white py-2 px-4 rounded">
-                Contact us
-              </button>
-            </Link>
-          </div>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: 0.4 }}
+          >
+            <h3 className="text-xl font-bold mb-4">Company</h3>
+            <ul className="space-y-2 mb-8">
+              {companyLinks.map((link, index) => (
+                <motion.li
+                  key={index}
+                  whileHover={{ x: 5 }}
+                  transition={{ type: "spring", stiffness: 300 }}
+                >
+                  <Link
+                    href={link.href}
+                    className="text-purple-200 hover:text-white transition-colors duration-300"
+                  >
+                    {link.name}
+                  </Link>
+                </motion.li>
+              ))}
+            </ul>
+            <motion.div
+              className="bg-white p-6 rounded-lg shadow-lg"
+              whileHover={{ scale: 1.05 }}
+              transition={{ type: "spring", stiffness: 300 }}
+            >
+              <h4 className="text-xl font-bold mb-4 text-[#6C0971]">
+                Have questions or want to get involved?
+              </h4>
+              <Link href="/Contact">
+                <motion.button
+                  className="bg-[#6C0971] text-white py-2 px-6 rounded-full font-bold hover:bg-[#8A0B91] transition-colors duration-300"
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.95 }}
+                >
+                  Contact us
+                </motion.button>
+              </Link>
+            </motion.div>
+          </motion.div>
         </div>
       </div>
-      <hr className="mt-8" />
-      <div className="mt-8 text-center">
-        © 2024 Eminence Lead International. All rights reserved.
+      <div className="border-t border-purple-400">
+        <div className="max-w-7xl mx-auto px-4 py-6 sm:px-6 lg:px-8">
+          <p className="text-center text-purple-200">
+            © {new Date().getFullYear()} Eminence Lead International. All rights
+            reserved.
+          </p>
+        </div>
       </div>
-    </div>
+    </footer>
   );
 };
 
