@@ -21,7 +21,7 @@ function Page() {
 
   const handleDonationClick = (skill) => {
     setSkills([...skills, skill]);
-    setCustomSkill(""); // Clear the custom skill input after adding it to the list
+    setCustomSkill("");
   };
 
   const handleRemoveSkill = (index) => {
@@ -32,7 +32,7 @@ function Page() {
 
   const handleInterestClick = (interest) => {
     setInterests([...interests, interest]);
-    setCustomInterest(""); // Clear the custom interest input after adding it to the list
+    setCustomInterest("");
   };
 
   const handleRemoveInterest = (index) => {
@@ -53,14 +53,13 @@ function Page() {
   const handleSuccess = () => {
     // Handle success logic
 
-    // Construct the template parameters with form data
     const templateParams = {
       firstName: firstName,
       email: email,
       phone: phone,
-      skills: skills.join(", "), // Convert array to comma-separated string
-      interests: interests.join(", "), // Convert array to comma-separated string
-      daysAvailable: daysAvailable.join(", "), // Convert array to comma-separated string
+      skills: skills.join(", "),
+      interests: interests.join(", "),
+      daysAvailable: daysAvailable.join(", "),
     };
 
     // Send the form data using EmailJS
