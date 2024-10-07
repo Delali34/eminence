@@ -5,15 +5,13 @@ import { motion, AnimatePresence } from "framer-motion";
 
 function Hero() {
   const images = [
-    "/river.jpg",
-    "/annie-spratt-2rMn97DPTdU-unsplash.jpg",
-    "/education.jpg",
-    "/community.jpg",
-    "/rights.jpg",
-    "/gender.jpg",
-    "/human.jpg",
-    "/part.jpg",
-    "/environment.jpg",
+    "/slide/1 (1).jpg",
+    "/slide/1 (2).jpg",
+    "/slide/1 (3).jpg",
+    "/slide/1 (4).jpg",
+    "/slide/1 (5).jpg",
+    "/slide/1 (6).jpg",
+    "/slide/1 (7).jpg",
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -40,9 +38,11 @@ function Hero() {
           <Image
             src={images[currentImageIndex]}
             alt={`Background ${currentImageIndex + 1}`}
-            layout="fill"
+            width={1000}
+            height={1000}
             objectFit="cover"
             quality={100}
+            className="w-full h-full object-cover"
           />
         </motion.div>
       </AnimatePresence>

@@ -50,11 +50,11 @@ function Support() {
       title: "Community Development",
       description:
         "At EMINENCE LEAD INTERNATIONAL, community development is about fostering a sense of belonging and collective responsibility.",
-      image: "/Play.jpg",
+      image: "/slide/2148913209.jpg",
       link: "/Programs/#Community",
     },
     {
-      title: "Poverty eradication",
+      title: "Poverty Eradication",
       description:
         "Poverty eradication stands as a paramount global mission, representing the collective effort to eliminate the widespread and debilitating condition of living in destitution and lack.",
       image: "/annie-spratt-2rMn97DPTdU-unsplash.jpg",
@@ -78,7 +78,7 @@ function Support() {
       title: "Environmental Protection",
       description:
         "At EMINENCE LEAD INTERNATIONAL, we are committed to making a positive impact on our planet by prioritizing environmental protection as one of our key focus areas.",
-      image: "/water.jpg",
+      image: "/slide/91217.jpg",
       link: "/Programs/#Environment",
     },
   ];
