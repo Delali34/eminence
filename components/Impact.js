@@ -51,13 +51,25 @@ const Stories = () => {
         <div className="mb-10">
           <div className="relative w-full lg:pt-[35%] pt-[56.56%]">
             <iframe
-              src="https://www.youtube.com/embed/N7YpWLmL6JU"
-              title="One.org | Unlocking the power of data with Data Commons"
+              src="https://www.youtube.com/embed/EOchi3dKdaU"
+              title="The Greatness Focus"
               className="absolute top-0 left-0 w-full h-full rounded-lg shadow-lg"
               allowFullScreen
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
           </div>
+          {/* <div>
+            <iframe
+              width="1083"
+              height="609"
+              src="https://www.youtube.com/embed/EOchi3dKdaU"
+              title="The Greatness Focus"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div> */}
         </div>
         <div
           ref={ref}

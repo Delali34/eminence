@@ -4,6 +4,7 @@ import Image from "next/image";
 import Navbar from "@/components/Navbar2";
 import { motion } from "framer-motion";
 import { FaLeaf, FaUsers, FaDollarSign } from "react-icons/fa";
+import Link from "next/link";
 
 const CampaignPage = () => {
   const fadeInUp = {
@@ -103,9 +104,11 @@ const CampaignPage = () => {
               contribution brings us closer to making a real difference in the
               lives of millions.
             </p>
-            <button className="mt-6 bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition duration-300">
-              Donate Now
-            </button>
+            <Link href="/Donate">
+              <button className="mt-6 bg-green-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-green-600 transition duration-300">
+                Donate Now
+              </button>
+            </Link>
           </div>
         </motion.section>
       </main>
