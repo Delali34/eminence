@@ -8,7 +8,7 @@ export const metadata = {
   title: "Eminence Lead International",
   description:
     " EMINENCE LEAD INTERNATIONAL is a registered NGO in Ghana,established in August 2023 with a mission to ignite transformative change in Africa and beyond.",
-  logo: "../public/EMINENCE.jpg",
+  logo: "../public/EMINECE LOGO22.png",
 };
 
 export default function RootLayout({ children }) {

@@ -188,10 +188,11 @@ function AboutUs() {
                 <div className="font-maintext text-[16px] md:text-2xl mt-5 pt-5 bg-white p-4 rounded-lg border-[#c6fc49] border-[1px]">
                   <p>
                     Promote Economic Empowerment and Gender Equality through
-                    Entrepreneurship This goal focuses on creating opportunities
-                    for women to achieve economic independence, fostering gender
-                    equality, and contributing to sustainable development
-                    through entrepreneurship and economic empowerment.
+                    Entrepreneurship. This goal focuses on creating
+                    opportunities for women to achieve economic independence,
+                    fostering gender equality, and contributing to sustainable
+                    development through entrepreneurship and economic
+                    empowerment.
                   </p>
                 </div>
               </div>
@@ -221,8 +222,7 @@ function AboutUs() {
                 <div className="font-maintext text-[16px] md:text-2xl mt-5 pt-5 bg-white p-4 rounded-lg border-[#ffab2e] border-[1px]">
                   <p>
                     To impact 5,000,000 (five million) people in the next 10
-                    (ten) years across all our focus areas of operation as an
-                    organization.
+                    (ten) years to live a purposeful life in Africa and beyond.
                   </p>
                 </div>
               </div>
@@ -234,9 +234,8 @@ function AboutUs() {
             <div className="relative mt-10  h-full bg-[#c6fc49] border-2 border-black ">
               <div className="relative md:p-10 px-5 py-5 md:py-10  bg2   right-2 bottom-2 border-2 border-black h-full">
                 <h1 className="font-maintext pb-4 md:py-5 text-sm md:text-2xl font-semibold">
-                  The organization’s programs, projects and focus areas
-                  contribute to the following United Nation Sustainable
-                  Development Goals
+                  Our work is underlined by the following Sustainable
+                  Development Goals (SDGs):
                 </h1>
                 <div className="grid lg:grid-cols-8 grid-cols-4 md:gap-5 gap-2 items-center">
                   {SDGimages.map((image, index) => {
@@ -316,7 +315,7 @@ function AboutUs() {
                     Empower and uplift communities through sustainable
                     initiatives, collaborative engagement, and targeted
                     resources for holistic social, economic, and cultural
-                    development
+                    development.
                   </p>
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#0BA067] border-[1px]">
@@ -390,12 +389,10 @@ function AboutUs() {
                     <span className="text-2xl font-extrabold text-[#034AA6]">
                       Empowerment{"  "}
                     </span>
-                    Empowerment is highly relevant as a core value for our
-                    organisation. Empowerment refers to the process of enabling
-                    individuals or communities to gain control over their own
-                    lives, make informed decisions, and take actions that lead
-                    to positive change. Empowerment aligns with the principles
-                    of sustainable development
+                    Empowerment is highly relevant as a core value to Eminence
+                    Lead International. We enable individuals, communities to
+                    gain control our their own lives, make informed decisions,
+                    and take actions that lead to positive change.
                   </p>
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#034AA6] border-[1px]">
@@ -404,13 +401,9 @@ function AboutUs() {
                       Accountability
                     </span>
                     {"  "}
-                    Accountability is a highly relevant and crucial value for
-                    any non-governmental organization (NGO). It plays a
-                    significant role in ensuring the effectiveness,
-                    transparency, and legitimacy of an NGO's operations and
-                    impact. Accountability is fundamental for building and
-                    maintaining trust with donors, beneficiaries, partners, and
-                    the general public
+                    We ensure accountability as a significant role in ensuring
+                    the effectiveness, transparency, and legitimacy of
+                    operations and impacts.
                   </p>
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#034AA6] border-[1px]">
@@ -419,14 +412,9 @@ function AboutUs() {
                       Professionalism
                     </span>
                     {"  "}
-                    Professionalism is highly relevant as a value for our
-                    organisation. Professionalism instils trust and credibility
-                    in the NGO's stakeholders, including donors, beneficiaries,
-                    partners, and the general public. A professional image
-                    demonstrates that the organization is serious about its work
-                    and committed to achieving its goals. Professional practices
-                    can lead to better planning, execution, and resource
-                    allocation.
+                    We instil trust and credibility in stakeholders including
+                    donors , beneficiaries, partners, general public and
+                    committed to achieving our goals.
                   </p>
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#034AA6] border-[1px]">
@@ -434,14 +422,12 @@ function AboutUs() {
                     <span className="text-2xl font-extrabold text-[#034AA6]">
                       Inclusivity{"  "}
                     </span>{" "}
-                    Inclusivity is highly relevant as a core value for our
-                    organization. In our organization we often work towards
-                    addressing various social, economic, and environmental
-                    challenges, and their success is closely tied to their
-                    ability to be inclusive in their approach. Inclusivity
-                    ensures that all these stakeholders, regardless of their
-                    backgrounds, identities, or abilities, are actively engaged
-                    and represented in the organization's activities.
+                    We often work towards addressing various social, economic
+                    and environmental challenges and their success is closely
+                    tied to their ability to be inclusive in their approach. We
+                    ensure that all these stakeholders, regardless of their
+                    backgrounds, identities , or abilities, are actively engaged
+                    in the organization's activities.
                   </p>
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#034AA6] border-[1px]">
@@ -449,10 +435,11 @@ function AboutUs() {
                     <span className="text-2xl font-extrabold text-[#034AA6]">
                       Trustworthiness
                     </span>{" "}
-                    Trust is the foundation of our interactions. By consistently
-                    demonstrating reliability, transparency, and accountability,
-                    we aim to earn and maintain the trust of our partners,
-                    beneficiaries, and the communities we serve.
+                    Trust is the foundation of our interactions at Eminence Lead
+                    International by consistently demonstrating reliability,
+                    transparency, and accountability. We aim to earn and
+                    maintain the trust of our partners, beneficiaries, and the
+                    communities we serve.
                   </p>
                 </div>
               </div>
