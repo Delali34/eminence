@@ -9,7 +9,7 @@ function Leadership() {
             <div className="flex space-x-6 items-center">
               <div className="w-1/4 z-10 border-black border-2">
                 <img
-                  src="/annie-spratt-2rMn97DPTdU-unsplash.jpg"
+                  src="/women.jpg"
                   alt="Coding Challenge"
                   className="w-full h-full"
                 />

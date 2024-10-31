@@ -36,7 +36,7 @@ function ContactPage() {
       icon: <LuPhoneCall className="text-4xl text-purple-500" />,
       title: "Call Us",
       description: "Mon-Fri 8am-5pm",
-      contact: "+233 548 483 430",
+      contact: "+233 53 078 5009",
       action: () => (window.location.href = "tel:+233548483430"),
     },
   ];

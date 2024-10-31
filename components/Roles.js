@@ -51,7 +51,7 @@ export const Team = [
   {
     name: " Ralph Agyei Agyapong",
     image: "/images/ralph.png",
-    position: " Program Officer",
+    position: " Project Officer",
     details:
       "Ralph Agyei Agyapong, a graduate holding a BSc. in Physics (Biomedical) from Kwame Nkrumah University of Science and Technology, is a dedicated Program Officer. His expertise spans Sexual and Reproductive Health and Rights (SRHR), youth engagement, and women empowerment advocacy. Currently, he serves as a Youth Advisor on the Youth Advisory Board for Marie Stopes International Reproductive Choices in Ghana, providing valuable insights on youth-centric information, education, and communication. Ralph is actively engaged in the coordination and implementation of projects and activities centered on Youth Sexual and Reproductive Health and Rights (SRHR), Human Right Advocacy, Women Empowerment and Girl Child Education. His unwavering commitment shines through as he works tirelessly to cultivate an environment that empowers and educates young individuals on matters related to reproductive health. His involvement as a Co-Consultant in adapting the UNICEF Youth Advocacy Guide for Ghana underscores Ralph's commitment to ensuring that advocacy strategies effectively connect with local youth advocates. ",
     details2:
@@ -60,9 +60,9 @@ export const Team = [
   {
     name: " Samuel Boateng",
     image: "/images/samuel.jpeg",
-    position: " Writer & Digital Marketing Manager",
+    position: "Development Officer",
     details:
-      "Samuel Boateng is an accomplished writer and a digital marketing manager. His writing style is approachable yet insightful, allowing readers to easily grasp complex concepts. His overarching goal is to bridge the gap between complex ideas and everyday readers, making insightful concepts accessible to a reader audience. With a commitment to continuous learning and innovation, Samuel aspires to remain at the forefront of the rapidly evolving fields of writing and digital marketing. He has cultivated a diverse skill set over the years. His professional journey has seen him navigate through various industries, allowing him to develop a comprehensive understanding of effective communication and strategic marketing. ",
+      "Samuel Boateng is an accomplished development officer. His writing style is approachable yet insightful, allowing readers to easily grasp complex concepts. His overarching goal is to bridge the gap between complex ideas and everyday readers, making insightful concepts accessible to a reader audience. With a commitment to continuous learning and innovation, Samuel aspires to remain at the forefront of the rapidly evolving fields of writing and digital marketing. He has cultivated a diverse skill set over the years. His professional journey has seen him navigate through various industries, allowing him to develop a comprehensive understanding of effective communication and strategic marketing. ",
     details2:
       "Samuel’s hands on experience positions him as a seasoned professional capable of translating ideas into impactful content and digital strategies. Samuel’s personality type is characterized by a balance of professionalism and approachability, making him a valuable asset in both collaborative and client-facing environments. In our organization, Samuel Boateng’s contributions extend beyond his impressive writing and digital marketing skills. His leadership impact is evident through not only his ability to produce compelling content but also his knack for inspiring and guiding others. Samuel brings a strategic mindset that aligns with organization goals, ensuring that his contributions go beyond immediate tasks to foster long term success. ",
     details3:
@@ -91,7 +91,7 @@ export const Team = [
   {
     name: " Hellen Naa Klorkor ",
     image: "/images/hellen.jpeg",
-    position: " Program Officer",
+    position: " Project Officer",
     details:
       "Hellen Naa Klorkor Clotty holds Bachelor’s Degree in Psychology and Information from University of Ghana, and Bachelor’s Degree in Communication Studies from the same University. Hellen is specialized with interpersonal skills, communication skills, psychology skills, program administration skills and human right advocacy skills. She is a hardworking and industrious staff with a lot of industrial experience, she has served in several senior most positions at the health sector, Non-Profit Organization and Small-Medium Enterprises and Ghana Education Service. ",
     details2:
@@ -101,7 +101,7 @@ export const Team = [
   {
     name: " Vida Owusu ",
     image: "/images/vida.jpeg",
-    position: " Internal Audit Officer",
+    position: " Finance Officer",
     details:
       "Vida Owusu Antwi is a deep minded individual you can’t wait to meet, excellent team player, result- oriented, risk analytical expert and solid accountability leader. Vida interests lie in accountability and transparency, flexible leadership, project delivering, solid financial administration, monitoring and evaluation. She has gathered a lot of experience from the financial industry as a banker, accountant and internal auditor from the Local Government of Ghana. ",
     details2:
@@ -121,7 +121,7 @@ export const Team = [
   {
     name: " Moses Aryee",
     image: "/images/moses.png",
-    position: " Program Officer",
+    position: " Project Officer",
     details:
       "A committed hardworking individual who partner with others to achieve individual and organizational goals. Moses is technically skilled and capable in the field of urban planning, environmental management, project management, financial management, community development and sustainable development. A dynamic professional with over 10 years working experience in environmental auditing at Ghana’s Environmental Protection Agency. Entrepreneurial & leadership experience gained from implementing projects patronized by international stakeholders such as the GIZ, an efficient time manager with strong planning, organizing and monitoring capabilities and highly confident and persuasive team builder, able to motivate and encourage others to achieve set targets. ",
     details2:
@@ -161,7 +161,7 @@ export const Team = [
   {
     name: " Emmanuel Gyan",
     image: "/images/emmanuel.png",
-    position: " Program Officer",
+    position: " Project Officer",
     details:
       "Emmanuel Gyan is an accomplished Earth Scientist and an Environmentalist with years of experience. Emmanuel has the ability to take unhealthy portfolios and transform them into healthy and thriving ones, produce productive and long-lasting results for high-level clients. He has a working experience from major companies, non-profit organizations, and hospitals. Emmanuel works well with senior corporate executives, provide consultations for international corporations and effective at persuading and influencing high-ranking individuals for work done.",
     details2:
@@ -202,7 +202,7 @@ export const Team = [
   {
     name: " Comfort Afriyie Barwuah ",
     image: "/Afriyie.jpg",
-    position: " Accountant",
+    position: "Digital research officer",
     details:
       "A digital research officer, specialize in utilizing online resources and digital tools to support research endeavors. Her responsibilities include conducting comprehensive literature reviews, gathering data from online databases, and analyzing digital information sources. She assists in the design and implementation of digital research methodologies, manage research databases, and contribute to the preparation of reports and presentations.",
     details2:

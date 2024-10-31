@@ -66,17 +66,17 @@ function Leadership() {
             </div>
             <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#35f5bb] border-[1px]">
               <h1 className="lg:text-3xl text-xl font-semibold pb-3">
-                UNIGROW – Supporting Farmers to Grow
+                AGRIGROW – Supporting Farmers to Grow
               </h1>
               <p className="font-mont">
-                UNIGROW is an initiative dedicated to supporting farmers in
+                AGRIGROW is an initiative dedicated to supporting farmers in
                 transitioning from the informal sector to the formal sector. The
                 program provides farmers with essential resources, knowledge,
                 and training to improve their agricultural practices, increase
                 productivity, and enhance their market access. It also assists
                 in navigating the formalization process, including registration,
                 compliance with regulations, and accessing financial support. By
-                facilitating this transition, UNIGROW aims to improve the
+                facilitating this transition, AGRIGROW aims to improve the
                 livelihoods and overall well-being of farmers and their
                 communities.
               </p>
