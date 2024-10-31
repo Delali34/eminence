@@ -20,13 +20,13 @@ export const Team = [
       "Hawa loves to impact, challenge young people for greatness. She has impacted over 120,000 young people in Ghana and beyond, and over 5,000 Small and Medium Enterprises and young entrepreneurs in Ghana and beyond.",
   },
   {
-    name: " Victoria Appiah",
-    image: "/images/vic.jpeg",
-    position: " Administrative Officer",
+    name: " Slyvian Saka Owusu ",
+    image: "/images/saka.png",
+    position: "Program Officer",
     details:
-      "Victoria Appiah-Asiamah, the Administrative Officer at Eminence Lead International. Her journey as Human Resource/Administrative Officer has been marked by a commitment to excellence and a passion for collaborative work. Victoria holds Bachelor’s Degree in Social Work from Kwame Nkrumah University of Science and Technology. She is an experienced administrative officer who always ensures that her team members, managers and management do their work as plan and also ensure that the organization’s operations are in line with its goals, mission and vision. ",
+      "Sylvain Saka Owusu is a hardworking, reliable and receptive person with professional communication skills. He is an experienced project expert, excellent public speaker, and workshop facilitator. He has gathered a lot of experience in Non –Profit Organizations, Corporate Institutions and Government Institutions",
     details2:
-      "Victoria’s strengths lie in effective communication, precise report writing, program and project reporting, public engagement, team management, facilitation and adept event management. She is proficient in handling clerical tasks, communication and project management, utilizing tools like Service Now Software. Victoria firmly believes in the power of collaboration and teamwork, striving to bring out the best and her colleagues. She loves reading books to improve her problem solving skills and also for effective work delivering.",
+      "He has worked as Regional Project Manager at the Ghana Red Cross for the past years. His interest lies in the field of empowerment, training, program management and entrepreneurship coaching. Sylvain holds Bachelor’s Degree in Sociology and Information Studies from the University of Ghana. He is passionate about developmental projects and loves to inspire young people to take their future in hands for better living tomorrow.  ",
   },
   {
     name: " Belinda Agabeh",
@@ -68,16 +68,16 @@ export const Team = [
     details3:
       "His dedication to the field of leadership is further demonstrated through impacted speaking engagements, training and advocacy. Samuel is a proud alumnus of the university of Cape Coast, Ghana.",
   },
-  {
-    name: " Adwoa Agyeman",
-    image: "/images/adwoa.jpeg",
-    position: " Customer Relations Officer",
-    details:
-      "Adwoa Adu Agyemang is holds HND in Marketing from Koforidua Technical University, Ghana. Her experience in marketing and natural communication skills gained at Asuogyaman Rural Bank, Koforidua Technical University marketing department as assistant marketing officer and at Volta River Authority has given her a solid foundation in marketing and customer relation. She presents long-term marketing strategies in dealing with clients, ability to work hand in hand with clients and collaborate effectively with team members and external consultants to create the right branding image and customer experience.",
-    details2:
-      "As a brand ambassador for Ghana road safety, she has gathered a lot of skills in representing and promoting organizations. Her interests lies in marketing and communication, public engagement and customer satisfaction. Adwoa is a confident professional marketer who wants to inspire the next generation for greatness and better living. She loves reading marketing books and traveling to see natural scenes.",
-    details3: "",
-  },
+  // {
+  //   name: " Adwoa Agyeman",
+  //   image: "/images/adwoa.jpeg",
+  //   position: " Customer Relations Officer",
+  //   details:
+  //     "Adwoa Adu Agyemang is holds HND in Marketing from Koforidua Technical University, Ghana. Her experience in marketing and natural communication skills gained at Asuogyaman Rural Bank, Koforidua Technical University marketing department as assistant marketing officer and at Volta River Authority has given her a solid foundation in marketing and customer relation. She presents long-term marketing strategies in dealing with clients, ability to work hand in hand with clients and collaborate effectively with team members and external consultants to create the right branding image and customer experience.",
+  //   details2:
+  //     "As a brand ambassador for Ghana road safety, she has gathered a lot of skills in representing and promoting organizations. Her interests lies in marketing and communication, public engagement and customer satisfaction. Adwoa is a confident professional marketer who wants to inspire the next generation for greatness and better living. She loves reading marketing books and traveling to see natural scenes.",
+  //   details3: "",
+  // },
   {
     name: " Yeboah Emmanuel",
     image: "/images/yeboah.jpeg",
@@ -189,16 +189,16 @@ export const Team = [
       "As an avid reader, she embraces the opportunity to explore new horizons and explore creativity that others have to offer and maintaining a well-rounded and balanced life. Loretta has been actively involved in donor funded projects and awareness programs on education, environmental issues, gender quality, leadership, human right advocacy and community hearing programs. Loretta is an instrument for change and always inspire people to go for greatness.",
     details3: "",
   },
-  {
-    name: " Betty Assan ",
-    image: "/images/betty.jpeg",
-    position: " Accountant",
-    details:
-      "Betty Assan holds a BSc in Accounting from the University of Professional Studies, Accra and  Institute  of  Chartered  Accountant  (ICA)  Ghana  professional  examination.  A passionate and diligent accountant with experience in various financial matters. She has developed strong skills in finance planning, budgeting, project financing and management, strong organizational financing, analyzing financial data and ensuring compliance with industry regulations. She has implemented effective financial controls, which have improved the efficiency and accuracy of financial processes, proficient in producing reliable and timely financial reports. ",
-    details2:
-      "Betty is not only good with numbers and data, but also with people. She has an excellent communication skills, which allow her to work well with different stakeholders, keep herself updated with the latest financial regulations and best practices, which enables her to provide sound financial advice. Betty strives for excellence and continuous improvement in her work and eager to learn new skills and take on new challenges. She is a confident professional accountant that adds great value to our team and contribute to the success of the organization. Betty is always looking forward to a dynamic and result-oriented environment to explore and impact people for a better living.",
-    details3: "",
-  },
+  // {
+  //   name: " Betty Assan ",
+  //   image: "/images/betty.jpeg",
+  //   position: " Accountant",
+  //   details:
+  //     "Betty Assan holds a BSc in Accounting from the University of Professional Studies, Accra and  Institute  of  Chartered  Accountant  (ICA)  Ghana  professional  examination.  A passionate and diligent accountant with experience in various financial matters. She has developed strong skills in finance planning, budgeting, project financing and management, strong organizational financing, analyzing financial data and ensuring compliance with industry regulations. She has implemented effective financial controls, which have improved the efficiency and accuracy of financial processes, proficient in producing reliable and timely financial reports. ",
+  //   details2:
+  //     "Betty is not only good with numbers and data, but also with people. She has an excellent communication skills, which allow her to work well with different stakeholders, keep herself updated with the latest financial regulations and best practices, which enables her to provide sound financial advice. Betty strives for excellence and continuous improvement in her work and eager to learn new skills and take on new challenges. She is a confident professional accountant that adds great value to our team and contribute to the success of the organization. Betty is always looking forward to a dynamic and result-oriented environment to explore and impact people for a better living.",
+  //   details3: "",
+  // },
   {
     name: " Comfort Afriyie Barwuah ",
     image: "/Afriyie.jpg",

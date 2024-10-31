@@ -108,16 +108,24 @@ function AboutUs() {
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-yellow-500 border-[1px]">
                   <p>
-                    We aim to promote lasting change by championing economic
-                    empowerment and gender equality through entrepreneurship.
-                    Our vision is for women to be empowered economic
-                    contributors and positive change-makers in their
-                    communities. We provide entrepreneurship training, financial
-                    resources, and support for women-led businesses. Committed
-                    to sustainable development, we advocate for gender-sensitive
-                    policies and address the core issues of inequality, aiming
-                    for a future where women's economic strength lights the way
-                    for a brighter, inclusive tomorrow.
+                    We are on a transformative mission to ignite enduring change
+                    by championing economic empowerment and forging gender
+                    equality. Our mission is to catalyse lasting change by
+                    promoting economic empowerment and gender equality through
+                    entrepreneurship. We envision a world where women are not
+                    only equal contributors to economic growth but also
+                    empowered agents of positive transformation in their
+                    communities. By providing comprehensive entrepreneurship
+                    training, fostering access to financial resources, and
+                    creating a supportive ecosystem for women-led enterprises,
+                    we strive to break down barriers, challenge gender norms,
+                    and create pathways for women to achieve economic
+                    independence. Our dedication to sustainable development and
+                    social progress drives us to advocate for gender-responsive
+                    policies, measure our impact, and address the root causes of
+                    inequality. Together, we are shaping a future where women's
+                    economic empowerment serves as a beacon of hope, igniting a
+                    brighter and more inclusive tomorrow for all.
                   </p>
                 </div>
               </div>
@@ -146,17 +154,24 @@ function AboutUs() {
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#EA1154] border-[1px]">
                   <p>
-                    We envision a world where economic empowerment and gender
-                    equality merge, becoming a potent force for good. Our goal
-                    is to empower women through entrepreneurship, enabling them
-                    to transcend traditional roles and spearhead economic and
-                    societal progress. We aim for a future where women-led
-                    businesses flourish, offering solutions to major issues and
-                    breaking historic barriers. By valuing diversity,
-                    innovation, and collaboration, we're building a world where
-                    economic strength is a driving force for gender equality,
-                    leading to a just, inclusive, and prosperous society for
-                    everyone.
+                    Our vision is to establish a world where economic
+                    empowerment and gender equality converge, creating a
+                    powerful force for positive change. Through our commitment
+                    to promoting entrepreneurship, we aspire to empower women
+                    with the tools, resources, and confidence they need to not
+                    only break free from the confines of traditional roles but
+                    to lead the charge in economic growth and societal
+                    advancement. We envision a landscape where women-led
+                    enterprises thrive, generating sustainable solutions to
+                    pressing challenges while dismantling the barriers that have
+                    historically held women back. By fostering a dynamic
+                    ecosystem that values diversity, innovation, and
+                    collaboration, we are shaping a future where economic
+                    empowerment becomes a catalyst for gender equality,
+                    propelling us towards a more just, inclusive, and prosperous
+                    world for all. Imagine a world where economic empowerment
+                    and gender equality unite to create an unstoppable force of
+                    positive transformation.
                   </p>
                 </div>
               </div>
