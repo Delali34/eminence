@@ -189,16 +189,24 @@ export const Team = [
       "As an avid reader, she embraces the opportunity to explore new horizons and explore creativity that others have to offer and maintaining a well-rounded and balanced life. Loretta has been actively involved in donor funded projects and awareness programs on education, environmental issues, gender quality, leadership, human right advocacy and community hearing programs. Loretta is an instrument for change and always inspire people to go for greatness.",
     details3: "",
   },
-  // {
-  //   name: " Betty Assan ",
-  //   image: "/images/betty.jpeg",
-  //   position: " Accountant",
-  //   details:
-  //     "Betty Assan holds a BSc in Accounting from the University of Professional Studies, Accra and  Institute  of  Chartered  Accountant  (ICA)  Ghana  professional  examination.  A passionate and diligent accountant with experience in various financial matters. She has developed strong skills in finance planning, budgeting, project financing and management, strong organizational financing, analyzing financial data and ensuring compliance with industry regulations. She has implemented effective financial controls, which have improved the efficiency and accuracy of financial processes, proficient in producing reliable and timely financial reports. ",
-  //   details2:
-  //     "Betty is not only good with numbers and data, but also with people. She has an excellent communication skills, which allow her to work well with different stakeholders, keep herself updated with the latest financial regulations and best practices, which enables her to provide sound financial advice. Betty strives for excellence and continuous improvement in her work and eager to learn new skills and take on new challenges. She is a confident professional accountant that adds great value to our team and contribute to the success of the organization. Betty is always looking forward to a dynamic and result-oriented environment to explore and impact people for a better living.",
-  //   details3: "",
-  // },
+  {
+    name: "Jesselomina Nana Nhyira Abrokwah",
+    image: "/jese.jpeg",
+    position: "Communication and marketing executive",
+    details:
+      "Jesselomina Nana Nhyira Abrokwah is an accomplished communication and marketing executive with years of experience in the nonprofit, insurance, institution and financial sectors including Ghana Audit Service, West Africa Examination Council, University of Ghana, Economic Department and Priority Insurance Company. Her passion for making a positive impact led her to work for various organizations, where she has successfully spearheaded numerous campaigns and initiatives. Jesselomina's expertise lies in crafting compelling narratives and using innovative strategies to engage audiences and drive meaningful change. Her strong leadership skills, coupled with her creative thinking and strong communication abilities, have helped our organization reach new heights and expand our reach. With a warm and empathetic tone, Jesselomina is able to connect with stakeholders and build lasting relationships.",
+    details2:
+      "She is truly dedicated to using her skills and talents to make a difference, she believes that trust and transparency are key elements in gaining the support and loyalty of stakeholders. Her strategic mindset, exceptional interpersonal skills, and passion for social and environmental causes have been instrumental in our organization. Jesselomina holds BSc Economics and Philosophy from  the  University  of  Ghana  and  MSc  Economics  and  Philosophy  from  the  same institution. Jesselomina loves to impact the next generation and ever ready to learn things",
+    details3: "",
+  },
+  {
+    name: "Cyril Dogbe",
+    image: "/cyril.jpeg",
+    position: "Techinical Support",
+    details: "",
+    details2: "",
+    details3: "",
+  },
   {
     name: " Comfort Afriyie Barwuah ",
     image: "/Afriyie.jpg",
