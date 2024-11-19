@@ -218,4 +218,14 @@ export const Team = [
     details3:
       "Comfort is experienced communication expert , public relations, researching, facilitation and language translation. She holds degree in communication studies and diploma linguistics. She loves singing , reading and making crafts . ",
   },
+  {
+    name: "Douglas  Kwabena  Frimpong  Darkwa ",
+    image: "/images/douglas.jpeg",
+    position: "Project Coordinator",
+    details:
+      "Douglas  Kwabena  Frimpong  Darkwa is  an  accomplished  Project  Supervisor  with  a Bachelor’s degree in Minerals Engineering from the University of Mines and Technology Tarkwa and over three years of hands-on experience managing projects across multiple sectors. Throughout his career, Douglas has successfully overseen more than twenty (20) projects, demonstrating a strong commitment to strategic planning and quality delivery. In the past year, he has also guided five startups, providing the direction and expertise to help them scale effectively.",
+    details2:
+      "Douglas’s data-driven approach and ongoing studies in Data Science allow him integrate data insights into impactful decision-making, which he applies to consistently deliver meaningful outcomes and foster team collaboration. Known for his resilience and dedication, Douglas combines education and experience to ensure lasting value in every project he undertakes and loves to impact the next generation.",
+    details3: "",
+  },
 ];
