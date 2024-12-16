@@ -190,7 +190,7 @@ export const Team = [
     details3: "",
   },
   {
-    name: "Hanah Noi Bakah",
+    name: "Hannah Noi Bakah",
     image: "/eminence (1).jpeg",
     position: "Program Officer",
     details:
