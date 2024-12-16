@@ -42,7 +42,7 @@ function Teams() {
         className="w-full py-2 bg-purple-600 text-white font-semibold hover:bg-purple-700 transition duration-300"
         onClick={() => openPopup(person)}
       >
-        Learn More
+        Read More
       </motion.button>
     </motion.div>
   );

@@ -496,7 +496,7 @@ function AboutUs() {
                     non-profit organisation with a singular mission: to ignite
                     transformative change by championing economic empowerment
                     and gender equality. Our journey is one of holistic
-                    empowerment. We recognize that economic empowerment is a
+                    empowerment. We recognise that economic empowerment is a
                     cornerstone of societal progress, and to achieve it, we must
                     ensure that no gender is left behind. By focusing on
                     entrepreneurship, we enable individuals, particularly women,
@@ -507,11 +507,11 @@ function AboutUs() {
                     networking, advocacy and access to resources. This ecosystem
                     nurtures budding entrepreneurs, fostering an environment
                     where dreams flourish into sustainable enterprises. Our
-                    focus on entrepreneurship isn't just about immediate change;
-                    it's about sustainable impact. The businesses and ventures
-                    that emerge from our programs continue to ripple through
-                    communities, generating employment, innovation, and positive
-                    change for years to come. Our work does not stop at
+                    focus on entrepreneurship is not just about immediate
+                    change; it's about sustainable impact. The businesses and
+                    ventures that emerge from our programs continue to ripple
+                    through communities, generating employment, innovation, and
+                    positive change for years to come. Our work does not stop at
                     education and training. We advocate for gender-responsive
                     policies that create an enabling environment for
                     entrepreneurship to thrive. By addressing systemic barriers,
