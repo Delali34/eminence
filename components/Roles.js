@@ -180,24 +180,25 @@ export const Team = [
     details3: "",
   },
   {
-    name: " Loretta Asare",
-    image: "/images/lorretta.jpeg",
-    position: " Program Coordinator",
+    name: " Dorinda Afloe",
+    image: "/eminence (2).jpeg",
+    position: "Administrative Assistant",
     details:
-      "Loretta Asare, is a purpose driven individual with an exceptional ability to drive long-term visions through effective persuasion and influence. Christiana holds bachelor degree in Education (B.Ed.) from the University of Cape Coast Ghana. Loretta has gathered a lot experiences working with non-profit organizations, senior high schools, companies and humanitarian foundations in Ghana. Her professional journey has taught lesson on community development, humanitarian works, women empowerment, developmental interventions, women and children protection, good governance and quality education campaign. ",
+      "Dorinda Afloe has provided excellent attention to detail and has effectively represented the face of the organization. Working in close coordination with all staff in the organization. Dorinda has proven to be indispensable in organizing scheduling, managing schedules and resources while innovating successful programs to improve office support. Her contributions toward improving and eventually over handling the office correspondence systems to more effectively communicate within and outside the organization. ",
     details2:
-      "As an avid reader, she embraces the opportunity to explore new horizons and explore creativity that others have to offer and maintaining a well-rounded and balanced life. Loretta has been actively involved in donor funded projects and awareness programs on education, environmental issues, gender quality, leadership, human right advocacy and community hearing programs. Loretta is an instrument for change and always inspire people to go for greatness.",
+      "Dorinda has brought years of experience in her to the field non-profit organization. She has worked with several institutions in Ghana such as non-profit organizations, schools, credit unions and associations. She has cultivated a harmonious and fastidious work environment with the non-profit organization field that allows her to graciously represent the face of our Administration as an assistant. Dorinda is a fast learner and loves to inspire other to leave a purposeful life. Dorinda is an alumni of the Methodist University College, Accra Ghana.",
     details3: "",
   },
   {
-    name: "Jesselomina Nana Nhyira Abrokwah",
-    image: "/jese.jpeg",
-    position: "Communication and marketing executive",
+    name: "Hanah Noi Bakah",
+    image: "/eminence (1).jpeg",
+    position: "Program Officer",
     details:
-      "Jesselomina Nana Nhyira Abrokwah is an accomplished communication and marketing executive with years of experience in the nonprofit, insurance, institution and financial sectors including Ghana Audit Service, West Africa Examination Council, University of Ghana, Economic Department and Priority Insurance Company. Her passion for making a positive impact led her to work for various organizations, where she has successfully spearheaded numerous campaigns and initiatives. Jesselomina's expertise lies in crafting compelling narratives and using innovative strategies to engage audiences and drive meaningful change. Her strong leadership skills, coupled with her creative thinking and strong communication abilities, have helped our organization reach new heights and expand our reach. With a warm and empathetic tone, Jesselomina is able to connect with stakeholders and build lasting relationships.",
+      "As a dedicated program officer with a proven track record of success, Hannah brings a wealth of experience and expertise to our team at Eminence Lead International. With a background in Political Science and Archaeological Research form the University of Ghana and Certificate in IT from IPMC Ghana, she is well-equipped to oversee and manage a variety of programs and initiatives to drive organizational growth and success.",
     details2:
-      "She is truly dedicated to using her skills and talents to make a difference, she believes that trust and transparency are key elements in gaining the support and loyalty of stakeholders. Her strategic mindset, exceptional interpersonal skills, and passion for social and environmental causes have been instrumental in our organization. Jesselomina holds BSc Economics and Philosophy from  the  University  of  Ghana  and  MSc  Economics  and  Philosophy  from  the  same institution. Jesselomina loves to impact the next generation and ever ready to learn things",
-    details3: "",
+      "Hannah is a strategic thinker with a keen eye for detail, able to develop and implement innovative programs that align with the organization's goals and objectives. She is adept at building strong relationships with stakeholders, donors, partners, and team members to ensure the successful execution of programs from start to finish. With a passion for making a positive impact, Hannah is committed to delivering high-quality results and driving meaningful change within the organization. She is a natural leader, able to inspire and motivate others to achieve their full potential and contribute to the overall success of the organization.",
+    details3:
+      "Her role as program officer, Hannah plays a crucial role in shaping the future of organization and driving innovation and growth. Her dedication, expertise, and passion for excellence make her a valuable asset to our team and a key driver of our continued success. She has been engaged in community mobilization and development with special Interest in human development with specific focus on the girl child. Hannah is an experienced program officer years of working with United Bank of Africa, Accra Ghana as Customer Relations Officer and at Ghana Cocoa Board, Quality Control and Human Resource Department as an officer. Hannah loves sports and listening to music",
   },
   {
     name: "Cyril Dogbe",
@@ -208,15 +209,15 @@ export const Team = [
     details3: "",
   },
   {
-    name: " Comfort Afriyie Barwuah ",
-    image: "/Afriyie.jpg",
+    name: "Isaac Anane Aasare",
+    image: "/eminence (3).jpeg",
     position: "Digital research officer",
     details:
-      "A digital research officer, specialize in utilizing online resources and digital tools to support research endeavors. Her responsibilities include conducting comprehensive literature reviews, gathering data from online databases, and analyzing digital information sources. She assists in the design and implementation of digital research methodologies, manage research databases, and contribute to the preparation of reports and presentations.",
+      "Isaac Anane Asare is a highly skilled banking executive with eight years of experience in financial management, customer relations, and strategic planning. Isaac holds Bachelor’s Degree in Business Administration (BBA) with a focus in Accounting from the University of Education, Winneba (UEW) Ghana and Higher National Diploma in Accountancy from the Kumasi Technical University, Isaac has demonstrated a proven ability to drive operational efficiency and foster client trust in the financial sector. Throughout his career in banking, he has honed expertise in financial analysis, risk management, and process optimization while developing a strong commitment to community service and social responsibility.",
     details2:
-      "Comfort stays updated on digital research trends and technologies to enhance the efficiency and effectiveness of our research processes for organization’s programs and projects",
+      "Isaac made the decision to transition into the non-profit organization Sector, motivated by a deep passion for social impact and a desire to contribute to initiatives that support underserved populations. With a strong belief in the power of financial inclusion, he is keen to apply his skills in resource mobilization, project management, and organizational development to help non-profits achieve sustainable growth and improve the lives of vulnerable communities. Isaac is particularly interested in initiatives that focus on education, women’s empowerment, and economic development. As a banking executive, he developed a comprehensive understanding of financial systems and how to navigate challenges in resource allocation, which will be invaluable in driving social change. With a focus on collaboration, problem-solving, and long-term impact, he is excited to contribute his expertise to the organization, helping to create scalable solutions that promote social justice and economic equity.",
     details3:
-      "Comfort is experienced communication expert , public relations, researching, facilitation and language translation. She holds degree in communication studies and diploma linguistics. She loves singing , reading and making crafts . ",
+      "His responsibilities as a project officer include overseeing project timelines, budgets, and resources to ensure successful project delivery. Work closely with cross-functional teams to coordinate project activities and ensure alignment with organizational goals, and also responsible for monitoring project progress, identifying potential risks, and implementing mitigation strategies to keep projects on track. Isaac is dedicated to driving project success and contributing to the overall growth and success of the organization. He is passionate about project management and constantly seeking opportunities to improve processes and drive efficiency. Isaac likes cycling, singing and exploring new ideas.",
   },
   {
     name: "Douglas  Kwabena  Frimpong  Darkwa ",
@@ -227,5 +228,16 @@ export const Team = [
     details2:
       "Douglas’s data-driven approach and ongoing studies in Data Science allow him integrate data insights into impactful decision-making, which he applies to consistently deliver meaningful outcomes and foster team collaboration. Known for his resilience and dedication, Douglas combines education and experience to ensure lasting value in every project he undertakes and loves to impact the next generation.",
     details3: "",
+  },
+  {
+    name: "Emmanuel Ofori",
+    image: "/ofori.jpeg",
+    position: "Project Officer",
+    details:
+      "Emmanuel Ofori is a proficient person with four years of experience in administrative work as an assistant manager in an insurance firm. A graduate of University of Cape Coast (UCC), with a degree in BSc. Geography and Regional Planning and a graduate of the Joshua Leadership Residency Program, a scholarship program of the Theological Education and Mission (TEAM), a department of the Accra Business School, Emmanuel has exhibited the ability to facilitate any organizational goals. As an administrator, a researcher, spatial planner and a practical theologian, he has expertise in human and spatial dynamics, risk management, mentorship and research, all integrated into the service of the community and humanitarian obligations. Emmanuel transit into the Non-Governmental Organization (NGO) sector was driven by an unreserved passion for social impact and a commitment to provide a proactive and initiatives supports to underdeveloped and developing populace. ",
+    details2:
+      "Having a steady belief in positive change and sustainability, he is enthusiastic to apply his personal, interpersonal, intellectual and practical skills in mobilizing all sort of resources for project management, and organizational development to aid non-profits gain for a sustainable growth and betterment of vulnerable lives in various communities. Emmanuel is specifically interested in programs and projects that focus on youths and women empowerment, education, technology, and socio-economic and spatial development. As a proficient person, he is equipped with a high performance thinking capacities to navigate in locating and allocating resources, which is one of the backbone to a positive social change. Having a strong concern on interpersonal relations, problem-solving, and sustainability impact, he is motivated to channel his expertness and supporting to achieve organizational goals that promote socio-economic and humanitarian well-being towards a healthy environment. ",
+    details3:
+      "Emmanuel is dedicated to continuous improvement and innovation, always seeking new ways to streamline processes and enhance project outcomes, thrive in fast-paced environments and excel at managing multiple projects simultaneously. With a keen eye for detail and a passion for delivering high-quality results, he is committed to ensuring the success of every project undertake. Emmanuel loves to write and lead interactive conversations.",
   },
 ];
