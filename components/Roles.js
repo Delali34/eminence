@@ -149,9 +149,9 @@ export const Team = [
     details3: "",
   },
   {
-    name: " Nana Ackon-Mensah ",
-    image: "/images/nana.png",
-    position: " Community Engagement Officer",
+    name: " Jesselomina Nana Nhyira Abrokwah",
+    image: "/jese.jpeg",
+    position: " Communication and marketing executive",
     details:
       "Nana Araba Ackon-Mensah has been a strong public engagement expert for many years. She is a strong community development advocate, always making sure that people in the rural communities are treated better and making sure that the basic needs are provided. Nana has a powerful communication skills to lead young people, leaders and corporate bodies for community development. ",
     details2:
@@ -169,16 +169,16 @@ export const Team = [
     details3: "",
   },
 
-  {
-    name: " Christiana Yeboah",
-    image: "/images/christian.jpeg",
-    position: " Program Coordinator",
-    details:
-      "Christiana Yeboah, a highly- responsible and self- motivated individual with a fervor for making a positive impact and strives to embody the values of integrity, accountability, professionalism, continuous learning, and community engagement. Christiana holds a degree in Bachelor of Arts (Psychology and Archaeology) from the University of Ghana. She is armed with experience from non-profit organizations, companies and Environmental Agency of Ghana. Her professional journey has taught her lesson on community development, environment protection, humanitarian works, developmental interventions, empowerment programs, policy reforms and advocacies. ",
-    details2:
-      "As an avid reader, she embraces the opportunity to explore new horizons and explore creativity that others have to offer and maintaining a well-rounded and balanced life. Christiana has been actively involved in community projects and awareness programs including community education on environmental issues, quality education, leadership, human right advocacy and community hearing programs. Christiana is an instrument for change, greatness and economic empowerment.",
-    details3: "",
-  },
+  // {
+  //   name: " Christiana Yeboah",
+  //   image: "/images/christian.jpeg",
+  //   position: " Program Coordinator",
+  //   details:
+  //     "Christiana Yeboah, a highly- responsible and self- motivated individual with a fervor for making a positive impact and strives to embody the values of integrity, accountability, professionalism, continuous learning, and community engagement. Christiana holds a degree in Bachelor of Arts (Psychology and Archaeology) from the University of Ghana. She is armed with experience from non-profit organizations, companies and Environmental Agency of Ghana. Her professional journey has taught her lesson on community development, environment protection, humanitarian works, developmental interventions, empowerment programs, policy reforms and advocacies. ",
+  //   details2:
+  //     "As an avid reader, she embraces the opportunity to explore new horizons and explore creativity that others have to offer and maintaining a well-rounded and balanced life. Christiana has been actively involved in community projects and awareness programs including community education on environmental issues, quality education, leadership, human right advocacy and community hearing programs. Christiana is an instrument for change, greatness and economic empowerment.",
+  //   details3: "",
+  // },
   {
     name: " Dorinda Afloe",
     image: "/eminence (2).jpeg",

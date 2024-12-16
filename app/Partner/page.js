@@ -45,7 +45,7 @@ const BecomePartnerForm = () => {
               </p>
               <p className="text-gray-700 mb-4">
                 We believe there is strength in numbers and that through
-                fostering sustainable partnerships we are able to make an even
+                fostering sustainable partnerships, we are able to make an even
                 more meaningful impact in the world.
               </p>
               <p className="text-gray-700 mb-4">

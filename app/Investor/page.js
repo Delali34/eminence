@@ -42,7 +42,7 @@ const BecomeInvestorForm = () => {
               </p>
               <p className="text-gray-700 mb-4">
                 ➢ We want to offer you this exciting opportunity to invest in
-                our organization in creating hope and igniting greatness
+                our organization in creating hope and igniting greatness.
               </p>
               <p className="text-gray-700 mb-4">
                 ➢ This could provide you or company with an opportunity to
@@ -50,16 +50,16 @@ const BecomeInvestorForm = () => {
               </p>
               <p className="text-gray-700 mb-4">
                 ➢ EMINENCE LEAD INTERNATIONAL wants to extend a formal
-                invitation to you to invest in our organizational programs and
-                projects.
+                invitation to you or your company to invest in our
+                organizational programs and projects.
               </p>
               <p className="text-gray-700 mb-4">
                 ➢ We believe there is strength in numbers and that through
-                fostering sustainable support we are able to make an even more
+                fostering sustainable support, we are able to make an even more
                 meaningful impact in the world. Please follow the form to
                 express your interest in becoming an investor today. The
                 Founders of EMINENCE LEAD INTERNATIONAL will follow up with you
-                shortly
+                shortly.
               </p>
             </div>
             <form

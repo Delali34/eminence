@@ -299,7 +299,7 @@ function AboutUs() {
                     Design and implement comprehensive leadership development
                     programs to cultivate and enhance the skills, qualities, and
                     potential of individuals, fostering effective and visionary
-                    leaders within the organization.
+                    leaders within the organisation.
                   </p>
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#0BA067] border-[1px]">
@@ -308,7 +308,7 @@ function AboutUs() {
                       2{" "}
                     </span>{" "}
                     Develop and implement comprehensive educational programs
-                    that foster effective learning, promote intellectual growth,
+                    that foster effective learning, promote intellectual growth
                     and empower individuals to achieve their full potential.
                   </p>
                 </div>
@@ -340,7 +340,7 @@ function AboutUs() {
                     </span>{" "}
                     Develop and implement comprehensive strategies to
                     effectively eradicate poverty through targeted
-                    interventions, sustainable economic growth, and equitable
+                    interventions, sustainable economic growth and equitable
                     access to essential resources and opportunities.
                   </p>
                 </div>
@@ -351,7 +351,7 @@ function AboutUs() {
                     </span>{" "}
                     To promote and defend the fundamental human rights and
                     dignity of individuals worldwide through dedicated advocacy,
-                    education, and collaboration with diverse stakeholders,
+                    education and collaboration with diverse stakeholders,
                     thereby contributing to a just and equitable global society.
                   </p>
                 </div>
@@ -405,8 +405,8 @@ function AboutUs() {
                       Empowerment{"  "}
                     </span>
                     Empowerment is highly relevant as a core value to Eminence
-                    Lead International. We enable individuals, communities to
-                    gain control our their own lives, make informed decisions,
+                    Lead International. We enable individuals and communities to
+                    gain control over their own lives, make informed decisions
                     and take actions that lead to positive change.
                   </p>
                 </div>
@@ -428,8 +428,8 @@ function AboutUs() {
                     </span>
                     {"  "}
                     We instil trust and credibility in stakeholders including
-                    donors , beneficiaries, partners, general public and
-                    committed to achieving our goals.
+                    donors, beneficiaries, partners, general public and
+                    committed partners to achieving our goals.
                   </p>
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#034AA6] border-[1px]">
@@ -438,11 +438,11 @@ function AboutUs() {
                       Inclusivity{"  "}
                     </span>{" "}
                     We often work towards addressing various social, economic
-                    and environmental challenges and their success is closely
-                    tied to their ability to be inclusive in their approach. We
-                    ensure that all these stakeholders, regardless of their
-                    backgrounds, identities , or abilities, are actively engaged
-                    in the organization's activities.
+                    and environmental challenges and their success which is
+                    closely tied to their ability to be inclusive in their
+                    approach. We ensure that all these stakeholders, regardless
+                    of their backgrounds, identities, or abilities, are actively
+                    engaged in the organisation's activities.
                   </p>
                 </div>
                 <div className="font-maintext mt-5 pt-5 bg-white p-4 rounded-lg border-[#034AA6] border-[1px]">
@@ -484,16 +484,16 @@ function AboutUs() {
                 <div className="font-maintext mt-5  pt-5 bg-white p-4 rounded-lg border-[#06FF31] border-[1px]">
                   <p>
                     EMINENCE LEAD INTERNATIONAL is a duly registered and
-                    licensed non-profit organization in Ghana and was
+                    licensed non-profit organisation in Ghana and was
                     established to create hope and ignite greatness in Africa
                     and beyond, enabling and empowering people to live
                     purposeful, limitless, powerful and fulfilled lives. We aim
                     to lead all leadership and engagement programs that
                     strategically ignite the next generation of the African
                     Continent leaders in business, education, public service,
-                    religious organization, health service, community and
+                    religious organisation, health service, community and
                     chieftaincy. We exist as a passionate and purpose-driven
-                    non-profit organization with a singular mission: to ignite
+                    non-profit organisation with a singular mission: to ignite
                     transformative change by championing economic empowerment
                     and gender equality. Our journey is one of holistic
                     empowerment. We recognize that economic empowerment is a
@@ -501,35 +501,35 @@ function AboutUs() {
                     ensure that no gender is left behind. By focusing on
                     entrepreneurship, we enable individuals, particularly women,
                     to step into roles of leadership, innovation, and economic
-                    agency. Our organization is not just an institution; it's an
+                    agency. Our organisation is not just an institution; it's an
                     ecosystem of support. We provide not only education and
                     training but also mentorship, counselling, mediation,
-                    networking, and access to resources. This ecosystem nurtures
-                    budding entrepreneurs, fostering an environment where dreams
-                    flourish into sustainable enterprises. Our focus on
-                    entrepreneurship isn't just about immediate change; it's
-                    about sustainable impact. The businesses and ventures that
-                    emerge from our programs continue to ripple through
+                    networking, advocacy and access to resources. This ecosystem
+                    nurtures budding entrepreneurs, fostering an environment
+                    where dreams flourish into sustainable enterprises. Our
+                    focus on entrepreneurship isn't just about immediate change;
+                    it's about sustainable impact. The businesses and ventures
+                    that emerge from our programs continue to ripple through
                     communities, generating employment, innovation, and positive
-                    change for years to come. Our work doesn't stop at education
-                    and training. We advocate for gender-responsive policies
-                    that create an enabling environment for entrepreneurship to
-                    thrive. By addressing systemic barriers, we lay the
-                    groundwork for lasting transformation. We are creating
-                    economic empowerment and gender equality are woven together,
-                    creating a future where every individual's potential is
-                    realized, regardless of their gender. In a world where
-                    potential knows no bounds, we believe that every individual
-                    deserves the opportunity to thrive, regardless of their
-                    gender. Our journey is fuelled by the conviction that true
-                    progress is only achieved when economic empowerment and
+                    change for years to come. Our work does not stop at
+                    education and training. We advocate for gender-responsive
+                    policies that create an enabling environment for
+                    entrepreneurship to thrive. By addressing systemic barriers,
+                    we lay the groundwork for lasting transformation. We are
+                    creating economic empowerment and gender equality woven
+                    together, creating a future where every individual's
+                    potential is realized, regardless of their gender. In a
+                    world where potential knows no bounds, we believe that every
+                    individual deserves the opportunity to thrive, regardless of
+                    their gender. Our journey is fuelled by the conviction that
+                    true progress is only achieved when economic empowerment and
                     gender equality stand hand in hand. Our passion has been
-                    necessitated by the fact that Africa has consistently fall
-                    behind on almost all developments initiatives in spite of
-                    its huge and rich natural resources. Many studies and
-                    reliable evidence show that poor and unresponsive leadership
-                    and unconcern are the cause of this epidemic of affairs. We
-                    want to see an Africa that works. We want to see an African
+                    necessitated by the fact that Africa has consistently fallen
+                    behind on almost all development initiatives in spite of its
+                    huge and rich natural resources. Many studies and reliable
+                    evidence show that poor and unresponsive leadership and
+                    unconcern are the cause of this epidemic of affairs. We want
+                    to see an Africa that works. We want to see an African
                     people making use of their potentials.
                   </p>
                 </div>
