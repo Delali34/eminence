@@ -65,7 +65,7 @@ const Campaign = () => {
               <div className="py-3">
                 <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
                   THE RIGHT OF LESS PRIVILEGED WOMEN AND CHILDREN EMPOWERMENT
-                  PROGRAM
+                  PROJECT
                 </h4>
                 <p className="text-[12px] bg-yellow-300 w-[175px] text-center p-1 rounded-sm">
                   Click to Read more
@@ -86,7 +86,7 @@ const Campaign = () => {
               />
               <div className="py-3">
                 <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
-                  YOUTH IN COMMUNITY DEVELOPMENT EMPOWERMENT PROGRAM
+                  YOUTH IN COMMUNITY DEVELOPMENT EMPOWERMENT PROJECT
                 </h4>
                 <p className="text-[12px] bg-orange-300 w-[175px] text-center p-1 rounded-sm">
                   Click to Read more
@@ -108,7 +108,7 @@ const Campaign = () => {
               <div className="py-3">
                 <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
                   EMPOWERING UNDERSERVED COMMUNITY WOMEN AND YOUNG GIRLS TO
-                  UNLOCK FULL POTENTIAL
+                  UNLOCK FULL POTENTIAL PROJECT
                 </h4>
                 <p className="text-[12px] bg-green-300 w-[175px] text-center p-1 rounded-sm">
                   Click to Read more
@@ -129,7 +129,7 @@ const Campaign = () => {
               />
               <div className="py-3">
                 <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
-                  IGNITING THE NEXT GENERATION THROUGH QUALITY EDUCATION
+                  IGNITING THE NEXT GENERATION THROUGH QUALITY EDUCATION PROJECT
                 </h4>
                 <p className="text-[12px] bg-blue-300 w-[175px] text-center p-1 rounded-sm">
                   Click to Read more
@@ -151,7 +151,7 @@ const Campaign = () => {
               <div className="py-3">
                 <h4 className="md:text-[18px] sm:text-[16px] font-header font-semibold mb-2">
                   END THE POVERTY SYNDROME THROUGH VOCATIONAL SKILLS AND
-                  ENTREPRENUERSHIP EMPOWERMENT
+                  ENTREPRENUERSHIP EMPOWERMENT PROJECT
                 </h4>
                 <p className="text-[12px] bg-red-300 w-[175px] text-center p-1 rounded-sm">
                   Click to Read more
@@ -173,7 +173,7 @@ const Campaign = () => {
               <div className="py-3">
                 <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
                   AGRIGROW - ENDING HUNGER AND FOOD SCARCITY- BOOSTING
-                  AGRICULTURE
+                  AGRICULTURE PROJECT
                 </h4>
                 <p className="text-[12px] bg-purple-300 w-[175px] text-center p-1 rounded-sm">
                   Click to Read more

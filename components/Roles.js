@@ -81,7 +81,7 @@ export const Team = [
   {
     name: " Yeboah Emmanuel",
     image: "/images/yeboah.jpeg",
-    position: "Program Officer",
+    position: "Operations Officer",
     details:
       "Yeboah Emmanuel is an alumnus of the University of Education, Ghana. He holds a Bachelor’s  Degree  in  Education  (BEd)  specialised  in  education  and  Information Technology. An experienced person with a demonstrated history of working in managerial positions. He is skilled in procurement management, supervision, program planning, public education, entrepreneurship training, information technology application in everyday life and leadership. ",
     details2:
@@ -121,7 +121,7 @@ export const Team = [
   {
     name: " Moses Aryee",
     image: "/images/moses.png",
-    position: " Project Officer",
+    position: "Monitor and Evaluation Officer",
     details:
       "A committed hardworking individual who partner with others to achieve individual and organisational goals. Moses is technically skilled and capable in the field of urban planning, environmental management, project management, financial management, community development and sustainable development. A dynamic professional with over a decade working experience in environmental auditing at Ghana’s Environmental Protection Agency. Entrepreneurial & leadership experience gained from implementing projects patronized by international stakeholders such as the GIZ, an efficient time manager with strong planning, organizing and monitoring capabilities and highly confident and persuasive team builder, able to motivate and encourage others to achieve set targets. ",
     details2:
@@ -131,7 +131,7 @@ export const Team = [
   {
     name: " Boniface Asante",
     image: "/images/boni.png",
-    position: " Program Officer",
+    position: "Impact Advisor",
     details:
       "Boniface Asante is a highly effective leader and insurance management professional with over a decade of progressive experience leading cross functional teams, leveraging fresh perspectives and breakthrough ideas to solve problems, improve processes and drive high revenues in the insurance industry of Ghana. He serves an external resource person for Ghana Insurance College. Over the years he has helped several insurance companies in Ghana to achieve their organisational goals with several awards, he is an expert in client management, sales and marketing, business development management, project management data analysis and risk management expert. ",
     details2:
@@ -141,7 +141,7 @@ export const Team = [
   {
     name: " Shadrack Barffour",
     image: "/images/shadrack.png",
-    position: " Project Officer",
+    position: " Field and Research Officer",
     details:
       "Shadrack Adu-Barffour is a self-motivated and ambitious environmental professional with skills and knowledge in Data Analysis, Field work, and Management. He has a strong desire to be actively involved in the research and formulation of policies mainly in the field of Environment and resource management, climate change, poverty education and community development. He possesses strong analytical and problem-solving skills, problem identification expertise and project management. He is able to work efficiently without supervision and under challenging environments.",
     details2:
