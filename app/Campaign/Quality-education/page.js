@@ -102,9 +102,9 @@ const CampaignPage = () => {
             Sustainable Development Goal 4.
           </p>
           <div className="bg-blue-100 p-6 rounded-lg">
-            <h3 className="text-2xl font-semibold mb-4">Target: $15 Million</h3>
+            <h3 className="text-2xl font-semibold mb-4">Target: $500,000</h3>
             <p className="text-gray-700">
-              Your support is crucial in reaching our $15 million goal. Every
+              Your support is crucial in reaching our $500,000 goal. Every
               contribution brings us closer to making a real difference in the
               lives of students and educators across Ghana.
             </p>

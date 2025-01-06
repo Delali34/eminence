@@ -99,9 +99,9 @@ const CampaignPage = () => {
             potential.
           </p>
           <div className="bg-purple-100 p-6 rounded-lg">
-            <h3 className="text-2xl font-semibold mb-4">Target: $6 Million</h3>
+            <h3 className="text-2xl font-semibold mb-4">Target: $200,000</h3>
             <p className="text-gray-700">
-              Your support is crucial in reaching our $6 million goal. Every
+              Your support is crucial in reaching our $200,000 goal. Every
               contribution brings us closer to making a real difference in the
               lives of millions of women and girls.
             </p>

@@ -99,9 +99,9 @@ const CampaignPage = () => {
             in community development initiatives.
           </p>
           <div className="bg-blue-100 p-6 rounded-lg">
-            <h3 className="text-2xl font-semibold mb-4">Target: $5 Million</h3>
+            <h3 className="text-2xl font-semibold mb-4">Target: $150,000</h3>
             <p className="text-gray-700">
-              Your support is crucial in reaching our $5 million goal. Every
+              Your support is crucial in reaching our $150,000. Every
               contribution brings us closer to making a real difference in the
               lives of young people and their communities across Ghana.
             </p>

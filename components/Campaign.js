@@ -63,11 +63,14 @@ const Campaign = () => {
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
+                <p className="text-[12px] bg-yellow-300 w-[175px] text-center p-1 rounded-sm">
+                  The Tender Touch
+                </p>
+                <h4 className="md:text-[18px] sm:text-[14px] font-header font-semibold mb-2">
                   THE RIGHT OF LESS PRIVILEGED WOMEN AND CHILDREN EMPOWERMENT
                   PROJECT
                 </h4>
-                <p className="text-[12px] bg-yellow-300 w-[175px] text-center p-1 rounded-sm">
+                <p className="text-[10px] bg-yellow-300 w-[140px] text-center p-1 rounded-sm">
                   Click to Read more
                 </p>
               </div>
@@ -84,11 +87,14 @@ const Campaign = () => {
                 height={500}
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
+              <p className="text-[12px] mt-3 bg-orange-300 w-[175px] text-center p-1 rounded-sm">
+                NextGen Builders
+              </p>
               <div className="py-3">
-                <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
+                <h4 className="md:text-[18px] sm:text-[14px] font-header font-semibold mb-2">
                   YOUTH IN COMMUNITY DEVELOPMENT EMPOWERMENT PROJECT
                 </h4>
-                <p className="text-[12px] bg-orange-300 w-[175px] text-center p-1 rounded-sm">
+                <p className="text-[10px] bg-orange-300 w-[140px] text-center p-1 rounded-sm">
                   Click to Read more
                 </p>
               </div>
@@ -106,11 +112,14 @@ const Campaign = () => {
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
+                <p className="text-[12px] bg-green-300 w-[175px] text-center p-1 rounded-sm">
+                  Radiant Rise
+                </p>
+                <h4 className="md:text-[17px] sm:text-[12px] font-header font-semibold mb-2">
                   EMPOWERING UNDERSERVED COMMUNITY WOMEN AND YOUNG GIRLS TO
                   UNLOCK FULL POTENTIAL PROJECT
                 </h4>
-                <p className="text-[12px] bg-green-300 w-[175px] text-center p-1 rounded-sm">
+                <p className="text-[10px] bg-green-300 w-[140px] text-center p-1 rounded-sm">
                   Click to Read more
                 </p>
               </div>
@@ -128,10 +137,13 @@ const Campaign = () => {
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
+                <p className="text-[12px] bg-blue-300 w-[175px] text-center p-1 rounded-sm">
+                  The Future Forge
+                </p>
+                <h4 className="md:text-[17px] sm:text-[14px] font-header font-semibold mb-2">
                   IGNITING THE NEXT GENERATION THROUGH QUALITY EDUCATION PROJECT
                 </h4>
-                <p className="text-[12px] bg-blue-300 w-[175px] text-center p-1 rounded-sm">
+                <p className="text-[10px] bg-blue-300 w-[140px] text-center p-1 rounded-sm">
                   Click to Read more
                 </p>
               </div>
@@ -149,11 +161,14 @@ const Campaign = () => {
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="md:text-[18px] sm:text-[16px] font-header font-semibold mb-2">
+                <p className="text-[12px] bg-red-300 w-[175px] text-center p-1 rounded-sm">
+                  Empower Skills
+                </p>
+                <h4 className="md:text-[15.5px] sm:text-[12px] font-header font-semibold mb-2">
                   END THE POVERTY SYNDROME THROUGH VOCATIONAL SKILLS AND
                   ENTREPRENUERSHIP EMPOWERMENT PROJECT
                 </h4>
-                <p className="text-[12px] bg-red-300 w-[175px] text-center p-1 rounded-sm">
+                <p className="text-[10px] bg-red-300 w-[140px] text-center p-1 rounded-sm">
                   Click to Read more
                 </p>
               </div>
@@ -171,11 +186,14 @@ const Campaign = () => {
                 className="w-[500px] h-[220px] rounded-sm overflow-hidden object-cover"
               />
               <div className="py-3">
-                <h4 className="md:text-[20px] sm:text-[16px] font-header font-semibold mb-2">
+                <p className="text-[12px] bg-purple-300 w-[175px] text-center p-1 rounded-sm">
+                  Boosting Agriculture
+                </p>
+                <h4 className="md:text-[18px] sm:text-[14px] font-header font-semibold mb-2">
                   AGRIGROW - ENDING HUNGER AND FOOD SCARCITY- BOOSTING
                   AGRICULTURE PROJECT
                 </h4>
-                <p className="text-[12px] bg-purple-300 w-[175px] text-center p-1 rounded-sm">
+                <p className="text-[10px] bg-purple-300 w-[140px] text-center p-1 rounded-sm">
                   Click to Read more
                 </p>
               </div>
