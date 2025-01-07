@@ -14,9 +14,9 @@ function navbar() {
         <Link href="/Contact">
           <h1 className="hover:text-[#FFE353] duration-300">Contact</h1>
         </Link>
-        <Link href="/Gallery">
+        {/* <Link href="/Gallery">
           <h1 className="hover:text-[#FFE353] duration-300">Gallery</h1>
-        </Link>
+        </Link> */}
         <Link href="/Blog">
           <h1 className="hover:text-[#FFE353] duration-300">Blog</h1>
         </Link>

@@ -4,6 +4,7 @@ import { BsFacebook, BsInstagram, BsTwitter, BsLinkedin } from "react-icons/bs";
 import { FaYoutube, FaTiktok } from "react-icons/fa";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import Newsletter from "./Newsletter";
 
 const Footer = () => {
   const socialIcons = [
@@ -51,6 +52,7 @@ const Footer = () => {
     <footer className="bg-[#6C0971] text-white font-maintext">
       <div className="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+          {/* Social Media Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -79,6 +81,7 @@ const Footer = () => {
             </div>
           </motion.div>
 
+          {/* Quick Links Section */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -103,46 +106,13 @@ const Footer = () => {
             </ul>
           </motion.div>
 
+          {/* Newsletter Component */}
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.4 }}
           >
-            <h3 className="text-xl font-bold mb-4">Company</h3>
-            <ul className="space-y-2 mb-8">
-              {companyLinks.map((link, index) => (
-                <motion.li
-                  key={index}
-                  whileHover={{ x: 5 }}
-                  transition={{ type: "spring", stiffness: 300 }}
-                >
-                  <Link
-                    href={link.href}
-                    className="text-purple-200 hover:text-white transition-colors duration-300"
-                  >
-                    {link.name}
-                  </Link>
-                </motion.li>
-              ))}
-            </ul>
-            <motion.div
-              className="bg-white p-6 rounded-lg shadow-lg"
-              whileHover={{ scale: 1.05 }}
-              transition={{ type: "spring", stiffness: 300 }}
-            >
-              <h4 className="text-xl font-bold mb-4 text-[#6C0971]">
-                Have questions or want to get involved?
-              </h4>
-              <Link href="/Contact">
-                <motion.button
-                  className="bg-[#6C0971] text-white py-2 px-6 rounded-full font-bold hover:bg-[#8A0B91] transition-colors duration-300"
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
-                >
-                  Contact us
-                </motion.button>
-              </Link>
-            </motion.div>
+            <Newsletter />
           </motion.div>
         </div>
       </div>

@@ -38,7 +38,7 @@ function Navbar() {
     "About Us",
     "Programs",
     "Contact",
-    "Gallery",
+    // "Gallery",
     "Blog",
   ];
 
