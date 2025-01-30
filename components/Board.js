@@ -79,7 +79,7 @@ export const Board = [
   },
   {
     name: "Mrs. Dora Aboagyewa Baadu, Ph.D",
-    image: "/dora.jpeg",
+    image: "/dora.png",
     position: "Board Member",
     details:
       "Dr. Mrs. Dora Aboagyewa Baadu, Ph.D., is senior nursing Practioner, lecturer and health counselor   at the Kwahu Government Hospital and School of Nursing,  associate advisor in the Women's and Children's Division of the School of Public Health. Previously, she was a head of nurse and midwifery at Kwahu Obo, Bepong and Atibie hospital. Beginning in the late 1999s,  Dora  Aboagyewa  Badu,  Ph.D. conducted  research  exploring  women's experiences  with  cesarean  childbirth.  Her  publications  of  these  important  findings resulted in health recognition of her contribution to perinatal health care, including her appointment as the first head nurse to serve on the Advisory Council of the Community Child Health and Human Development (CCHHD). In this capacity, she was an active participant in the 2004 Consensus Conference on Vaginal Birth after Cesarean, which led to  a  major  change  in  obstetrical  philosophy  and  practice  regarding  methods  of childbirth. She continues to be a productive leader in a variety of maternal–child health topics, and plays an active role in recruitment and mentoring of minority women in biomedical careers.",

@@ -200,14 +200,14 @@ export const Team = [
     details3:
       "Her role as program officer, Hannah plays a crucial role in shaping the future of the organisation and driving innovation and growth. Her dedication, expertise, and passion for excellence make her a valuable asset to our team and a key driver of our continued success. She has been engaged in community mobilization and development with special interest in human development with specific focus on the girl child. Hannah is an experienced program officer with years of working with United Bank for Africa, Accra Ghana as a Customer Relations Officer and at Ghana Cocoa Board, Quality Control and Human Resource Department as an officer. Hannah loves sports and listening to music",
   },
-  {
-    name: "Cyril Dogbe",
-    image: "/cyril.jpeg",
-    position: "Techinical Support",
-    details: "",
-    details2: "",
-    details3: "",
-  },
+  // {
+  //   name: "Cyril Dogbe",
+  //   image: "/cyril.jpeg",
+  //   position: "Techinical Support",
+  //   details: "",
+  //   details2: "",
+  //   details3: "",
+  // },
   {
     name: "Isaac Anane Asare",
     image: "/eminence (3).jpeg",
