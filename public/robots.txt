@@ -1,0 +1,6 @@
+# https://www.eminencelead.org robots.txt
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.eminencelead.org/sitemap.xml
