@@ -28,35 +28,35 @@ export const Team = [
     details2:
       "He has worked as a Regional Project Manager at the Ghana Red Cross for the past years. His interest lies in the field of empowerment, training, program management and entrepreneurship coaching. Sylvain holds a Bachelor Degree in Sociology and Information Studies from the University of Ghana. He is passionate about developmental projects and loves to inspire young people to take their future into their own hands for a better living tomorrow.  ",
   },
-  {
-    name: " Belinda Agabeh",
-    image: "/images/belinda.jpeg",
-    position: " Program Officer",
-    details:
-      "Belinda Agabeh, a dedicated professional with a Bachelor's degree in Biological Sciences, specializing in Nutrition from the University of Ghana, previously served as a Research Assistant at the Ghana Atomic Energy Commission. With a solid academic foundation, Belinda's expertise spans advocacy, microbiology, enzymology, empowerment, health, training and organic chemistry. In her role, she actively contributed to projects addressing environmental enteric dysfunction and stable isotope abundance. ",
-    details2:
-      "Belinda's commitment to bridging academia and practical application is evident in her work. With a diverse skillset, including computational proficiency and excellent research abilities, project management, empowerment, health, advocacy and training. Belinda is an experienced Project Officer. Her track record of effective teamwork, communication, and project management positions her as an asset for driving successful initiatives. Belinda is eager to leverage her skills and passion for social impact at Eminence Lead International, contributing to meaningful projects that align with the organisation's mission. As a Project Officer, she is poised to deliver tangible results and make a positive impact on the communities served by the organisation.",
-  },
-  {
-    name: " Abianka Fedelis",
-    image: "/images/fede.png",
-    position: " Program Officer",
-    details:
-      "Abianka Akankpalikum Fidelis holds a Bachelor Degree in Forest Resource Technology (Land Reclamation and Rehabilitation). He presents the modern way of managing, sustaining programs and projects both short and long term. Fidelis is an expert in areas such as environmental protection education, community development, poverty alleviation initiatives, climate change education and campaign. He has passionate goal driven personality and always want to contribute his best in serving the community and country, and loves to be creative and learn new things. ",
-    details2:
-      "Fidelis has the ability to lead and manger stakeholders, colleagues and management for work done. He has gathered a lot of experience as a program officer at the Forestry Commission of Ghana and Cocoa Health and Extension Division (COCOBOD) in Ghana respectively. As monitoring and evaluation expert for the past years, he enjoyed taking on new challenges, teamwork, problem-solving, and risk mitigation planning and idea exploration. He aims to contribute massively to the society, inspire future leaders and ignite greatness.",
-    // details3:
-    //   "Letitia is the author of the Sima series. Letitia enables and empowers you to live your best life and translate your dreams to reality. Engage her.",
-  },
-  {
-    name: " Ralph Agyei Agyapong",
-    image: "/images/ralph.png",
-    position: " Project Officer",
-    details:
-      "Ralph Agyei Agyapong, a graduate holding a BSc. in Physics (Biomedical) from Kwame Nkrumah University of Science and Technology, is a dedicated Program Officer. His expertise spans Sexual and Reproductive Health and Rights (SRHR), youth engagement, and women empowerment advocacy. Currently, he serves as a Youth Advisor on the Youth Advisory Board for Marie Stopes International Reproductive Choices in Ghana, providing valuable insights on youth-centric information, education, and communication. Ralph is actively engaged in the coordination and implementation of projects and activities centered on Youth Sexual and Reproductive Health and Rights (SRHR), Human Right Advocacy, Women Empowerment and Girl Child Education. His unwavering commitment shines through as he works tirelessly to cultivate an environment that empowers and educates young individuals on matters related to reproductive health. His involvement as a Co-Consultant in adapting the UNICEF Youth Advocacy Guide for Ghana underscores Ralph's commitment to ensuring that advocacy strategies effectively connect with local youth advocates. ",
-    details2:
-      "Additionally, Ralph actively holds leadership roles, acting as a representative for youth voices on both national and international platforms. Ralph Agyei Agyapong places a premium on values such as integrity, compassion, and inclusivity. His career is guided by the belief that meaningful contributions to an organisation extend beyond individual achievements, emphasizing collaboration, and a commitment to diversity and inclusion. Ralph values the opportunity to contribute to initiatives that make a positive impact on the community.",
-  },
+  // {
+  //   name: " Belinda Agabeh",
+  //   image: "/images/belinda.jpeg",
+  //   position: " Program Officer",
+  //   details:
+  //     "Belinda Agabeh, a dedicated professional with a Bachelor's degree in Biological Sciences, specializing in Nutrition from the University of Ghana, previously served as a Research Assistant at the Ghana Atomic Energy Commission. With a solid academic foundation, Belinda's expertise spans advocacy, microbiology, enzymology, empowerment, health, training and organic chemistry. In her role, she actively contributed to projects addressing environmental enteric dysfunction and stable isotope abundance. ",
+  //   details2:
+  //     "Belinda's commitment to bridging academia and practical application is evident in her work. With a diverse skillset, including computational proficiency and excellent research abilities, project management, empowerment, health, advocacy and training. Belinda is an experienced Project Officer. Her track record of effective teamwork, communication, and project management positions her as an asset for driving successful initiatives. Belinda is eager to leverage her skills and passion for social impact at Eminence Lead International, contributing to meaningful projects that align with the organisation's mission. As a Project Officer, she is poised to deliver tangible results and make a positive impact on the communities served by the organisation.",
+  // },
+  // {
+  //   name: " Abianka Fedelis",
+  //   image: "/images/fede.png",
+  //   position: " Program Officer",
+  //   details:
+  //     "Abianka Akankpalikum Fidelis holds a Bachelor Degree in Forest Resource Technology (Land Reclamation and Rehabilitation). He presents the modern way of managing, sustaining programs and projects both short and long term. Fidelis is an expert in areas such as environmental protection education, community development, poverty alleviation initiatives, climate change education and campaign. He has passionate goal driven personality and always want to contribute his best in serving the community and country, and loves to be creative and learn new things. ",
+  //   details2:
+  //     "Fidelis has the ability to lead and manger stakeholders, colleagues and management for work done. He has gathered a lot of experience as a program officer at the Forestry Commission of Ghana and Cocoa Health and Extension Division (COCOBOD) in Ghana respectively. As monitoring and evaluation expert for the past years, he enjoyed taking on new challenges, teamwork, problem-solving, and risk mitigation planning and idea exploration. He aims to contribute massively to the society, inspire future leaders and ignite greatness.",
+  //   // details3:
+  //   //   "Letitia is the author of the Sima series. Letitia enables and empowers you to live your best life and translate your dreams to reality. Engage her.",
+  // },
+  // {
+  //   name: " Ralph Agyei Agyapong",
+  //   image: "/images/ralph.png",
+  //   position: " Project Officer",
+  //   details:
+  //     "Ralph Agyei Agyapong, a graduate holding a BSc. in Physics (Biomedical) from Kwame Nkrumah University of Science and Technology, is a dedicated Program Officer. His expertise spans Sexual and Reproductive Health and Rights (SRHR), youth engagement, and women empowerment advocacy. Currently, he serves as a Youth Advisor on the Youth Advisory Board for Marie Stopes International Reproductive Choices in Ghana, providing valuable insights on youth-centric information, education, and communication. Ralph is actively engaged in the coordination and implementation of projects and activities centered on Youth Sexual and Reproductive Health and Rights (SRHR), Human Right Advocacy, Women Empowerment and Girl Child Education. His unwavering commitment shines through as he works tirelessly to cultivate an environment that empowers and educates young individuals on matters related to reproductive health. His involvement as a Co-Consultant in adapting the UNICEF Youth Advocacy Guide for Ghana underscores Ralph's commitment to ensuring that advocacy strategies effectively connect with local youth advocates. ",
+  //   details2:
+  //     "Additionally, Ralph actively holds leadership roles, acting as a representative for youth voices on both national and international platforms. Ralph Agyei Agyapong places a premium on values such as integrity, compassion, and inclusivity. His career is guided by the belief that meaningful contributions to an organisation extend beyond individual achievements, emphasizing collaboration, and a commitment to diversity and inclusion. Ralph values the opportunity to contribute to initiatives that make a positive impact on the community.",
+  // },
   {
     name: " Samuel Boateng",
     image: "/images/samuel.jpeg",
@@ -148,26 +148,26 @@ export const Team = [
       "Shadrack has been a project officer for the past years with non-Profit organisations, private companies and state institutions. He holds an MSc. Environmental Sustainability and Management from Wisconsin International University College, Ghana and a bachelor’s degree in Integrated Development Studies, Environment and Resources Management from University of Development Studies, Ghana. His interests lie in the field of environmental management and sustainment, development projects, data analysis, research, leadership consulting, community development convener and climate change advocacy. He loves to inspire the next generation with the requisite knowledge and empowerment skills.",
     details3: "",
   },
-  {
-    name: " Jesselomina Nana Nhyira Abrokwah",
-    image: "/jese.jpeg",
-    position: " Communication and marketing executive",
-    details:
-      "Jesselomina Nana Nhyira Abrokwah is an accomplished communication and marketing executive with years of experience in the non-profit organisation, insurance, institution and financial sectors including Ghana Audit Service, West Africa Examination Council, University of Ghana, Economics Department and Priority Insurance Company. Her passion for making a positive impact led her to work for various organisations, where she has successfully spearheaded numerous campaigns and initiatives. Jesselomina's expertise lies in crafting compelling narratives and using innovative strategies to engage audiences and drive meaningful change.",
-    details2:
-      "Her strong leadership skills, coupled with her creative thinking and strong communication abilities, have helped our organisation reach new heights and expand our reach. With a warm and empathetic tone, Jesselomina is able to connect with stakeholders and build lasting relationships. She is truly dedicated to using her skills and talents to make a difference. She believes that trust and transparency are key elements in gaining the support and loyalty of stakeholders. Her strategic mindset, exceptional interpersonal skills and passion for social and environmental causes have been instrumental in our organisation. Jesselomina holds a BA Economics with Philosophy from  the  University  of  Ghana. Jesselomina loves to impact the next generation and ever ready to learn new things.",
-    details3: "",
-  },
-  {
-    name: " Emmanuel Gyan",
-    image: "/images/emmanuel.png",
-    position: " Project Officer",
-    details:
-      "Emmanuel Gyan is an accomplished earth scientist and an environmentalist with years of experience. Emmanuel has the ability to take unhealthy portfolios and transform them into healthy and thriving ones, produce productive and long-lasting results for high-level clients. He has a work experience from major companies, non-profit organisations, and hospitals. Emmanuel works well with senior corporate executives, provides consultations for international corporations and effective at persuading and influencing high-ranking individuals for work done.",
-    details2:
-      "His interest lies in program management and facilitation, program and project consulting, policy reform, human right advocacy and empowerment. He holds a degree in BSc Earth Sciences from the University of Ghana. Emmanuel has developed a passionate interest in the environment, focused on like sustainable development, self-government, and political economy. He is an experienced, hard working individual who always challenges people to greatness, better living and engages influential decision-makers and leaders on international public policy.",
-    details3: "",
-  },
+  // {
+  //   name: " Jesselomina Nana Nhyira Abrokwah",
+  //   image: "/jese.jpeg",
+  //   position: " Communication and marketing executive",
+  //   details:
+  //     "Jesselomina Nana Nhyira Abrokwah is an accomplished communication and marketing executive with years of experience in the non-profit organisation, insurance, institution and financial sectors including Ghana Audit Service, West Africa Examination Council, University of Ghana, Economics Department and Priority Insurance Company. Her passion for making a positive impact led her to work for various organisations, where she has successfully spearheaded numerous campaigns and initiatives. Jesselomina's expertise lies in crafting compelling narratives and using innovative strategies to engage audiences and drive meaningful change.",
+  //   details2:
+  //     "Her strong leadership skills, coupled with her creative thinking and strong communication abilities, have helped our organisation reach new heights and expand our reach. With a warm and empathetic tone, Jesselomina is able to connect with stakeholders and build lasting relationships. She is truly dedicated to using her skills and talents to make a difference. She believes that trust and transparency are key elements in gaining the support and loyalty of stakeholders. Her strategic mindset, exceptional interpersonal skills and passion for social and environmental causes have been instrumental in our organisation. Jesselomina holds a BA Economics with Philosophy from  the  University  of  Ghana. Jesselomina loves to impact the next generation and ever ready to learn new things.",
+  //   details3: "",
+  // },
+  // {
+  //   name: " Emmanuel Gyan",
+  //   image: "/images/emmanuel.png",
+  //   position: " Project Officer",
+  //   details:
+  //     "Emmanuel Gyan is an accomplished earth scientist and an environmentalist with years of experience. Emmanuel has the ability to take unhealthy portfolios and transform them into healthy and thriving ones, produce productive and long-lasting results for high-level clients. He has a work experience from major companies, non-profit organisations, and hospitals. Emmanuel works well with senior corporate executives, provides consultations for international corporations and effective at persuading and influencing high-ranking individuals for work done.",
+  //   details2:
+  //     "His interest lies in program management and facilitation, program and project consulting, policy reform, human right advocacy and empowerment. He holds a degree in BSc Earth Sciences from the University of Ghana. Emmanuel has developed a passionate interest in the environment, focused on like sustainable development, self-government, and political economy. He is an experienced, hard working individual who always challenges people to greatness, better living and engages influential decision-makers and leaders on international public policy.",
+  //   details3: "",
+  // },
 
   // {
   //   name: " Christiana Yeboah",
