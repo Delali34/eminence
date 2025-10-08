@@ -158,27 +158,28 @@ export const Team = [
   //     "Her strong leadership skills, coupled with her creative thinking and strong communication abilities, have helped our organisation reach new heights and expand our reach. With a warm and empathetic tone, Jesselomina is able to connect with stakeholders and build lasting relationships. She is truly dedicated to using her skills and talents to make a difference. She believes that trust and transparency are key elements in gaining the support and loyalty of stakeholders. Her strategic mindset, exceptional interpersonal skills and passion for social and environmental causes have been instrumental in our organisation. Jesselomina holds a BA Economics with Philosophy from  the  University  of  Ghana. Jesselomina loves to impact the next generation and ever ready to learn new things.",
   //   details3: "",
   // },
-  // {
-  //   name: " Emmanuel Gyan",
-  //   image: "/images/emmanuel.png",
-  //   position: " Project Officer",
-  //   details:
-  //     "Emmanuel Gyan is an accomplished earth scientist and an environmentalist with years of experience. Emmanuel has the ability to take unhealthy portfolios and transform them into healthy and thriving ones, produce productive and long-lasting results for high-level clients. He has a work experience from major companies, non-profit organisations, and hospitals. Emmanuel works well with senior corporate executives, provides consultations for international corporations and effective at persuading and influencing high-ranking individuals for work done.",
-  //   details2:
-  //     "His interest lies in program management and facilitation, program and project consulting, policy reform, human right advocacy and empowerment. He holds a degree in BSc Earth Sciences from the University of Ghana. Emmanuel has developed a passionate interest in the environment, focused on like sustainable development, self-government, and political economy. He is an experienced, hard working individual who always challenges people to greatness, better living and engages influential decision-makers and leaders on international public policy.",
-  //   details3: "",
-  // },
+  {
+    name: "Mahami Abubakar Sadiq ",
+    image: "/Mahami .jpeg",
+    position: "Program Officer",
+    details:
+      "Mahami Abubakar Sadiq is a dedicated and impact-oriented program officer with years of progressive experience in the nonprofit and international development sectors, managing, coordinating, and supporting programs that address social, economic, and humanitarian challenges. Skilled in program design, implementation, monitoring and evaluation (M&E), stakeholder engagement, and donor reporting, with a strong track record of delivering results aligned with organizational missions and community needs.  Proficient in applying results-based management approaches and using tools such as logical frameworks, theory of change, and outcome mapping to ensure program effectiveness and impact measurement. Strong background in data collection, analysis, and reporting for both internal learning and external accountability. ",
+    details2:
+      "Brings strong interpersonal and communication skills, with the ability to engage diverse stakeholders, facilitate community consultations, and represent the organization at national and international forums. A problem-solver and critical thinker who thrives in dynamic, resource-limited environments and is committed to promoting equity, sustainability, and locally driven development.  Mahami Abubakar Sadiq holds a Bachelor of Science Degree in Agriculture (Agriculture Extension), and certificate in project management. Mahami is passionate about creating positive, lasting change by supporting inclusive, evidence-based, and community-centered programming.",
+    details3: "",
+  },
 
-  // {
-  //   name: " Christiana Yeboah",
-  //   image: "/images/christian.jpeg",
-  //   position: " Program Coordinator",
-  //   details:
-  //     "Christiana Yeboah, a highly- responsible and self- motivated individual with a fervor for making a positive impact and strives to embody the values of integrity, accountability, professionalism, continuous learning, and community engagement. Christiana holds a degree in Bachelor of Arts (Psychology and Archaeology) from the University of Ghana. She is armed with experience from non-profit organisations, companies and Environmental Agency of Ghana. Her professional journey has taught her lesson on community development, environment protection, humanitarian works, developmental interventions, empowerment programs, policy reforms and advocacies. ",
-  //   details2:
-  //     "As an avid reader, she embraces the opportunity to explore new horizons and explore creativity that others have to offer and maintaining a well-rounded and balanced life. Christiana has been actively involved in community projects and awareness programs including community education on environmental issues, quality education, leadership, human right advocacy and community hearing programs. Christiana is an instrument for change, greatness and economic empowerment.",
-  //   details3: "",
-  // },
+  {
+    name: "Mevlyn Bankudi",
+    image: "/mev.jpeg",
+    position: "Communications Officer",
+    details:
+      "Mevlyn Bankudi is versatile and impact-driven Communication Officer with years of experience in designing and executing communication strategies and development programs. Skilled in crafting compelling narratives that amplify program impact, and strengthen public engagement. Adept at managing multi-platform communication initiatives that support advocacy, awareness campaigns, and stakeholder relations in line with the organization’s mission and values. Proven expertise in translating complex development work—ranging from humanitarian assistance to gender, leadership, education, climate change, and human rights—into accessible content tailored for diverse audiences.",
+    details2:
+      "Passionate about using the power of storytelling and strategic communications to influence positive social change, elevate community voices, and support transparency, accountability, and advocacy efforts in the development and humanitarian sectors. Beyond her professional achievements, Mevlyn is driven by a deep passion for helping people to achieve their goal and an insatiable curiosity for learning new things, approaching every challenge with a commitment to growth and a desire to make a meaningful impact.",
+    details3:
+      "Capable of developing and implementing strategic communication plans that enhance visibility, promote transparency, and support programmatic goals. Well-versed in donor communication and branding guidelines with a strong understanding of the importance of ethical storytelling and safeguarding. ",
+  },
   {
     name: " Dorinda Afloe",
     image: "/eminence (2).jpeg",
